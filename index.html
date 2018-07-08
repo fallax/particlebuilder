@@ -175,7 +175,7 @@ function getCharge(particle)
 	{
 		if (particle.composition)
 		{
-			var total = "";
+			var total = 0;
 			particle.composition.forEach(function (component) {
 				total += getCharge(getParticle(component.symbol));
 			});
