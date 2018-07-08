@@ -2816,38 +2816,853 @@ var particles = [
       ]
    },
    {
-      "name":"Aluminium antimonide",
-      "symbol":"AlSb",
+      "category":"molecule",
+      "symbol":"Ac2O3",
+      "name":"Actinium(III) oxide",
       "composition":[
          {
-            "symbol":"Al",
+            "symbol":"Ac",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgBF4",
+      "name":"Silver tetrafluoroborate",
+      "composition":[
+         {
+            "symbol":"Ag",
             "quantity":1
          },
          {
-            "symbol":"Sb",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Aluminium arsenide",
-      "symbol":"AlAs",
-      "composition":[
-         {
-            "symbol":"Al",
+            "symbol":"B",
             "quantity":1
          },
          {
-            "symbol":"As",
-            "quantity":1
+            "symbol":"F",
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium boride",
-      "symbol":"AlB2",
+      "category":"molecule",
+      "symbol":"AgBr",
+      "name":"silver bromide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgBrO",
+      "name":"silver hypobromite",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgBrO2",
+      "name":"silver bromite",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgBrO3",
+      "name":"silver bromate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgBrO4",
+      "name":"silver perbromate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgCl",
+      "name":"silver chloride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgCl3Cu2",
+      "name":"dicopper silver trichloride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"Cu",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgClO3",
+      "name":"silver chlorate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgClO4",
+      "name":"silver perchlorate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgCN",
+      "name":"silver cyanide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgCNO",
+      "name":"silver fulminate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgF",
+      "name":"silver fluoride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgF2",
+      "name":"silver(II) fluoride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgI",
+      "name":"silver iodide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgIO",
+      "name":"silver hypoiodite",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgIO2",
+      "name":"silver iodite",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgIO3",
+      "name":"silver iodate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgIO4",
+      "name":"silver periodate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgMnO4",
+      "name":"silver permanganate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgN3",
+      "name":"silver azide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgNO3",
+      "name":"silver nitrate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2O",
+      "name":"silver oxide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgO",
+      "name":"silver monoxide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgONC",
+      "name":"silver cyanate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgPF6",
+      "name":"silver hexafluorophosphate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AgSNC",
+      "name":"silver thiocyanate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2C2",
+      "name":"silver acetylide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2CO3",
+      "name":"silver(I) carbonate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2C2O4",
+      "name":"silver oxalate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2Cl2",
+      "name":"silver(II) dichloride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2CrO4",
+      "name":"silver chromate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2Cr2O7",
+      "name":"silver dichromate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2F",
+      "name":"silver subfluoride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2MoO4",
+      "name":"silver molybdate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2O",
+      "name":"silver(I) oxide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2S",
+      "name":"silver sulfide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2SO4",
+      "name":"silver sulfate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2Se",
+      "name":"silver selenide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2SeO3",
+      "name":"silver selenite",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2SeO4",
+      "name":"silver selenate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag2Te",
+      "name":"silver(I) telluride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag3Br2",
+      "name":"silver dibromide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":3
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag3Br3",
+      "name":"silver tribromide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":3
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag3Cl3",
+      "name":"silver(III) trichloride",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag3I3",
+      "name":"silver(III) triiodide",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":3
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ag3PO4",
+      "name":"silver phosphate",
+      "composition":[
+         {
+            "symbol":"Ag",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlBO",
+      "name":"aluminium boron oxide",
       "composition":[
          {
             "symbol":"Al",
@@ -2855,14 +3670,52 @@ var particles = [
          },
          {
             "symbol":"B",
-            "quantity":2
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium bromide",
+      "category":"molecule",
+      "symbol":"AlBO2",
+      "name":"aluminium borate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlBr",
+      "name":"aluminium monobromide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"AlBr3",
+      "name":"aluminium tribromide",
       "composition":[
          {
             "symbol":"Al",
@@ -2872,27 +3725,501 @@ var particles = [
             "symbol":"Br",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium carbide",
-      "symbol":"Al4C3",
+      "category":"molecule",
+      "symbol":"AlCl",
+      "name":"aluminium monochloride",
       "composition":[
          {
             "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlClF",
+      "name":"aluminium chloride fluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlClF",
+      "name":"aluminium chloride fluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlClF2",
+      "name":"aluminium chloride fluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlClO",
+      "name":"aluminium chloride oxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl2H",
+      "name":"Dichloroalumane",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl3",
+      "name":"aluminium chloride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl2F",
+      "name":"aluminium chloride fluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl3",
+      "name":"aluminium trichloride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl4Cs",
+      "name":"aluminium caesium tetrachloride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
             "quantity":4
          },
          {
-            "symbol":"C",
-            "quantity":3
+            "symbol":"Cs",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium iodide",
+      "category":"molecule",
+      "symbol":"AlCl4K",
+      "name":"potassium tetrachloroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl4Na",
+      "name":"sodium tetrachloroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl4Rb",
+      "name":"aluminium rubidium tetrachloride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         },
+         {
+            "symbol":"Rb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl6K3",
+      "name":"potassium hexachloroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":6
+         },
+         {
+            "symbol":"K",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlCl6Na3",
+      "name":"sodium hexachloroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":6
+         },
+         {
+            "symbol":"Na",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF",
+      "name":"aluminium monofluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlFO",
+      "name":"aluminium monofluoride monoxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF2",
+      "name":"aluminium difluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF2O",
+      "name":"aluminium difluoride oxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF3",
+      "name":"aluminium trifluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF4K",
+      "name":"potassium tetrafluoroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF4Li",
+      "name":"lithium tetrafluoroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF6K3",
+      "name":"potassium hexafluoraluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"K",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF6Li3",
+      "name":"lithium hexafluoroaluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Li",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlF6Na3",
+      "name":"cryolite",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Na",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlGaInP",
+      "name":"aluminium-gallium-indium phosphide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlI",
+      "name":"aluminium monoiodide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"AlI3",
+      "name":"aluminium triiodide",
       "composition":[
          {
             "symbol":"Al",
@@ -2902,12 +4229,31 @@ var particles = [
             "symbol":"I",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium nitride",
+      "category":"molecule",
+      "symbol":"AlLiO2",
+      "name":"lithium aluminate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"AlN",
+      "name":"aluminium nitride",
       "composition":[
          {
             "symbol":"Al",
@@ -2917,27 +4263,80 @@ var particles = [
             "symbol":"N",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium oxide",
-      "symbol":"Al2O3",
+      "category":"molecule",
+      "symbol":"AlNaO2",
+      "name":"sodium aluminate",
       "composition":[
          {
             "symbol":"Al",
-            "quantity":2
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
          },
          {
             "symbol":"O",
-            "quantity":3
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium phosphide",
+      "category":"molecule",
+      "symbol":"AlO",
+      "name":"aluminium monoxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlOSi",
+      "name":"aluminium silicon monoxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlO2",
+      "name":"Aluminium(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"AlP",
+      "name":"aluminium monophosphide",
       "composition":[
          {
             "symbol":"Al",
@@ -2947,42 +4346,318 @@ var particles = [
             "symbol":"P",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium chloride",
-      "symbol":"AlCl3",
+      "category":"molecule",
+      "symbol":"AlPO4",
+      "name":"aluminium phosphate",
       "composition":[
          {
             "symbol":"Al",
             "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlTe",
+      "name":"aluminium monotelluride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AlTe2",
+      "name":"monoaluminium ditelluride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2BeO4",
+      "name":"beryllium aluminium oxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"Be",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2Br6",
+      "name":"dialuminium hexabromide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"Br",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2Cl9K3",
+      "name":"potassium aluminium chloride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
          },
          {
             "symbol":"Cl",
+            "quantity":9
+         },
+         {
+            "symbol":"K",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium fluoride",
-      "symbol":"AlF3",
+      "category":"molecule",
+      "symbol":"Al2CoO4",
+      "name":"cobalt blue",
       "composition":[
          {
             "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"Co",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":3
+            "symbol":"O",
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Aluminium sulfide",
+      "category":"molecule",
+      "symbol":"Al2F6",
+      "name":"aluminium fluoride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2I6",
+      "name":"aluminium iodide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2MgO4",
+      "name":"magnesium aluminium oxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O",
+      "name":"dialuminium monoxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O2",
+      "name":"dialuminium dioxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O3",
+      "name":"aluminium oxide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O5Si",
+      "name":"aluminium silicate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O5Si",
+      "name":"aluminium silicate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O5Si",
+      "name":"andalusite",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2O7Si2",
+      "name":"aluminium silicate",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2S",
+      "name":"dialuminium monosulfide",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"Al2S3",
+      "name":"aluminium sulfide",
       "composition":[
          {
             "symbol":"Al",
@@ -2992,215 +4667,213 @@ var particles = [
             "symbol":"S",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Ammonia",
-      "symbol":"NH3",
+      "category":"molecule",
+      "symbol":"Al2Se",
+      "name":"dialuminium selenide",
       "composition":[
          {
-            "symbol":"N",
-            "quantity":1
+            "symbol":"Al",
+            "quantity":2
          },
          {
-            "symbol":"H",
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al2Te",
+      "name":"dialuminium telluride",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al3F14Na5",
+      "name":"chiolite",
+      "composition":[
+         {
+            "symbol":"Al",
             "quantity":3
+         },
+         {
+            "symbol":"F",
+            "quantity":14
+         },
+         {
+            "symbol":"Na",
+            "quantity":5
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Ammonium azide",
-      "symbol":"NH4N3",
+      "category":"molecule",
+      "symbol":"Al4C3",
+      "name":"aluminium carbide",
       "composition":[
          {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"N",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium bicarbonate",
-      "symbol":"NH4HCO3",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium chloride",
-      "symbol":"NH4Cl",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium chlorate",
-      "symbol":"NH4ClO3",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium cyanide",
-      "symbol":"NH4CN",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
+            "symbol":"Al",
             "quantity":4
          },
          {
             "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium hydroxide",
-      "symbol":"NH4OH",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium nitrate",
-      "symbol":"NH4NO3",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Ammonium sulfamate",
-      "symbol":"H6N2O3S",
+      "category":"molecule",
+      "symbol":"Al6BeO10",
+      "name":"beryllium aluminium oxide",
       "composition":[
          {
-            "symbol":"H",
+            "symbol":"Al",
             "quantity":6
          },
          {
-            "symbol":"N",
+            "symbol":"Be",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Al6O13Si2",
+      "name":"mullite",
+      "composition":[
+         {
+            "symbol":"Al",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":13
+         },
+         {
+            "symbol":"Si",
             "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         },
-         {
-            "symbol":"S",
-            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Ammonium perchlorate",
-      "symbol":"NH4ClO4",
+      "category":"molecule",
+      "symbol":"ArClF",
+      "name":"argon chloride fluoride",
       "composition":[
          {
-            "symbol":"N",
+            "symbol":"Ar",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ArClH",
+      "name":"argon chloride hydride",
+      "composition":[
+         {
+            "symbol":"Ar",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
             "quantity":1
          },
          {
             "symbol":"H",
-            "quantity":4
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ArFH",
+      "name":"argon fluoride hydride",
+      "composition":[
+         {
+            "symbol":"Ar",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsBrO",
+      "name":"arsenic oxybromide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsBr3",
+      "name":"arsenic tribromide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsClO",
+      "name":"arsenic monoxide monochloride",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
          },
          {
             "symbol":"Cl",
@@ -3208,101 +4881,97 @@ var particles = [
          },
          {
             "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ammonium thiocyanate",
-      "symbol":"NH4SCN",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Antimony hydride",
-      "symbol":"SbH3",
+      "category":"molecule",
+      "symbol":"AsCl3",
+      "name":"arsenic trichloride",
       "composition":[
          {
-            "symbol":"Sb",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Antimony pentachloride",
-      "symbol":"SbCl5",
-      "composition":[
-         {
-            "symbol":"Sb",
+            "symbol":"As",
             "quantity":1
          },
          {
             "symbol":"Cl",
-            "quantity":5
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Antimony pentafluoride",
-      "symbol":"SbF5",
+      "category":"molecule",
+      "symbol":"AsCl3O",
+      "name":"arsenic oxychloride",
       "composition":[
          {
-            "symbol":"Sb",
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsCl4F",
+      "name":"arsenic tetrachloride fluoride",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsF3",
+      "name":"arsenic trifluoride",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsF5",
+      "name":"arsenic pentafluoride",
+      "composition":[
+         {
+            "symbol":"As",
             "quantity":1
          },
          {
             "symbol":"F",
             "quantity":5
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Antimony trioxide",
-      "symbol":"Sb2O3",
-      "composition":[
-         {
-            "symbol":"Sb",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Arsine",
+      "category":"molecule",
       "symbol":"AsH3",
+      "name":"arsine",
       "composition":[
          {
             "symbol":"As",
@@ -3312,12 +4981,117 @@ var particles = [
             "symbol":"H",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Arsenic trioxide",
+      "category":"molecule",
+      "symbol":"AsI3",
+      "name":"arsenic triiodide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsO",
+      "name":"arsenic monoxide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsO2",
+      "name":"arsenic dioxide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsP",
+      "name":"arsenic monophosphide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsP3",
+      "name":"arsenic triphosphide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AsTl",
+      "name":"thallium arsenide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"Tl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2I4",
+      "name":"arsenic diiodide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"As2O3",
+      "name":"arsenic trioxide",
       "composition":[
          {
             "symbol":"As",
@@ -3327,12 +5101,756 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium carbonate",
+      "category":"molecule",
+      "symbol":"As2P2",
+      "name":"arsenic diphosphide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2O5",
+      "name":"arsenic pentoxide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2S4",
+      "name":"arsenic tetrasulfide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2S5",
+      "name":"arsenic pentasulfide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2Se",
+      "name":"arsenic hemiselenide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2Se3",
+      "name":"arsenic triselenide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2Se5",
+      "name":"arsenic pentaselenide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As3O4",
+      "name":"arsenic tetraoxide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As3P",
+      "name":"arsenic(III) phosphide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As4O3",
+      "name":"tetraarsenic trioxide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As4O5",
+      "name":"tetraarsenic pentaoxide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As4S3",
+      "name":"tetraarsenic trisulfide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As4S4",
+      "name":"tetraarsenic tetrasulfide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuBO",
+      "name":"gold monoboride monoxide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuBr",
+      "name":"gold bromide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuBr3",
+      "name":"gold tribromide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuCN",
+      "name":"gold cyanide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuCl",
+      "name":"gold chloride",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuCl3",
+      "name":"gold trichloride",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuF3",
+      "name":"gold trifluoride",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuI",
+      "name":"gold iodide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuI3",
+      "name":"gold(III) iodide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"AuTe",
+      "name":"gold telluride",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Au2O3",
+      "name":"gold trioxide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Au2S",
+      "name":"gold sulfide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Au2S3",
+      "name":"gold trisulfide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Au2Se3",
+      "name":"gold triselenide",
+      "composition":[
+         {
+            "symbol":"Au",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BAs",
+      "name":"boron arsenide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BAsO4",
+      "name":"boron(III) arsenate",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BBr3",
+      "name":"boron tribromide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BCl3",
+      "name":"boron trichloride",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BF3",
+      "name":"boron trifluoride",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BI3",
+      "name":"boron iodide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BN",
+      "name":"boron nitride",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BP",
+      "name":"boron(III) phosphide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BPO4",
+      "name":"boron(III) orthophosphate",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B2Cl4",
+      "name":"boron chloride",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B2F4",
+      "name":"boron trifluoride",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B2H6",
+      "name":"boron hydride",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B2O3",
+      "name":"boron(III) oxide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B2S3",
+      "name":"boron sulfide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B2Se3",
+      "name":"boron selenide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B3N3H6",
+      "name":"borazine",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"B4C",
+      "name":"boron carbide",
+      "composition":[
+         {
+            "symbol":"B",
+            "quantity":4
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaB6",
+      "name":"barium hexaboride",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaBr2",
+      "name":"barium bromide",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaC2O4",
+      "name":"barium oxalate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaC2",
+      "name":"barium carbide",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BaCO3",
+      "name":"barium carbonate",
       "composition":[
          {
             "symbol":"Ba",
@@ -3346,12 +5864,12 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium chloride",
+      "category":"molecule",
       "symbol":"BaCl2",
+      "name":"barium chloride",
       "composition":[
          {
             "symbol":"Ba",
@@ -3361,12 +5879,12 @@ var particles = [
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium chromate",
+      "category":"molecule",
       "symbol":"BaCrO4",
+      "name":"barium chromate",
       "composition":[
          {
             "symbol":"Ba",
@@ -3380,50 +5898,12 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium ferrate",
-      "symbol":"BaFeO4",
-      "composition":[
-         {
-            "symbol":"Ba",
-            "quantity":1
-         },
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Barium ferrite",
-      "symbol":"BaFe2O4",
-      "composition":[
-         {
-            "symbol":"Ba",
-            "quantity":1
-         },
-         {
-            "symbol":"Fe",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Barium fluoride",
+      "category":"molecule",
       "symbol":"BaF2",
+      "name":"barium fluoride",
       "composition":[
          {
             "symbol":"Ba",
@@ -3433,12 +5913,77 @@ var particles = [
             "symbol":"F",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium iodide",
+      "category":"molecule",
+      "symbol":"BaFeSi4O10",
+      "name":"gillespite",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaHfO3",
+      "name":"barium hafnate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Hf",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaHgI4",
+      "name":"barium tetraiodomercurate(II)",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BaI2",
+      "name":"barium iodide",
       "composition":[
          {
             "symbol":"Ba",
@@ -3448,12 +5993,84 @@ var particles = [
             "symbol":"I",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium oxide",
+      "category":"molecule",
+      "symbol":"BaMnO4",
+      "name":"barium manganate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaMoO4",
+      "name":"barium molybdate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaN6",
+      "name":"barium azide",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaNb2O6",
+      "name":"barium metaniobate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BaO",
+      "name":"barium oxide",
       "composition":[
          {
             "symbol":"Ba",
@@ -3463,12 +6080,12 @@ var particles = [
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium peroxide",
+      "category":"molecule",
       "symbol":"BaO2",
+      "name":"barium peroxide",
       "composition":[
          {
             "symbol":"Ba",
@@ -3478,12 +6095,84 @@ var particles = [
             "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium sulfate",
+      "category":"molecule",
+      "symbol":"BaS",
+      "name":"barium sulfide",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaS2O3",
+      "name":"barium thiosulfate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSiF6",
+      "name":"barium hexafluorosilicate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSO3",
+      "name":"barium sulfite",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BaSO4",
+      "name":"barium sulfate",
       "composition":[
          {
             "symbol":"Ba",
@@ -3497,27 +6186,187 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium sulfide",
-      "symbol":"BaS",
+      "category":"molecule",
+      "symbol":"BaSe",
+      "name":"barium selenide",
       "composition":[
          {
             "symbol":"Ba",
             "quantity":1
          },
          {
-            "symbol":"S",
+            "symbol":"Se",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Barium titanate",
+      "category":"molecule",
+      "symbol":"BaSeO3",
+      "name":"barium selenite",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSeO4",
+      "name":"barium selenate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSiO3",
+      "name":"barium metasilicate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSi2",
+      "name":"barium silicide",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSi2O5",
+      "name":"barium disilicate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaSnO3",
+      "name":"barium stannate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaTeO3",
+      "name":"barium tellurite",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaTeO4·3H2O",
+      "name":"barium tellurate trihydrate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"·",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BaTiO3",
+      "name":"barium titanate",
       "composition":[
          {
             "symbol":"Ba",
@@ -3531,12 +6380,156 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium bromide",
+      "category":"molecule",
+      "symbol":"BaU2O7",
+      "name":"barium uranium oxide",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"U",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaWO4",
+      "name":"barium tungstate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BaZrO3",
+      "name":"barium zirconate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":1
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ba2P2O7",
+      "name":"barium pyrophosphate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ba2V2O7",
+      "name":"barium pyrovanadate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":2
+         },
+         {
+            "symbol":"V",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ba2XeO6",
+      "name":"barium perxenate",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":2
+         },
+         {
+            "symbol":"Xe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ba3N2",
+      "name":"barium nitride",
+      "composition":[
+         {
+            "symbol":"Ba",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BeB2",
+      "name":"beryllium boride",
+      "composition":[
+         {
+            "symbol":"Be",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BeBr2",
+      "name":"beryllium bromide",
       "composition":[
          {
             "symbol":"Be",
@@ -3546,12 +6539,12 @@ var particles = [
             "symbol":"Br",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium carbonate",
+      "category":"molecule",
       "symbol":"BeCO3",
+      "name":"beryllium carbonate",
       "composition":[
          {
             "symbol":"Be",
@@ -3565,12 +6558,12 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium chloride",
+      "category":"molecule",
       "symbol":"BeCl2",
+      "name":"beryllium chloride",
       "composition":[
          {
             "symbol":"Be",
@@ -3580,12 +6573,12 @@ var particles = [
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium fluoride",
+      "category":"molecule",
       "symbol":"BeF2",
+      "name":"beryllium fluoride",
       "composition":[
          {
             "symbol":"Be",
@@ -3595,27 +6588,12 @@ var particles = [
             "symbol":"F",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium hydride",
-      "symbol":"BeH2",
-      "composition":[
-         {
-            "symbol":"Be",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Beryllium iodide",
+      "category":"molecule",
       "symbol":"BeI2",
+      "name":"beryllium iodide",
       "composition":[
          {
             "symbol":"Be",
@@ -3625,27 +6603,12 @@ var particles = [
             "symbol":"I",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium nitride",
-      "symbol":"Be3N2",
-      "composition":[
-         {
-            "symbol":"Be",
-            "quantity":3
-         },
-         {
-            "symbol":"N",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Beryllium oxide",
+      "category":"molecule",
       "symbol":"BeO",
+      "name":"beryllium oxide",
       "composition":[
          {
             "symbol":"Be",
@@ -3655,12 +6618,46 @@ var particles = [
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium sulfate",
+      "category":"molecule",
+      "symbol":"BeS",
+      "name":"beryllium sulfide",
+      "composition":[
+         {
+            "symbol":"Be",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BeSO3",
+      "name":"beryllium sulfite",
+      "composition":[
+         {
+            "symbol":"Be",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BeSO4",
+      "name":"beryllium sulfate",
       "composition":[
          {
             "symbol":"Be",
@@ -3674,61 +6671,144 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Beryllium sulfite",
-      "symbol":"BeSO3",
+      "category":"molecule",
+      "symbol":"Be2C",
+      "name":"beryllium carbide",
       "composition":[
          {
             "symbol":"Be",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Beryllium telluride",
-      "symbol":"BeTe",
-      "composition":[
-         {
-            "symbol":"Be",
-            "quantity":1
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Bismuth(III) oxide",
-      "symbol":"Bi2O3",
-      "composition":[
-         {
-            "symbol":"Bi",
             "quantity":2
          },
          {
+            "symbol":"C",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Be3N2",
+      "name":"beryllium nitride",
+      "composition":[
+         {
+            "symbol":"Be",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BiBO3",
+      "name":"bismuth(III) orthoborate",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Bismuth oxychloride",
+      "category":"molecule",
+      "symbol":"BiBr3",
+      "name":"bismuth(III) bromide",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BiC6H5O7",
+      "name":"bismuth(III) citrate",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BiCl3",
+      "name":"bismuth(III) chloride",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BiF3",
+      "name":"bismuth(III) fluoride",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BiI3",
+      "name":"bismuth(III) iodide",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"BiOCl",
+      "name":"bismuth(III) oxychloride",
       "composition":[
          {
             "symbol":"Bi",
@@ -3742,42 +6822,3624 @@ var particles = [
             "symbol":"Cl",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Bismuth(III) telluride",
-      "symbol":"Bi2Te3",
+      "category":"molecule",
+      "symbol":"BiOI",
+      "name":"bismuth(III) oxyiodide",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BiPO4",
+      "name":"bismuth(III) orthophosphate",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Bi2Se3",
+      "name":"bismuth(III) selenide",
       "composition":[
          {
             "symbol":"Bi",
             "quantity":2
          },
          {
-            "symbol":"Te",
+            "symbol":"Se",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Borax",
-      "symbol":"Na2B4O7·10H2O",
+      "category":"molecule",
+      "symbol":"Bi2O3",
+      "name":"bismuth(III) oxide",
       "composition":[
          {
-            "symbol":"Na",
+            "symbol":"Bi",
             "quantity":2
          },
          {
-            "symbol":"B",
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Bi2S3",
+      "name":"bismuth(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Bi2Se3",
+      "name":"bismuth(III) selenide",
+      "composition":[
+         {
+            "symbol":"Bi",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"BrCl",
+      "name":"bromine chloride",
+      "composition":[
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Br2",
+      "name":"bromine",
+      "composition":[
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Br2O5",
+      "name":"dibromine pentoxide",
+      "composition":[
+         {
+            "symbol":"Br",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CCl2F2",
+      "name":"dichlorodifluoromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CCl4",
+      "name":"carbon tetrachloride",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CFCl3",
+      "name":"freon-11",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CFCl2CF2Cl",
+      "name":"freon-13",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CHCl3",
+      "name":"chloroform",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CHClF2",
+      "name":"chlorodifluoromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2CHCHCH2",
+      "name":"1,3-butadiene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2CO",
+      "name":"ketene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2CHOH",
+      "name":"ethenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2ClCOOH",
+      "name":"chloroacetic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2Cl2",
+      "name":"dichloromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2ClF",
+      "name":"chlorofluoromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2O",
+      "name":"formaldehyde",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH2OHCH2OH",
+      "name":"ethylene glycol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CCH",
+      "name":"propyne",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CdCH3",
+      "name":"dimethylcadmium",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CHCHCH3",
+      "name":"2-butene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CHCH2",
+      "name":"propene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CHO",
+      "name":"acetaldehyde",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2Br",
+      "name":"bromoethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2CH2CH2OH",
+      "name":"butan-1-ol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2CH2OH",
+      "name":"1-propanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2CONH2",
+      "name":"propanamide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2COOH",
+      "name":"propionic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2OCH2CH3",
+      "name":"diethyl ether",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CH2OH",
+      "name":"ethanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CN",
+      "name":"acetonitrile",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COCH3",
+      "name":"acetone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COOCH3",
+      "name":"methyl acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COCl",
+      "name":"acetyl chloride",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3CONH2",
+      "name":"acetamide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COOCHCH2",
+      "name":"vinyl acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COOCH2C6H5",
+      "name":"benzyl acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COOH",
+      "name":"acetic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COONa",
+      "name":"sodium acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COOK",
+      "name":"potassium acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COORb",
+      "name":"rubidium acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Rb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3COOCs",
+      "name":"caesium acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cs",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3Cl",
+      "name":"chloromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3HgCH3",
+      "name":"dimethylmercury",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3I",
+      "name":"iodomethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3OCH3",
+      "name":"dimethyl ether",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3NH2",
+      "name":"methylamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3NO",
+      "name":"oxaziridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3OCs",
+      "name":"caesium methoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cs",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3OH",
+      "name":"methanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3OK",
+      "name":"potassium methoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3OLi",
+      "name":"lithium methoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3ONa",
+      "name":"sodium methoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3ORb",
+      "name":"rubidium methoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Rb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3SCH3",
+      "name":"dimethyl sulfide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH3SH",
+      "name":"methanethiol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH4",
+      "name":"methane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH4N2O2",
+      "name":"hydroxycarbamide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CH5N3",
+      "name":"Guanidine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CO",
+      "name":"carbon monoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"COCl2",
+      "name":"phosgene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CO2",
+      "name":"carbon dioxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CO3",
+      "name":"carbon trioxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CS2",
+      "name":"carbon disulfide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2F4",
+      "name":"tetrafluoroethylene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H2",
+      "name":"acetylene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H3Cl",
+      "name":"vinyl chloride",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H3NO",
+      "name":"glycolonitrile",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H4",
+      "name":"ethylene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H4Cl2",
+      "name":"ethylene dichloride",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H4N4",
+      "name":"3-amino-1,2,4-triazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H4O",
+      "name":"ethylene oxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
             "quantity":4
          },
          {
             "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H4O2",
+      "name":"acetic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5Br",
+      "name":"bromoethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5NH2",
+      "name":"ethylamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5NO2",
+      "name":"glycine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5OH",
+      "name":"ethanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5OCs",
+      "name":"caesium ethoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cs",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5OK",
+      "name":"potassium ethoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5ONa",
+      "name":"sodium ethoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H5ORb",
+      "name":"rubidium ethoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Rb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H6",
+      "name":"ethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H6OS",
+      "name":"dimethyl sulfoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H7NO",
+      "name":"ethanolamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
             "quantity":7
          },
          {
-            "symbol":"·",
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H7NO2",
+      "name":"ammonium acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C2H7NO3S",
+      "name":"taurine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3HN",
+      "name":"cyanopolyyne",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H3N",
+      "name":"azete",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H4N2",
+      "name":"imidazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H4N2S",
+      "name":"aminothiazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H4O3",
+      "name":"pyruvic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H4O4",
+      "name":"malonic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H5NO",
+      "name":"acrylamide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H5N3",
+      "name":"3-amino-1H-pyrazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H5N3O9",
+      "name":"nitroglycerine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":9
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H6O2",
+      "name":"ethyl formate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H6O2S",
+      "name":"2-Mercaptopropionic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H6O2S",
+      "name":"3-Mercaptopropionic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H7N",
+      "name":"azetidine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H7NO2S",
+      "name":"cysteine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H7NO3",
+      "name":"serine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H8",
+      "name":"propane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H8NO5P",
+      "name":"glyphosate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H8O",
+      "name":"propanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H8O2",
+      "name":"propylene glycol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H8O2",
+      "name":"1,3-propanediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H8O3",
+      "name":"glycerol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3H9N3",
+      "name":"1,3,5-triazinane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C3N12",
+      "name":"cyanuric triazide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":12
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4HCl2FN2",
+      "name":"2,6-dichloro-5-fluoroacil",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H2",
+      "name":"diacetylene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4I2",
+      "name":"diiodobutadiyne",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H2BrClN2",
+      "name":"5-bromo-2-chloropyrimidine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H3Cl2N3",
+      "name":"2-amino-4,6-dichloropyrimidine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H3FN2O2",
+      "name":"fluorouracil",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4",
+      "name":"vinylacetylene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4FN3O",
+      "name":"flucytosine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4N2O2",
+      "name":"uracil",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4N4",
+      "name":"diaminomaleonitrile",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4N4",
+      "name":"3-aminopyrazole-4-carbonitrile",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4N4",
+      "name":"1,3,5,7-tetrazocine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H4O",
+      "name":"furan",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H5N3O",
+      "name":"cytosine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6N2",
+      "name":"fomepizole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6N2",
+      "name":"1-methylimidazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6N2",
+      "name":"4-methylimidazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6N4O",
+      "name":"2,4-diamino-6-hydroxypyrimidine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"1,4-Butynediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"gamma-Butyrolactone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"crotonic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"diacetyl",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"diepoxybutane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"1,4-Dioxene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"isocrotonic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"methacrylic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"methyl acrylate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"succinaldehyde",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O2",
+      "name":"vinyl acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H6O4",
+      "name":"succinic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H7KO3",
+      "name":"potassium oxybate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H7NaO3",
+      "name":"sodium oxybate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H7NO2",
+      "name":"1-Aminocyclopropanecarboxylic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H7NO3",
+      "name":"aceturic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H7NO4",
+      "name":"aspartic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H8",
+      "name":"cyclobutane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H8N2O3",
+      "name":"asparagine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H8O",
+      "name":"tetrahydrofuran",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H8O2",
+      "name":"ethyl acetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H8O3",
+      "name":"gamma-Hydroxybutyric acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H9Li",
+      "name":"n-butyllithium",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H9NO2",
+      "name":"γ-aminobutyric acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H9NO3",
+      "name":"threonine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H9OH",
+      "name":"butyl alcohol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10",
+      "name":"butane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O",
+      "name":"diethyl ether",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
             "quantity":1
          },
          {
@@ -3785,54 +10447,695 @@ var particles = [
             "quantity":1
          },
          {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"1,2-Butanediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
             "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"1,3-Butanediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"1,4-Butanediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"2,3-Butanediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"tert-Butyl hydroperoxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"Dimethoxyethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"2-Ethoxyethanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O2",
+      "name":"1-Methoxy-2-propanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H10O3",
+      "name":"diethylene glycol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C4H11NO2",
+      "name":"diethanolamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H3BrN2O2",
+      "name":"2-bromo-5-nitropyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
             "quantity":2
          },
          {
             "symbol":"O",
-            "quantity":1
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boric acid",
-      "symbol":"H3BO3",
+      "category":"molecule",
+      "symbol":"C5H3Br2N",
+      "name":"3,5-dibromopyridine",
       "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
          {
             "symbol":"H",
             "quantity":3
          },
          {
-            "symbol":"B",
+            "symbol":"Br",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H3ClN2O2",
+      "name":"2-chloro-5-nitropyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
             "quantity":1
          },
          {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
             "symbol":"O",
-            "quantity":3
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boron carbide",
-      "symbol":"B4C",
+      "category":"molecule",
+      "symbol":"C5H3ClN4",
+      "name":"6-chloropurine",
       "composition":[
          {
-            "symbol":"B",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
             "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4NCOOH",
+      "name":"niacin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":1
          },
          {
             "symbol":"C",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boron nitride",
-      "symbol":"BN",
+      "category":"molecule",
+      "symbol":"C5H4N2O2",
+      "name":"pyrazinoic acid",
       "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4N2O4",
+      "name":"orotic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4N4O2",
+      "name":"xanthine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4N4S",
+      "name":"mercaptopurine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4O",
+      "name":"cyclopentadienone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4O2",
+      "name":"furfural",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H4O2S",
+      "name":"b-thiophenic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5BrN2",
+      "name":"2-amino-5-bromopyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5IN2",
+      "name":"2-amino-5-iodopyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5N",
+      "name":"pyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5N3O",
+      "name":"pyrazinamide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5N3O2",
+      "name":"2-amino-nitropyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5N5",
+      "name":"adenine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H5N5O",
+      "name":"guanine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H6BNO2",
+      "name":"3-pyridinylboronic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
          {
             "symbol":"B",
             "quantity":1
@@ -3840,684 +11143,2183 @@ var particles = [
          {
             "symbol":"N",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boron suboxide",
-      "symbol":"B6O",
+      "category":"molecule",
+      "symbol":"C5H6N2OS",
+      "name":"methylthiouracil",
       "composition":[
          {
-            "symbol":"B",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H6N2O2",
+      "name":"thymine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H6O",
+      "name":"cyclopentenone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
             "quantity":6
          },
          {
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boron trichloride",
-      "symbol":"BCl3",
+      "category":"molecule",
+      "symbol":"C5H6O5",
+      "name":"α-Ketoglutaric acid",
       "composition":[
          {
-            "symbol":"B",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H7N3",
+      "name":"3,4-diaminopyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H8O2",
+      "name":"gamma-Valerolactone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H9NO2",
+      "name":"allylglycine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
-            "symbol":"Cl",
-            "quantity":3
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boron trifluoride",
-      "symbol":"BF3",
+      "category":"molecule",
+      "symbol":"C5H9NO2",
+      "name":"proline",
       "composition":[
          {
-            "symbol":"B",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":3
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Boron oxide",
-      "symbol":"B2O3",
+      "category":"molecule",
+      "symbol":"C5H9NO4",
+      "name":"glutamic acid",
       "composition":[
          {
-            "symbol":"B",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H10",
+      "name":"cyclopentane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H10N2O3",
+      "name":"glutamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
             "quantity":2
          },
          {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Bromine monochloride",
-      "symbol":"BrCl",
+      "category":"molecule",
+      "symbol":"C5H10O2",
+      "name":"pivalic acid",
       "composition":[
          {
-            "symbol":"Br",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
             "quantity":1
          },
          {
-            "symbol":"Cl",
+            "symbol":"0",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Bromine pentafluoride",
-      "symbol":"BrF5",
+      "category":"molecule",
+      "symbol":"C5H10O2",
+      "name":"valeric acid",
       "composition":[
          {
-            "symbol":"Br",
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
             "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H10O2",
+      "name":"3-Methylbutanoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H10O4",
+      "name":"deoxyribose",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H11NO2",
+      "name":"valine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H11NO2S",
+      "name":"methionine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H12",
+      "name":"pentane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H12O2",
+      "name":"neopentyl glycol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H12O4",
+      "name":"pentaerythritol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C5H12O5",
+      "name":"xylitol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6F5COOH",
+      "name":"pentafluorobenzoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
          },
          {
             "symbol":"F",
             "quantity":5
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Bromine trifluoride",
-      "symbol":"BrF3",
+      "category":"molecule",
+      "symbol":"C6H3Br3O",
+      "name":"2,4,6-Tribromophenol",
       "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H3Cl3O",
+      "name":"2,4,6-Trichlorophenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H4BrNO2",
+      "name":"5-bromonicotinic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
          {
             "symbol":"Br",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cadmium arsenide",
-      "symbol":"Cd3As2",
-      "composition":[
-         {
-            "symbol":"Cd",
-            "quantity":3
-         },
-         {
-            "symbol":"As",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cadmium bromide",
-      "symbol":"CdBr2",
-      "composition":[
-         {
-            "symbol":"Cd",
+            "symbol":"N",
             "quantity":1
          },
          {
-            "symbol":"Br",
+            "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cadmium chloride",
-      "symbol":"CdCl2",
+      "category":"molecule",
+      "symbol":"C6H4ClNO2",
+      "name":"2-chloronicotinic acid",
       "composition":[
          {
-            "symbol":"Cd",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H4ClN3",
+      "name":"6-chloro-7-dezapurine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H4N4",
+      "name":"tricyanoaminopropene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5Br",
+      "name":"bromobenzene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5CHO",
+      "name":"benzaldehyde",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5CH2OH",
+      "name":"benzyl alcohol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5Cl",
+      "name":"chlorobenzene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5COCl",
+      "name":"benzoyl chloride",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
             "quantity":1
          },
          {
             "symbol":"Cl",
-            "quantity":2
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cadmium fluoride",
-      "symbol":"CdF2",
+      "category":"molecule",
+      "symbol":"C6H5COOH",
+      "name":"benzoic acid",
       "composition":[
          {
-            "symbol":"Cd",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"C",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":2
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cadmium iodide",
-      "symbol":"CdI2",
+      "category":"molecule",
+      "symbol":"C6H5F",
+      "name":"fluorobenzene",
       "composition":[
          {
-            "symbol":"Cd",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"F",
             "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5I",
+      "name":"iodobenzene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
          },
          {
             "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H5NO2",
+      "name":"picolinic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cadmium oxide",
-      "symbol":"CdO",
+      "category":"molecule",
+      "symbol":"C6H5OH",
+      "name":"phenol",
       "composition":[
          {
-            "symbol":"Cd",
-            "quantity":1
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
          },
          {
             "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cadmium selenide",
-      "symbol":"CdSe",
-      "composition":[
-         {
-            "symbol":"Cd",
-            "quantity":1
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cadmium sulfate",
-      "symbol":"CdSO4",
-      "composition":[
-         {
-            "symbol":"Cd",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cadmium sulfide",
-      "symbol":"CdS",
-      "composition":[
-         {
-            "symbol":"Cd",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cadmium telluride",
-      "symbol":"CdTe",
-      "composition":[
-         {
-            "symbol":"Cd",
-            "quantity":1
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Caesium bicarbonate",
-      "symbol":"CsHCO3",
-      "composition":[
-         {
-            "symbol":"Cs",
             "quantity":1
          },
          {
             "symbol":"H",
             "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Caesium carbonate",
-      "symbol":"Cs2CO3",
+      "category":"molecule",
+      "symbol":"C6H6",
+      "name":"benzene",
       "composition":[
-         {
-            "symbol":"Cs",
-            "quantity":2
-         },
          {
             "symbol":"C",
-            "quantity":1
+            "quantity":6
          },
          {
-            "symbol":"O",
-            "quantity":3
+            "symbol":"H",
+            "quantity":6
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Caesium chloride",
-      "symbol":"CsCl",
+      "category":"molecule",
+      "symbol":"C6H6BClO2",
+      "name":"4-chlorophenylboronic acid",
       "composition":[
          {
-            "symbol":"Cs",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"B",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Caesium chromate",
-      "symbol":"Cs2CrO4",
-      "composition":[
-         {
-            "symbol":"Cs",
-            "quantity":2
-         },
-         {
-            "symbol":"Cr",
-            "quantity":1
          },
          {
             "symbol":"O",
-            "quantity":4
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Caesium fluoride",
-      "symbol":"CsF",
+      "category":"molecule",
+      "symbol":"C6H6BFO2",
+      "name":"4-fluorophenylboronic acid",
       "composition":[
          {
-            "symbol":"Cs",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"B",
             "quantity":1
          },
          {
             "symbol":"F",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Caesium hydride",
-      "symbol":"CsH",
+      "category":"molecule",
+      "symbol":"C6H6IN",
+      "name":"4-iodoaniline",
       "composition":[
          {
-            "symbol":"Cs",
-            "quantity":1
+            "symbol":"C",
+            "quantity":6
          },
          {
             "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Calcium carbide",
-      "symbol":"CaC2",
-      "composition":[
+            "quantity":6
+         },
          {
-            "symbol":"Ca",
+            "symbol":"I",
             "quantity":1
          },
          {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H6N2O",
+      "name":"nicotinamide",
+      "composition":[
+         {
             "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H6N2O2",
+      "name":"6-aminonicotinic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Calcium carbonate",
-      "symbol":"CaCO3",
+      "category":"molecule",
+      "symbol":"C6H6O",
+      "name":"phenol",
       "composition":[
          {
-            "symbol":"Ca",
-            "quantity":1
+            "symbol":"C",
+            "quantity":6
          },
          {
-            "symbol":"C",
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
             "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H6O3",
+      "name":"hydroxymethylfurfural",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":6
          },
          {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Calcium chloride",
-      "symbol":"CaCl2",
+      "category":"molecule",
+      "symbol":"C6H7BO2",
+      "name":"phenylboronic acid",
       "composition":[
          {
-            "symbol":"Ca",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"B",
             "quantity":1
          },
          {
-            "symbol":"Cl",
+            "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Calcium chromate",
-      "symbol":"CaCrO4",
+      "category":"molecule",
+      "symbol":"C6H7CsO6",
+      "name":"caesium ascorbate",
       "composition":[
          {
-            "symbol":"Ca",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"Cs",
             "quantity":1
          },
          {
-            "symbol":"Cr",
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H7KO6",
+      "name":"potassium ascorbate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H7LiO6",
+      "name":"lithium ascorbate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H7N3O",
+      "name":"isoniazid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H7NaO6",
+      "name":"sodium ascorbate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H7RbO6",
+      "name":"rubidium ascorbate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H8O7",
+      "name":"citric acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H9N3O3",
+      "name":"metronidazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H10O4",
+      "name":"aceburic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Calcium cyanamide",
-      "symbol":"CaCN2",
+      "category":"molecule",
+      "symbol":"C6H10O4",
+      "name":"adipic acid",
       "composition":[
          {
-            "symbol":"Ca",
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
             "quantity":1
          },
          {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H10O4",
+      "name":"conduritol",
+      "composition":[
+         {
             "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H10O4",
+      "name":"dianhydrohexitol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H10O4",
+      "name":"ethylidene diacetate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H10O4",
+      "name":"glucal",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H12",
+      "name":"cyclohexane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H12O3",
+      "name":"4-Hydroxy-4-methylpentanoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H12O6",
+      "name":"glucose/fructose",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H13NO",
+      "name":"<i>N</i>-ethylmorpholine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":13
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14",
+      "name":"hexane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14N2O2",
+      "name":"lysine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14N4O2",
+      "name":"arginine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14O2",
+      "name":"1,6-hexanediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14O3",
+      "name":"dipropylene glycol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14O3",
+      "name":"trimethylolpropane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H14O4",
+      "name":"triethylene glycol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6H15NO3",
+      "name":"triethanolamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":15
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C6N4",
+      "name":"tetracyanoethylene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5Br3O",
+      "name":"2,4,6-tribromoanisole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5Cl3O",
+      "name":"2,4,6-trichloroanisole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5F3O",
+      "name":"2,4,6-trifluoroanisole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5FO2",
+      "name":"2-fluorobenzoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5FO2",
+      "name":"3-Fluorobenzoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5FO2",
+      "name":"4-fluorobenzoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5NS2",
+      "name":"2-mercaptobenzothiazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H5N3O2",
+      "name":"7-nitroindazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H6N2",
+      "name":"7-azaindole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H6O",
+      "name":"tropone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H6O3",
+      "name":"salicylic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H6O5",
+      "name":"gallic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H7BO4",
+      "name":"4-carboxyphenylboronic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H7NO2",
+      "name":"4-aminobenzoic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H7NO3",
+      "name":"mesalazine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H7N3",
+      "name":"benomyl metabolite",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H8",
+      "name":"toluene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H8ClN3O4S2",
+      "name":"hydrochlorothiazide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H8N4O2",
+      "name":"theophylline",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H9BO2",
+      "name":"4-methylphenylboronic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H9BO3",
+      "name":"4-boronoanisole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C7H10N2",
+      "name":"4-dimethylaminopyridine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
             "quantity":1
          },
          {
             "symbol":"N",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Calcium fluoride",
-      "symbol":"CaF2",
+      "category":"molecule",
+      "symbol":"C7H11NO5",
+      "name":"N-Acetylglutamic acid",
       "composition":[
          {
-            "symbol":"Ca",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Calcium hydride",
-      "symbol":"CaH2",
-      "composition":[
-         {
-            "symbol":"Ca",
-            "quantity":1
+            "symbol":"C",
+            "quantity":7
          },
          {
             "symbol":"H",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Calcium oxychloride",
-      "symbol":"CaOCl2",
-      "composition":[
+            "quantity":11
+         },
          {
-            "symbol":"Ca",
+            "symbol":"N",
             "quantity":1
          },
          {
             "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
+            "quantity":5
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Carbon dioxide",
-      "symbol":"CO2",
+      "category":"molecule",
+      "symbol":"C7H12O4",
+      "name":"diethyl malonate",
       "composition":[
          {
             "symbol":"C",
-            "quantity":1
+            "quantity":7
          },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbon disulfide",
-      "symbol":"CS2",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbon monoxide",
-      "symbol":"CO",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbon tetrabromide",
-      "symbol":"CBr4",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbon tetrachloride",
-      "symbol":"CCl4",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbon tetraiodide",
-      "symbol":"CI4",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbonic acid",
-      "symbol":"H2CO3",
-      "composition":[
          {
             "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":1
+            "quantity":12
          },
          {
             "symbol":"O",
-            "quantity":3
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Carbonyl chloride",
-      "symbol":"COCl2",
+      "category":"molecule",
+      "symbol":"C7H12N2O4",
+      "name":"aceglutamide",
       "composition":[
          {
             "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbonyl fluoride",
-      "symbol":"COF2",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carbonyl sulfide",
-      "symbol":"COS",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Carboplatin",
-      "symbol":"C6H12N2O4Pt",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":6
+            "quantity":7
          },
          {
             "symbol":"H",
@@ -4530,771 +13332,1361 @@ var particles = [
          {
             "symbol":"O",
             "quantity":4
-         },
-         {
-            "symbol":"Pt",
-            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"carborundum",
-      "symbol":"SiC",
+      "category":"molecule",
+      "symbol":"C7H14O6",
+      "name":"bornesitol",
       "composition":[
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
          {
             "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium aluminium",
-      "symbol":"CeAl",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
+            "quantity":7
          },
-         {
-            "symbol":"Al",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium cadmium",
-      "symbol":"CeCd",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Cd",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium magnesium",
-      "symbol":"CeMg",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Mg",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium mercury",
-      "symbol":"CeHg",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Hg",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium silver",
-      "symbol":"CeAg",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Ag",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium thallium",
-      "symbol":"CeTl",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Tl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium zinc",
-      "symbol":"CeZn",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Zn",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium(III) bromide",
-      "symbol":"CeBr3",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cerium(III) chloride",
-      "symbol":"CeCl3",
-      "composition":[
-         {
-            "symbol":"Ce",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chloric acid",
-      "symbol":"HClO3",
-      "composition":[
          {
             "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chlorine dioxide",
-      "symbol":"ClO2",
-      "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chlorine monoxide",
-      "symbol":"ClO",
-      "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chlorine trifluoride",
-      "symbol":"ClF3",
-      "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chlorine trioxide",
-      "symbol":"ClO3",
-      "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chlorine",
-      "symbol":"Cl2",
-      "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chloroplatinic acid",
-      "symbol":"H2PtCl6",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"Pt",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromic acid",
-      "symbol":"CrO3",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromic acid",
-      "symbol":"CrO3",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromium(II) chloride",
-      "symbol":"CrCl2",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromium(II) sulfate",
-      "symbol":"CrSO4",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromium(III) chloride",
-      "symbol":"CrCl3",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromium(III) oxide",
-      "symbol":"Cr2O3",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromium(IV) oxide",
-      "symbol":"CrO2",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromyl chloride",
-      "symbol":"CrO2Cl2",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Chromyl fluoride",
-      "symbol":"CrO2F2",
-      "composition":[
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cobalt(II) bromide",
-      "symbol":"CoBr2",
-      "composition":[
-         {
-            "symbol":"Co",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cobalt(II) carbonate",
-      "symbol":"CoCO3",
-      "composition":[
-         {
-            "symbol":"Co",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cobalt(II) chloride",
-      "symbol":"CoCl2",
-      "composition":[
-         {
-            "symbol":"Co",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cobalt(III) fluoride",
-      "symbol":"CoF3",
-      "composition":[
-         {
-            "symbol":"Co",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Cobalt(II) sulfate",
-      "symbol":"CoSO4",
-      "composition":[
-         {
-            "symbol":"Co",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Columbite",
-      "symbol":"Fe<sup>2+</sup>Nb2O6",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"<sup",
-            "quantity":1
-         },
-         {
-            "symbol":">",
-            "quantity":2
-         },
-         {
-            "symbol":"+",
-            "quantity":1
-         },
-         {
-            "symbol":"<",
-            "quantity":1
-         },
-         {
-            "symbol":"/sup",
-            "quantity":1
-         },
-         {
-            "symbol":">",
-            "quantity":1
-         },
-         {
-            "symbol":"Nb",
-            "quantity":2
+            "quantity":14
          },
          {
             "symbol":"O",
             "quantity":6
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(I) chloride",
-      "symbol":"CuCl",
+      "category":"molecule",
+      "symbol":"C7H16",
+      "name":"heptane",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":7
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H5F3N2OS",
+      "name":"riluzole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
             "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H5NO2",
+      "name":"isatin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H6ClN",
+      "name":"4-chloroindole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":6
          },
          {
             "symbol":"Cl",
             "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(I) oxide",
-      "symbol":"Cu2O",
+      "category":"molecule",
+      "symbol":"C8H6Cl2O3",
+      "name":"2,4-dichlorophenoxyacetic acid",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H6N2O",
+      "name":"4-quinazolinol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
             "quantity":2
          },
          {
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(I) sulfide",
-      "symbol":"Cu2S",
+      "category":"molecule",
+      "symbol":"C8H6N2O2",
+      "name":"indazolium-3-carboxylate",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
             "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H7N",
+      "name":"indole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H8",
+      "name":"cubane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H8N2OS",
+      "name":"2-amino-6-methoxybenzothiazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
          },
          {
             "symbol":"S",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(II) carbonate",
-      "symbol":"CuCO3",
+      "category":"molecule",
+      "symbol":"C8H8O4",
+      "name":"vanillic acid",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H9NO2",
+      "name":"acetaminophen",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H9NO2",
+      "name":"aminomethylbenzoic acid",
+      "composition":[
+         {
             "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H9NO2",
+      "name":"hydroxydanaidal",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H9NO2",
+      "name":"methyl anthranilate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H10N4O2",
+      "name":"caffeine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H11NO",
+      "name":"tyramine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H11N5O3",
+      "name":"aciclovir",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H16O2",
+      "name":"cyclohexanedimethanol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H16O6",
+      "name":"pinpollitol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H16O6",
+      "name":"viscumitol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H16O6",
+      "name":"Eleutheroside C",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C8H18",
+      "name":"octane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":18
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H6BrN",
+      "name":"4-bromoisoquinoline",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H6N2",
+      "name":"5-cyanoindole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H6O3",
+      "name":"umbelliferone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H6OS",
+      "name":"thiochromone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H8O2",
+      "name":"cinnamic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H9NO3",
+      "name":"hippuric acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(II) chloride",
-      "symbol":"CuCl2",
+      "category":"molecule",
+      "symbol":"C9H10O",
+      "name":"chavicol",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
             "quantity":1
          },
          {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Copper(I) fluoride",
-      "symbol":"CuF",
-      "composition":[
-         {
-            "symbol":"Cu",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Copper(II) oxide",
-      "symbol":"CuO",
-      "composition":[
-         {
-            "symbol":"Cu",
+            "symbol":"0",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(II) sulfate",
-      "symbol":"CuSO4",
+      "category":"molecule",
+      "symbol":"C9H10O3",
+      "name":"paeonol",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
             "quantity":1
          },
          {
-            "symbol":"S",
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H10O",
+      "name":"cinnamyl alcohol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H11NO3",
+      "name":"tyrosine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H11NO4",
+      "name":"L-DOPA",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Copper(II) sulfide",
-      "symbol":"CuS",
+      "category":"molecule",
+      "symbol":"C9H17NO2",
+      "name":"gabapentin",
       "composition":[
          {
-            "symbol":"Cu",
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":17
+         },
+         {
+            "symbol":"N",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H18N2O2",
+      "name":"1-boc-piperazine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":18
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C9H20",
+      "name":"nonane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H7NO2",
+      "name":"quinaldic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H7N3S",
+      "name":"tiabendazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":3
          },
          {
             "symbol":"S",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cyanogen bromide",
-      "symbol":"CNBr",
+      "category":"molecule",
+      "symbol":"C10H8",
+      "name":"azulene",
       "composition":[
          {
             "symbol":"C",
             "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H8",
+      "name":"naphthalene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H8O3",
+      "name":"hymecromone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H9NO2",
+      "name":"indole-3-acetic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":9
          },
          {
             "symbol":"N",
             "quantity":1
          },
          {
-            "symbol":"Br",
-            "quantity":1
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cyanogen chloride",
-      "symbol":"CNCl",
+      "category":"molecule",
+      "symbol":"C10H9N5O",
+      "name":"kinetin",
       "composition":[
          {
             "symbol":"C",
             "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":9
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H9NO2",
+      "name":"5-methoxyindole-3-carboxaldehyde",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":9
          },
          {
             "symbol":"N",
             "quantity":1
          },
          {
-            "symbol":"Cl",
-            "quantity":1
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cyanogen iodide",
-      "symbol":"ICN",
+      "category":"molecule",
+      "symbol":"C10H10N2O",
+      "name":"edaravone",
       "composition":[
          {
-            "symbol":"I",
+            "symbol":"C",
             "quantity":1
          },
          {
-            "symbol":"C",
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
             "quantity":1
          },
          {
             "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Cyanuric chloride",
-      "symbol":"C3Cl3N3",
+      "category":"molecule",
+      "symbol":"C10H10O2",
+      "name":"safrole",
       "composition":[
          {
             "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H10O4",
+      "name":"ferulic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H11N3O3S",
+      "name":"sulfamethoxazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
             "quantity":3
          },
          {
-            "symbol":"Cl",
+            "symbol":"O",
             "quantity":3
          },
          {
-            "symbol":"N",
-            "quantity":3
+            "symbol":"S",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Diborane",
-      "symbol":"B10H14",
+      "category":"molecule",
+      "symbol":"C10H12N2",
+      "name":"tryptamine",
       "composition":[
          {
-            "symbol":"B",
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O",
+      "name":"anethole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O",
+      "name":"estragole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O2",
+      "name":"hinokitiol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O2",
+      "name":"eugenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O2",
+      "name":"isoeugenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O2",
+      "name":"pseudoisoeugenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H12O3",
+      "name":"coniferyl alcohol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H13N5O4",
+      "name":"adenosine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":13
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H14O",
+      "name":"mentha spicata herb oil",
+      "composition":[
+         {
+            "symbol":"C",
             "quantity":1
          },
          {
@@ -5304,146 +14696,1057 @@ var particles = [
          {
             "symbol":"H",
             "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Diborane",
-      "symbol":"B2H6",
+      "category":"molecule",
+      "symbol":"C10H15ON",
+      "name":"ephedrine",
       "composition":[
          {
-            "symbol":"B",
-            "quantity":2
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
          },
          {
             "symbol":"H",
-            "quantity":6
+            "quantity":15
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dichlorine monoxide",
-      "symbol":"Cl2O",
+      "category":"molecule",
+      "symbol":"C10H16",
+      "name":"limonene",
       "composition":[
          {
-            "symbol":"Cl",
-            "quantity":2
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C10H16O",
+      "name":"camphor",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":16
          },
          {
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dichlorine dioxide",
-      "symbol":"Cl2O2",
+      "category":"molecule",
+      "symbol":"C10H17NO3",
+      "name":"boc-4-piperidone",
       "composition":[
          {
-            "symbol":"Cl",
-            "quantity":2
+            "symbol":"C",
+            "quantity":1
          },
          {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Dichlorine trioxide",
-      "symbol":"Cl2O3",
-      "composition":[
+            "symbol":"0",
+            "quantity":1
+         },
          {
-            "symbol":"Cl",
-            "quantity":2
+            "symbol":"H",
+            "quantity":17
+         },
+         {
+            "symbol":"N",
+            "quantity":1
          },
          {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dichlorine tetroxide",
-      "symbol":"ClOClO3",
+      "category":"molecule",
+      "symbol":"C10H19NO3",
+      "name":"1-boc-4-piperidinol",
       "composition":[
          {
-            "symbol":"Cl",
+            "symbol":"C",
             "quantity":1
          },
          {
-            "symbol":"O",
+            "symbol":"0",
             "quantity":1
          },
          {
-            "symbol":"Cl",
+            "symbol":"H",
+            "quantity":19
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dichlorine hexoxide",
-      "symbol":"Cl2O6",
+      "category":"molecule",
+      "symbol":"C10H20N2O2",
+      "name":"boc-4-aminopiperidine",
       "composition":[
          {
-            "symbol":"Cl",
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
             "quantity":2
          },
          {
             "symbol":"O",
-            "quantity":6
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dichlorine heptoxide",
-      "symbol":"Cl2O7",
+      "category":"molecule",
+      "symbol":"C10H22",
+      "name":"decane",
       "composition":[
          {
-            "symbol":"Cl",
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":22
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H8O2",
+      "name":"menadione",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
             "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H11NO2",
+      "name":"3-indolepropionic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H12N2O2",
+      "name":"tryptophan",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H12O3",
+      "name":"myristicin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H14N2O",
+      "name":"5-methoxytryptamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H14O2",
+      "name":"methyl eugenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H14O2",
+      "name":"methyl isoeugenol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H19NO4",
+      "name":"boc-isonipecotic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":19
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C11H24",
+      "name":"undecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":11
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H4N4",
+      "name":"tetracyanoquinodimethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H8O4",
+      "name":"methoxsalen",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H10",
+      "name":"biphenyl",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H10ClN2O5S",
+      "name":"furosemide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H11N5",
+      "name":"6-benzylaminopurine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H11N7",
+      "name":"triamterene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":11
+         },
+         {
+            "symbol":"N",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H13NO2",
+      "name":"indole-3-butyric acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":13
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H14O4",
+      "name":"apiole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H14O4",
+      "name":"dillapiole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H15NO",
+      "name":"1-benzyl-4-piperidone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":15
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16N2",
+      "name":"N,N-Dimethyltryptamine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16O3",
+      "name":"asarone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16O3",
+      "name":"elemicin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16O3",
+      "name":"isoelemicin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16O3",
+      "name":"oudenone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16O4",
+      "name":"2,4,5-Trimethoxypropiophenone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H16O7",
+      "name":"arbutin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":16
          },
          {
             "symbol":"O",
             "quantity":7
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dichlorosilane",
-      "symbol":"SiH2Cl",
+      "category":"molecule",
+      "symbol":"C12H18O",
+      "name":"propofol",
       "composition":[
          {
-            "symbol":"Si",
-            "quantity":1
+            "symbol":"C",
+            "quantity":12
          },
          {
             "symbol":"H",
+            "quantity":18
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H22O11",
+      "name":"sucrose/maltose",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":22
+         },
+         {
+            "symbol":"O",
+            "quantity":11
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C12H26",
+      "name":"dodecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":26
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H10O",
+      "name":"benzophenone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H12F2N6O",
+      "name":"fluconazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"F",
             "quantity":2
          },
          {
-            "symbol":"Cl",
+            "symbol":"N",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dinitrogen pentoxide",
-      "symbol":"N2O5",
+      "category":"molecule",
+      "symbol":"C13H12O",
+      "name":"β-ionone",
       "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H12O2",
+      "name":"monobenzone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H14N2O",
+      "name":"harmaline",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H16N2O2",
+      "name":"melatonin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H18O2",
+      "name":"ibuprofen",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":18
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C13H28",
+      "name":"tridecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":13
+         },
+         {
+            "symbol":"H",
+            "quantity":28
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H10",
+      "name":"anthracene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H10",
+      "name":"phenanthrene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H10O14",
+      "name":"benzoyl peroxide",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":14
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H12O3",
+      "name":"resveratrol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H14Cl2N2O",
+      "name":"enilconazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H18N2O5",
+      "name":"aspartame",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":18
+         },
          {
             "symbol":"N",
             "quantity":2
@@ -5452,102 +15755,5587 @@ var particles = [
             "symbol":"O",
             "quantity":5
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dinitrogen tetroxide",
-      "symbol":"N2O4",
+      "category":"molecule",
+      "symbol":"C14H18N4O3",
+      "name":"trimethoprim",
       "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":18
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C14H30",
+      "name":"tetradecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":14
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C15H10O4",
+      "name":"daidzein",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":15
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C15H10O6",
+      "name":"luteolin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":15
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C15H10O7",
+      "name":"quercetin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":15
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C15H12N2O",
+      "name":"carbamazepine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":15
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
          {
             "symbol":"N",
             "quantity":2
          },
          {
             "symbol":"O",
-            "quantity":4
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Diphosphorus tetrafluoride",
-      "symbol":"P2F4",
+      "category":"molecule",
+      "symbol":"C15H12N2O2",
+      "name":"phenytoin",
       "composition":[
+         {
+            "symbol":"C",
+            "quantity":15
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C15H32",
+      "name":"pentadecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":15
+         },
+         {
+            "symbol":"H",
+            "quantity":32
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C16H14O3",
+      "name":"ketoprofen",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":16
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C16H28N2O6Zn",
+      "name":"zinc acexamate",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":16
+         },
+         {
+            "symbol":"H",
+            "quantity":28
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         },
+         {
+            "symbol":"Zn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C16H34",
+      "name":"hexadecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":16
+         },
+         {
+            "symbol":"H",
+            "quantity":34
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H13ClN4",
+      "name":"alprazolam",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":13
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H14F3N3O2S",
+      "name":"celecoxib",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":14
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H18N2O6",
+      "name":"nifedipine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":18
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H19N3O3S",
+      "name":"omeprazole",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":19
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H22O2",
+      "name":"cicutoxin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":22
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H22O2",
+      "name":"oenanthotoxin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":22
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H24O",
+      "name":"falcarinol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H24O9",
+      "name":"Eleutheroside B",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         },
+         {
+            "symbol":"O",
+            "quantity":9
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C17H36",
+      "name":"heptadecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":17
+         },
+         {
+            "symbol":"H",
+            "quantity":36
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H22O2",
+      "name":"estrone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":22
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H24O2",
+      "name":"estradiol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H24O3",
+      "name":"estriol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H24O4",
+      "name":"estetrol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H27NO3",
+      "name":"capsaicin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":27
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H32O2",
+      "name":"linoleic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":32
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H36O2",
+      "name":"stearic acid",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":36
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C18H38",
+      "name":"octadecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":18
+         },
+         {
+            "symbol":"H",
+            "quantity":38
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H16ClNO4",
+      "name":"indometacin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":16
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H26O2",
+      "name":"androstenedione",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":26
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H28O2",
+      "name":"dehydroepiandrosterone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":28
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H28O2",
+      "name":"testosterone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":28
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H30O2",
+      "name":"androstenediol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H30O2",
+      "name":"dihydrotestosterone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C19H40",
+      "name":"nonadecane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":19
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H24O2N2",
+      "name":"quinine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":24
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H27NO11",
+      "name":"amygdalin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":27
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":11
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H28O2",
+      "name":"tretinoin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":28
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H32O5",
+      "name":"prostacyclin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":32
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H32O5",
+      "name":"prostaglandin E2",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":32
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H34O5",
+      "name":"dinoprost",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":34
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C20H42",
+      "name":"eicosane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":42
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C21H20O6",
+      "name":"curcumin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":21
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C21H30O2",
+      "name":"progesterone",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":21
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C21H36N7O16P3S",
+      "name":"Coenzyme A",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":21
+         },
+         {
+            "symbol":"H",
+            "quantity":36
+         },
+         {
+            "symbol":"N",
+            "quantity":7
+         },
+         {
+            "symbol":"O",
+            "quantity":16
+         },
+         {
+            "symbol":"P",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C21H30O2",
+      "name":"tetrahydrocannabinol",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":21
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C22H23ClN2O2",
+      "name":"loratadine",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":22
+         },
+         {
+            "symbol":"H",
+            "quantity":23
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C23H19ClF3NO3",
+      "name":"cyhalothrin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":23
+         },
+         {
+            "symbol":"H",
+            "quantity":19
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C30H19NO9",
+      "name":"Dynemicin A",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":19
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":9
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C34H46O18",
+      "name":"Eleutheroside D",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":34
+         },
+         {
+            "symbol":"H",
+            "quantity":46
+         },
+         {
+            "symbol":"O",
+            "quantity":18
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C35H60O6",
+      "name":"Eleutheroside A",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":35
+         },
+         {
+            "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C40H56",
+      "name":"lycopene",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":56
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C44H69N15O9S",
+      "name":"adrenorphin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":44
+         },
+         {
+            "symbol":"H",
+            "quantity":69
+         },
+         {
+            "symbol":"N",
+            "quantity":15
+         },
+         {
+            "symbol":"O",
+            "quantity":9
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C55H74IN3O21S4",
+      "name":"calicheamicin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":55
+         },
+         {
+            "symbol":"H",
+            "quantity":74
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":21
+         },
+         {
+            "symbol":"S",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C59H80N4O22S4",
+      "name":"esperamicin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":59
+         },
+         {
+            "symbol":"H",
+            "quantity":8
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":22
+         },
+         {
+            "symbol":"S",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C62H89CoN13O15P",
+      "name":"hydroxocobalamin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":62
+         },
+         {
+            "symbol":"H",
+            "quantity":89
+         },
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":13
+         },
+         {
+            "symbol":"O",
+            "quantity":15
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C63H88CoN14O14P",
+      "name":"Vitamin B12",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":63
+         },
+         {
+            "symbol":"H",
+            "quantity":88
+         },
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":14
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C63H88CoN14O14P",
+      "name":"cyanocobalamin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":63
+         },
+         {
+            "symbol":"H",
+            "quantity":88
+         },
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":14
+         },
+         {
+            "symbol":"O",
+            "quantity":14
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C63H91CoN13O14P",
+      "name":"methylcobalamin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":63
+         },
+         {
+            "symbol":"H",
+            "quantity":91
+         },
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":13
+         },
+         {
+            "symbol":"O",
+            "quantity":14
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C72H100CoN18O17P",
+      "name":"adenosylcobalamin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":72
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":18
+         },
+         {
+            "symbol":"O",
+            "quantity":17
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C77H120N18O26S",
+      "name":"alpha-Endorphin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":77
+         },
+         {
+            "symbol":"H",
+            "quantity":12
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":18
+         },
+         {
+            "symbol":"O",
+            "quantity":26
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C83H131N19O27S",
+      "name":"gamma-Endorphin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":83
+         },
+         {
+            "symbol":"H",
+            "quantity":131
+         },
+         {
+            "symbol":"N",
+            "quantity":19
+         },
+         {
+            "symbol":"O",
+            "quantity":27
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C131H200N30O43S2",
+      "name":"amidorphin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":131
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":43
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C158H251N39O46S",
+      "name":"beta-Endorphin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":158
+         },
+         {
+            "symbol":"H",
+            "quantity":251
+         },
+         {
+            "symbol":"N",
+            "quantity":39
+         },
+         {
+            "symbol":"O",
+            "quantity":46
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C161H236N42O48",
+      "name":"leumorphin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":161
+         },
+         {
+            "symbol":"H",
+            "quantity":236
+         },
+         {
+            "symbol":"N",
+            "quantity":42
+         },
+         {
+            "symbol":"O",
+            "quantity":48
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"C164H256Na2O68S2",
+      "name":"maitotoxin",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":164
+         },
+         {
+            "symbol":"H",
+            "quantity":256
+         },
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":68
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaAl2O4",
+      "name":"calcium aluminate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaB6",
+      "name":"calcium boride",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaBr2",
+      "name":"calcium bromide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaCO3",
+      "name":"calcium carbonate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaC2",
+      "name":"calcium carbide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaC2O4",
+      "name":"calcium oxalate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaCN2",
+      "name":"calcium cyanamide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaCl2",
+      "name":"calcium chloride",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaF2",
+      "name":"calcium fluoride",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaH2",
+      "name":"calcium hydride",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaHPO4",
+      "name":"dicalcium phosphate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaI2",
+      "name":"calcium iodide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaMoO4",
+      "name":"calcium molybdate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaO",
+      "name":"quicklime",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaO2",
+      "name":"calcium peroxide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaP",
+      "name":"calcium monophosphide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaS",
+      "name":"calcium sulfide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaSO3",
+      "name":"calcium sulfite",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaSO4",
+      "name":"calcium sulfate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaSe",
+      "name":"calcium selenide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaSeO3",
+      "name":"calcium selenite",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaSeO4",
+      "name":"calcium selenate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaSiO3",
+      "name":"calcium metasilicate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaTe",
+      "name":"calcium telluride",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaTeO3",
+      "name":"calcium tellurite",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaTeO4",
+      "name":"calcium tellurate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaTiO3",
+      "name":"calcium titanate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CaWO4",
+      "name":"calcium tungstate",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ca3N2",
+      "name":"calcium nitride",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ca3P2",
+      "name":"calcium phosphide",
+      "composition":[
+         {
+            "symbol":"Ca",
+            "quantity":3
+         },
          {
             "symbol":"P",
             "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdBr2",
+      "name":"cadmium bromide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdCO3",
+      "name":"cadmium carbonate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdC2O4",
+      "name":"cadmium oxalate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdCl2",
+      "name":"cadmium chloride",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdCrO4",
+      "name":"cadmium chromate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdF2",
+      "name":"cadmium fluoride",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdI2",
+      "name":"cadmium iodide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdMoO4",
+      "name":"cadmium molybdate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdO",
+      "name":"cadmium oxide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdS",
+      "name":"cadmium sulfide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdSO3",
+      "name":"cadmium sulfite",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdSO4",
+      "name":"cadmium sulfate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdSb",
+      "name":"cadmium antimonide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdSe",
+      "name":"cadmium selenide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdSeO3",
+      "name":"cadmium selenite",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdSiO3",
+      "name":"cadmium metasilicate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdTe",
+      "name":"cadmium telluride",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdTeO4",
+      "name":"cadmium tellurate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdTiO3",
+      "name":"cadmium titanate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdWO4",
+      "name":"cadmium tungstate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CdZrO3",
+      "name":"cadmium metazirconate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":1
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cd2Nb2O7",
+      "name":"cadmium niobate",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":2
+         },
+         {
+            "symbol":"Nb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cd3As2",
+      "name":"cadmium arsenide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cd3P2",
+      "name":"cadmium phosphide",
+      "composition":[
+         {
+            "symbol":"Cd",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeB6",
+      "name":"cerium boride",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeBr3",
+      "name":"cerium(III) bromide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeC",
+      "name":"cerium carbide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeCl3",
+      "name":"cerium(III) chloride",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeF3",
+      "name":"cerium(III) fluoride",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeF4",
+      "name":"cerium(IV) fluoride",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
          },
          {
             "symbol":"F",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Diphosphorus tetrachloride",
-      "symbol":"P2Cl4",
+      "category":"molecule",
+      "symbol":"CeI2",
+      "name":"cerium(II) iodide",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
             "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeI3",
+      "name":"cerium(III) iodide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeN",
+      "name":"cerium nitride",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeO2",
+      "name":"cerium(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeS",
+      "name":"cerium(II) sulfide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CeSi2",
+      "name":"cerium silicide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ce2C3",
+      "name":"cerium(III) carbide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ce2O3",
+      "name":"cerium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ce2S3",
+      "name":"cerium(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Ce",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CF3Cl",
+      "name":"chlorotrifluoromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CF4",
+      "name":"tetrafluoromethane",
+      "composition":[
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ClF",
+      "name":"chlorine fluoride",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ClF3",
+      "name":"chlorine trifluoride",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ClF5",
+      "name":"chlorine pentafluoride",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ClOClO3",
+      "name":"chlorine perchlorate",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ClO2",
+      "name":"chlorine dioxide",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ClO3F",
+      "name":"chlorine trioxide fluoride",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cl2",
+      "name":"chlorine",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cl2O3",
+      "name":"chlorine trioxide",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cl2O6",
+      "name":"chlorine hexoxide",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cl2O7",
+      "name":"chlorine heptoxide",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cl2O8",
+      "name":"Chlorine octaoxide",
+      "composition":[
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoAl2O4",
+      "name":"cobalt(II) aluminate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Al",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoAs",
+      "name":"cobalt arsenide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoAs2",
+      "name":"cobalt(II) arsenide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoB",
+      "name":"cobalt(II) boride",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoBr2",
+      "name":"cobalt(II) bromide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoC2O4",
+      "name":"cobalt(II) oxalate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoCl2",
+      "name":"cobalt(II) chloride",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoCrO4",
+      "name":"cobalt(II) chromate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoCr2O4",
+      "name":"cobalt(II) chromite",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoF2",
+      "name":"cobalt(II) fluoride",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoF3",
+      "name":"cobalt(III) fluoride",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoI2",
+      "name":"cobalt(II) iodide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoMoO4",
+      "name":"cobalt(II) molybdate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoO",
+      "name":"cobalt(II) oxide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoS",
+      "name":"cobalt(II) sulfide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoS2",
+      "name":"cobalt disulfide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoSb",
+      "name":"cobalt antimonide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoSe",
+      "name":"cobalt(II) selenide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoSeO3",
+      "name":"cobalt(II) selenite",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoTe",
+      "name":"cobalt(II) telluride",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoTiO3",
+      "name":"cobalt(II) titanate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CoWO4",
+      "name":"cobalt(II) tungstate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Co2B",
+      "name":"cobalt boride",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":2
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Co2SO4",
+      "name":"cobalt(II) sulfate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Co2S3",
+      "name":"cobalt(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Co2SiO4",
+      "name":"cobalt(II) orthosilicate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Co2SnO4",
+      "name":"cobalt(II) stannate",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":2
+         },
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Co2TiO4",
+      "name":"cobalt(II) titanite",
+      "composition":[
+         {
+            "symbol":"Co",
+            "quantity":2
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrBr2",
+      "name":"chromium(II) bromide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrBr3",
+      "name":"chromium(III) bromide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrCl2",
+      "name":"chromium(II) chloride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrCl3",
+      "name":"chromium(III) chloride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrCl4",
+      "name":"chromium(IV) chloride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Diphosphorus tetraiodide",
-      "symbol":"P2I4",
+      "category":"molecule",
+      "symbol":"CrF2",
+      "name":"chromium(II) fluoride",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
             "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrF3",
+      "name":"chromium(III) fluoride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrF4",
+      "name":"chromium(IV) fluoride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrF5",
+      "name":"chromium(V) fluoride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrF6",
+      "name":"chromium(VI) fluoride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrI2",
+      "name":"chromium(II) iodide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
          },
          {
             "symbol":"I",
-            "quantity":4
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Disilane",
-      "symbol":"Si2H6",
+      "category":"molecule",
+      "symbol":"CrI3",
+      "name":"chromium(III) iodide",
       "composition":[
          {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrO2",
+      "name":"chromium(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrO3",
+      "name":"chromium(VI) oxide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrO2Cl2",
+      "name":"chromium(VI) oxychloride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrPO4",
+      "name":"chromium(III) phosphate",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrSb",
+      "name":"chromium antimonide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CrVO4",
+      "name":"chromium(III) orthovanadate",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr2O3",
+      "name":"chromium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr2S3",
+      "name":"chromium(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr2Se3",
+      "name":"chromium(III) selenide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr2Te3",
+      "name":"chromium(III) telluride",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr3As2",
+      "name":"chromium(II) arsenide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr3C2",
+      "name":"chromium(II) carbide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr3Sb2",
+      "name":"chromium(II) antimonide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cr3Si2",
+      "name":"chromium(II) silicide",
+      "composition":[
+         {
+            "symbol":"Cr",
+            "quantity":3
+         },
+         {
             "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBO2",
+      "name":"caesium borate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBr",
+      "name":"caesium bromide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBrO",
+      "name":"caesium hypobromite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBrO2",
+      "name":"caesium bromite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBrO3",
+      "name":"caesium bromate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBrO4",
+      "name":"caesium perbromate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsBr3",
+      "name":"caesium tribromide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsCN",
+      "name":"caesium cyanide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsCNO",
+      "name":"caesium cyanate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsCNO",
+      "name":"caesium fulminate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsC2H3O2",
+      "name":"caesium acetate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
             "quantity":2
          },
          {
             "symbol":"H",
-            "quantity":6
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Disulfur dichloride",
-      "symbol":"S2Cl2",
+      "category":"molecule",
+      "symbol":"CsCl",
+      "name":"caesium chloride",
       "composition":[
          {
-            "symbol":"S",
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsClO",
+      "name":"caesium hypochlorite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsClO2",
+      "name":"caesium chlorite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
             "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsClO3",
+      "name":"caesium chlorate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsClO4",
+      "name":"caesium perchlorate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsF",
+      "name":"caesium fluoride",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsH",
+      "name":"caesium hydride",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsHS",
+      "name":"caesium hydrosulfide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsI",
+      "name":"caesium iodide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsIO",
+      "name":"caesium hypoiodite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsIO2",
+      "name":"caesium iodite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsIO3",
+      "name":"caesium iodate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsIO4",
+      "name":"caesium periodate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsI3",
+      "name":"caesium triiodide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsNH2",
+      "name":"caesium amide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsNO2",
+      "name":"caesium nitrite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsNO3",
+      "name":"caesium nitrate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsN3",
+      "name":"caesium azide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsNbO3",
+      "name":"caesium niobate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2NbO3",
+      "name":"caesium metaniobate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsOH",
+      "name":"caesium hydroxide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsO2",
+      "name":"caesium superoxide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2O2",
+      "name":"caesium peroxide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2S",
+      "name":"caesium sulfide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsSCN",
+      "name":"caesium thiocyanate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsSeO4",
+      "name":"caesium selenate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsTaO3",
+      "name":"caesium metatantalate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2CO3",
+      "name":"caesium carbonate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsHCO3",
+      "name":"caesium bicarbonate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsH2PO3",
+      "name":"monocaesium phosphite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsH2PO4",
+      "name":"monocaesium phosphate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsHSO3",
+      "name":"caesium bisulfite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CsHSO4",
+      "name":"caesium bisulfate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2C2O4",
+      "name":"caesium oxalate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2CrO4",
+      "name":"caesium chromate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2Cr2O7",
+      "name":"caesium dichromate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2HPO4",
+      "name":"caesium hydrogen orthophosphate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2MoO4",
+      "name":"caesium molybdate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2O",
+      "name":"caesium oxide",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2SO3",
+      "name":"caesium sulfite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2SO4",
+      "name":"caesium sulfate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2SiO3",
+      "name":"caesium metasilicate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2TeO4",
+      "name":"caesium tellurate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2TiO3",
+      "name":"caesium titanate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2WO4",
+      "name":"caesium orthotungstate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2HPO3",
+      "name":"dicaesium phosphite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs2HPO4",
+      "name":"dicaesium phosphate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs3PO3",
+      "name":"tricaesium phosphite",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs3PO4",
+      "name":"caesium orthophosphate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cs3VO4",
+      "name":"caesium orthovanadate",
+      "composition":[
+         {
+            "symbol":"Cs",
+            "quantity":3
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuBr",
+      "name":"copper(I) bromide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuBr2",
+      "name":"copper(II) bromide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuC2O4",
+      "name":"copper oxalate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuCl",
+      "name":"copper(I) chloride",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuCl2",
+      "name":"copper(II) chloride",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dysprosium(III) chloride",
+      "category":"molecule",
+      "symbol":"CuF",
+      "name":"copper(I) fluoride",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuF2",
+      "name":"copper(II) fluoride",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuFeS2",
+      "name":"copper iron sulfide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuFe2O4",
+      "name":"copper(II) iron(II) oxide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuFe2S3",
+      "name":"copper iron sulfide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuI",
+      "name":"copper(I) iodide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuIO3",
+      "name":"copper(I) iodate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuMoO4",
+      "name":"copper(II) orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuO",
+      "name":"copper(II) oxide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu2O",
+      "name":"copper(I) oxide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuS",
+      "name":"copper(II) sulfide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuSCN",
+      "name":"copper(I) thiocyanate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuSO4",
+      "name":"copper(II) sulfate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuSe",
+      "name":"copper(II) selenide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuSiO3",
+      "name":"copper(II) metasilicate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuTe",
+      "name":"copper(II) telluride",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuTeO3",
+      "name":"copper(II) tellurite",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuTiO3",
+      "name":"copper(II) metatitanate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"CuWO4",
+      "name":"copper(II) orthotungstate",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu2S",
+      "name":"copper(I) sulfide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu2Se",
+      "name":"copper(I) selenide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu2Te",
+      "name":"copper(I) telluride",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu3As",
+      "name":"copper(I) arsenide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu3P",
+      "name":"copper(I) phosphide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu3Sb",
+      "name":"copper(III) antimonide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Cu9S5",
+      "name":"copper sulfide",
+      "composition":[
+         {
+            "symbol":"Cu",
+            "quantity":9
+         },
+         {
+            "symbol":"S",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"DBr",
+      "name":"deuterium bromide",
+      "composition":[
+         {
+            "symbol":"D",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"DI",
+      "name":"deuterium iodidi",
+      "composition":[
+         {
+            "symbol":"D",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"DLi",
+      "name":"lithium deuteride",
+      "composition":[
+         {
+            "symbol":"D",
+            "quantity":1
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"DNa",
+      "name":"sodium deuteride",
+      "composition":[
+         {
+            "symbol":"D",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"D2O",
+      "name":"heavy water",
+      "composition":[
+         {
+            "symbol":"D",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"DyBr3",
+      "name":"dysprosium(III) bromide",
+      "composition":[
+         {
+            "symbol":"Dy",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"DyCl2",
+      "name":"dysprosium(II) chloride",
+      "composition":[
+         {
+            "symbol":"Dy",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"DyCl3",
+      "name":"dysprosium(III) chloride",
       "composition":[
          {
             "symbol":"Dy",
@@ -5557,12 +21345,27 @@ var particles = [
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dysprosium oxide",
+      "category":"molecule",
+      "symbol":"DySi2",
+      "name":"dysprosium(II) silicide",
+      "composition":[
+         {
+            "symbol":"Dy",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"Dy2O3",
+      "name":"dysprosium(III) oxide",
       "composition":[
          {
             "symbol":"Dy",
@@ -5572,31 +21375,27 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Dysprosium titanate",
-      "symbol":"Dy2Ti2O7",
+      "category":"molecule",
+      "symbol":"Dy2S3",
+      "name":"dysprosium(III) sulfide",
       "composition":[
          {
             "symbol":"Dy",
             "quantity":2
          },
          {
-            "symbol":"Ti",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":7
+            "symbol":"S",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Erbium(III) chloride",
+      "category":"molecule",
       "symbol":"ErCl3",
+      "name":"erbium(III) chloride",
       "composition":[
          {
             "symbol":"Er",
@@ -5606,12 +21405,121 @@ var particles = [
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Europium(III) chloride",
+      "category":"molecule",
+      "symbol":"ErF",
+      "name":"erbium monofluoride",
+      "composition":[
+         {
+            "symbol":"Er",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ErF2",
+      "name":"erbium difluoride",
+      "composition":[
+         {
+            "symbol":"Er",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ErF3",
+      "name":"erbium trifluoride",
+      "composition":[
+         {
+            "symbol":"Er",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ErI3",
+      "name":"erbium triiodide",
+      "composition":[
+         {
+            "symbol":"Er",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ErI4Na",
+      "name":"erbium sodium tetraiodide",
+      "composition":[
+         {
+            "symbol":"Er",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ErO",
+      "name":"erbium monoxide",
+      "composition":[
+         {
+            "symbol":"Er",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuCl2",
+      "name":"europium(II) chloride",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"EuCl3",
+      "name":"europium(III) chloride",
       "composition":[
          {
             "symbol":"Eu",
@@ -5621,1507 +21529,4349 @@ var particles = [
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Erbium-copper",
-      "symbol":"ErCu",
+      "category":"molecule",
+      "symbol":"EuF",
+      "name":"europium monofluoride",
       "composition":[
          {
-            "symbol":"Er",
+            "symbol":"Eu",
             "quantity":1
          },
          {
-            "symbol":"Cu",
+            "symbol":"F",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Erbium-gold",
-      "symbol":"ErAu",
+      "category":"molecule",
+      "symbol":"EuF3",
+      "name":"europium trifluoride",
       "composition":[
          {
-            "symbol":"Er",
+            "symbol":"Eu",
             "quantity":1
          },
          {
-            "symbol":"Au",
-            "quantity":1
+            "symbol":"F",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Erbium-silver",
-      "symbol":"ErAg",
+      "category":"molecule",
+      "symbol":"EuI2",
+      "name":"europium diiodide",
       "composition":[
          {
-            "symbol":"Er",
+            "symbol":"Eu",
             "quantity":1
          },
          {
-            "symbol":"Ag",
-            "quantity":1
+            "symbol":"I",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Erbium-Iridium",
-      "symbol":"ErIr",
+      "category":"molecule",
+      "symbol":"EuNbO2",
+      "name":"europium niobium dioxide",
       "composition":[
          {
-            "symbol":"Er",
+            "symbol":"Eu",
             "quantity":1
          },
          {
-            "symbol":"Ir",
+            "symbol":"Nb",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Gadolinium(III) chloride",
-      "symbol":"GdCl3",
+      "category":"molecule",
+      "symbol":"EuNb2O6",
+      "name":"europium diniobium hexaoxide",
       "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuO",
+      "name":"europium monoxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuO2V",
+      "name":"monoeuropium monovandium dioxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuO3Ti",
+      "name":"europium titanium trioxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuO3V",
+      "name":"europium metavanadate",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuO4W",
+      "name":"europium tungsten tetraoxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuS",
+      "name":"europium monosulfide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuSO4",
+      "name":"europium(II) sulfate",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"EuS2",
+      "name":"europium disulfide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Eu2O",
+      "name":"dieuropium monoxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Eu2O2",
+      "name":"dieuropium dioxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Eu2O3",
+      "name":"europium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Eu2S",
+      "name":"dieuropium monosulfide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Eu2S2",
+      "name":"dieuropium disulfide",
+      "composition":[
+         {
+            "symbol":"Eu",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Fe",
+      "name":"iron fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Fe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FGa",
+      "name":"gallium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Ga",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FGaO",
+      "name":"gallium monofluoride monoxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FGd",
+      "name":"gadolinium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
          {
             "symbol":"Gd",
             "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Gadolinium(III) oxide",
-      "symbol":"Gd2O3",
+      "category":"molecule",
+      "symbol":"FGe",
+      "name":"germanium monofluoride",
       "composition":[
-         {
-            "symbol":"Gd",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium antimonide",
-      "symbol":"GaSb",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":1
-         },
-         {
-            "symbol":"Sb",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium arsenide",
-      "symbol":"GaAs",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":1
-         },
-         {
-            "symbol":"As",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium(III) fluoride",
-      "symbol":"GaF3",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":1
-         },
          {
             "symbol":"F",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium trichloride",
-      "symbol":"GaCl3",
-      "composition":[
-         {
-            "symbol":"Ga",
             "quantity":1
          },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium nitride",
-      "symbol":"GaN",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium phosphide",
-      "symbol":"GaP",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":1
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium(III) sulfide",
-      "symbol":"Ga2S3",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gallium(II) sulfide",
-      "symbol":"GaS",
-      "composition":[
-         {
-            "symbol":"Ga",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germane",
-      "symbol":"GeH4",
-      "composition":[
          {
             "symbol":"Ge",
             "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Digermane",
-      "symbol":"Ge2H6",
+      "category":"molecule",
+      "symbol":"FHo",
+      "name":"holmium monofluoride",
       "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":2
-         },
-         {
-            "symbol":"H",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) fluoride",
-      "symbol":"GeF2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
          {
             "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) fluoride",
-      "symbol":"GeF4",
-      "composition":[
-         {
-            "symbol":"Ge",
             "quantity":1
          },
+         {
+            "symbol":"Ho",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FI",
+      "name":"iodine monofluoride",
+      "composition":[
          {
             "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) chloride",
-      "symbol":"GeCl2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) chloride",
-      "symbol":"GeCl4",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) bromide",
-      "symbol":"GeBr2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) bromide",
-      "symbol":"GeBr4",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) iodide",
-      "symbol":"GeI2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) iodide",
-      "symbol":"GeI4",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) oxide",
-      "symbol":"GeO",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) oxide",
-      "symbol":"GeO2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) sulfide",
-      "symbol":"GeS",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) sulfide",
-      "symbol":"GeS2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(II) selenide",
-      "symbol":"GeSe",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) selenide",
-      "symbol":"GeSe2",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Se",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium telluride",
-      "symbol":"GeTe",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":1
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Germanium(IV) nitride",
-      "symbol":"Ge3N4",
-      "composition":[
-         {
-            "symbol":"Ge",
-            "quantity":3
-         },
-         {
-            "symbol":"N",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I) chloride",
-      "symbol":"AuCl",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I,III) chloride",
-      "symbol":"Au4Cl8",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":4
-         },
-         {
-            "symbol":"Cl",
-            "quantity":8
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(III) fluoride",
-      "symbol":"AuF3",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(V) fluoride",
-      "symbol":"AuF5",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I) bromide",
-      "symbol":"AuBr",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I) iodide",
-      "symbol":"AuI",
-      "composition":[
-         {
-            "symbol":"Au",
             "quantity":1
          },
          {
             "symbol":"I",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Gold(III) iodide",
-      "symbol":"AuI3",
+      "category":"molecule",
+      "symbol":"FI2",
+      "name":"monofluorodiiodine",
       "composition":[
          {
-            "symbol":"Au",
+            "symbol":"F",
             "quantity":1
          },
          {
             "symbol":"I",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I) hydride",
-      "symbol":"AuH",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(III) oxide",
-      "symbol":"Au2O3",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I) sulfide",
-      "symbol":"Au2S",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(III) sulfide",
-      "symbol":"Au2S3",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(I) selenide",
-      "symbol":"Au2Se",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":2
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold(III) selenide",
-      "symbol":"Au2Se3",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":2
-         },
-         {
-            "symbol":"Se",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Gold ditelluride",
-      "symbol":"AuTe2",
-      "composition":[
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"Te",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Hafnium carbide",
-      "symbol":"HfC",
+      "category":"molecule",
+      "symbol":"FIn",
+      "name":"indium monofluoride",
       "composition":[
-         {
-            "symbol":"Hf",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hafnium tetrafluoride",
-      "symbol":"HfF4",
-      "composition":[
-         {
-            "symbol":"Hf",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hafnium tetrachloride",
-      "symbol":"HfCl4",
-      "composition":[
-         {
-            "symbol":"Hf",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hexafluorosilicic acid",
-      "symbol":"H2F6Si",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":6
-         },
-         {
-            "symbol":"Si",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrazine",
-      "symbol":"N2H4",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":2
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrazoic acid",
-      "symbol":"HN3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydroiodic acid",
-      "symbol":"HI",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen bromide",
-      "symbol":"HBr",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen chloride",
-      "symbol":"HCl",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen cyanide",
-      "symbol":"HCN",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen fluoride",
-      "symbol":"HF",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
          {
             "symbol":"F",
             "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen peroxide",
-      "symbol":"H2O2",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
          },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen selenide",
-      "symbol":"H2Se",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen sulfide",
-      "symbol":"H2S",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen telluride",
-      "symbol":"H2Te",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydroxylamine",
-      "symbol":"NH2OH",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hypobromous acid",
-      "symbol":"HBrO",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hypochlorous acid",
-      "symbol":"HClO",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hypophosphorous acid",
-      "symbol":"H3PO2",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Indium antimonide",
-      "symbol":"InSb",
-      "composition":[
          {
             "symbol":"In",
             "quantity":1
-         },
-         {
-            "symbol":"Sb",
-            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Indium arsenide",
-      "symbol":"InAs",
+      "category":"molecule",
+      "symbol":"FLa",
+      "name":"lanthanum monofluoride",
       "composition":[
-         {
-            "symbol":"In",
-            "quantity":1
-         },
-         {
-            "symbol":"As",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Indium(III) chloride",
-      "symbol":"InCl3",
-      "composition":[
-         {
-            "symbol":"In",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Indium nitride",
-      "symbol":"InN",
-      "composition":[
-         {
-            "symbol":"In",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Indium phosphide",
-      "symbol":"InP",
-      "composition":[
-         {
-            "symbol":"In",
-            "quantity":1
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iodic acid",
-      "symbol":"HIO3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iodine heptafluoride",
-      "symbol":"IF7",
-      "composition":[
-         {
-            "symbol":"I",
-            "quantity":1
-         },
          {
             "symbol":"F",
-            "quantity":7
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iodine pentafluoride",
-      "symbol":"IF5",
-      "composition":[
-         {
-            "symbol":"I",
             "quantity":1
          },
-         {
-            "symbol":"F",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iodine monochloride",
-      "symbol":"ICl",
-      "composition":[
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iodine trichloride",
-      "symbol":"ICl3",
-      "composition":[
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iridium(IV) chloride",
-      "symbol":"IrCl4",
-      "composition":[
-         {
-            "symbol":"Ir",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(II) chloride",
-      "symbol":"FeCl2",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(III) chloride",
-      "symbol":"FeCl3",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(II) oxalate",
-      "symbol":"FeC2O4",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(III) oxalate",
-      "symbol":"C6Fe2O12",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":6
-         },
-         {
-            "symbol":"Fe",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":12
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(II) oxide",
-      "symbol":"FeO",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(II,III) oxide",
-      "symbol":"Fe3O4",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":3
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(III) oxide",
-      "symbol":"Fe2O3",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(II) selenate",
-      "symbol":"FeSeO4",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(II) sulfate",
-      "symbol":"FeSO4",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Iron(III) fluoride",
-      "symbol":"FeF3",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Krypton difluoride",
-      "symbol":"KrF2",
-      "composition":[
-         {
-            "symbol":"Kr",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lanthanum magnesium",
-      "symbol":"LaMg",
-      "composition":[
          {
             "symbol":"La",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FLi",
+      "name":"lithium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FLiO",
+      "name":"lithium hypofluorite",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FLi2",
+      "name":"dilithium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Li",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FMg",
+      "name":"magnesium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
             "quantity":1
          },
          {
             "symbol":"Mg",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lanthanum aluminium",
-      "symbol":"LaAl",
+      "category":"molecule",
+      "symbol":"FMn",
+      "name":"monomanganese monofluoride",
       "composition":[
          {
-            "symbol":"La",
+            "symbol":"F",
             "quantity":1
          },
          {
-            "symbol":"Al",
+            "symbol":"Mn",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lanthanum zinc",
-      "symbol":"LaZn",
+      "category":"molecule",
+      "symbol":"FMnO3",
+      "name":"manganese fluoride trioxide",
       "composition":[
          {
-            "symbol":"La",
+            "symbol":"F",
             "quantity":1
          },
          {
-            "symbol":"Zn",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lanthanum silver",
-      "symbol":"LaAg",
-      "composition":[
-         {
-            "symbol":"La",
+            "symbol":"Mn",
             "quantity":1
          },
          {
-            "symbol":"Ag",
-            "quantity":1
+            "symbol":"O",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lanthanum cadmium",
-      "symbol":"LaCd",
+      "category":"molecule",
+      "symbol":"FMo",
+      "name":"molybdenum monofluoride",
       "composition":[
          {
-            "symbol":"La",
+            "symbol":"F",
             "quantity":1
          },
          {
-            "symbol":"Cd",
+            "symbol":"Mo",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lanthanum mercury",
-      "symbol":"LaHg",
+      "category":"molecule",
+      "symbol":"FN",
+      "name":"fluoroimidogen",
       "composition":[
          {
-            "symbol":"La",
+            "symbol":"F",
             "quantity":1
          },
          {
-            "symbol":"Hg",
+            "symbol":"N",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lanthanum tallium",
-      "symbol":"LaTl",
+      "category":"molecule",
+      "symbol":"FNO",
+      "name":"nitrosyl fluoride",
       "composition":[
          {
-            "symbol":"La",
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FNO2",
+      "name":"nitryl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FNO3",
+      "name":"fluorine nitrate",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FNS",
+      "name":"thiazyl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FNa",
+      "name":"sodium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FNa2",
+      "name":"disodium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FNd",
+      "name":"neodymium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Nd",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FO",
+      "name":"oxygen monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FOTh",
+      "name":"thorium monofluoride monoxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Th",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FOTi",
+      "name":"titanium fluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FO2",
+      "name":"dioxygen monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FO3S",
+      "name":"fluorosulfate radical",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FP",
+      "name":"phosphorus monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FPS",
+      "name":"phosphenothious fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FPS2",
+      "name":"phosphenodithioic fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FPb",
+      "name":"lead monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Pb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FPu",
+      "name":"plutonium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Pu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FRb",
+      "name":"rubidium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Rb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FS",
+      "name":"monosulfur monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FSc",
+      "name":"scandium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Sc",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FSm",
+      "name":"samarium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Sm",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FSn",
+      "name":"tin monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Sn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FSr",
+      "name":"strontium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Sr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FTh",
+      "name":"thorium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Th",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FTi",
+      "name":"titanium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FTl",
+      "name":"thallium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
             "quantity":1
          },
          {
             "symbol":"Tl",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead(II) chloride",
-      "symbol":"PbCl2",
+      "category":"molecule",
+      "symbol":"FW",
+      "name":"tungsten monofluoride",
       "composition":[
          {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FXe",
+      "name":"xenon monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Xe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FY",
+      "name":"yttrium monofluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Y",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FZr",
+      "name":"zirconium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2",
+      "name":"fluorine",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Fe",
+      "name":"ferrous fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Fe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Ga",
+      "name":"gallium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Ga",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Gd",
+      "name":"gadolinium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Gd",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Ge",
+      "name":"germanium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Ge",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2GeO",
+      "name":"difluorogermanone",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Ge",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Hg",
+      "name":"mercury fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Hg",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Hg2",
+      "name":"mercury fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Hg",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Ho",
+      "name":"holmium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Ho",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2IP",
+      "name":"difluoroiodophosphine",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2K2",
+      "name":"dipotassium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"K",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Kr",
+      "name":"krypton difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Kr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2La",
+      "name":"lanthanum difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"La",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Li2",
+      "name":"lithium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Li",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Mg",
+      "name":"magnesium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Mg",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Mn",
+      "name":"manganese difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Mn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Mo",
+      "name":"molybdenum difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2MoO2",
+      "name":"molybdenum difluoride dioxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2N",
+      "name":"difluoroamino radical",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2N2O",
+      "name":"nitrosodifluoroamine",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Na2",
+      "name":"disodium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Na",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Nd",
+      "name":"neodymium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Nd",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Ni",
+      "name":"nickel difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Ni",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2O",
+      "name":"oxygen difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2OS",
+      "name":"thionyl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2OSi",
+      "name":"difluorooxosilane",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2OTi",
+      "name":"titanium fluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2O2",
+      "name":"perfluoroperoxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2O2S",
+      "name":"sulfuryl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2O2W",
+      "name":"tungsten difluoride dioxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2O5S3",
+      "name":"peroxydisulfuryl difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2P",
+      "name":"phosphorus difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Pb",
+      "name":"lead difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
             "symbol":"Pb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Pt",
+      "name":"platinum difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Pt",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Pu",
+      "name":"plutonium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Pu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2S",
+      "name":"sulfur difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2SW",
+      "name":"tungsten difluoride monosulfide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2S2",
+      "name":"difluorodisulfane",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2S2",
+      "name":"thiothionyl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2S2",
+      "name":"thiothionyl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2S2W",
+      "name":"tungsten difluoride disulfide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Sc",
+      "name":"scandium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Sc",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Se",
+      "name":"selenium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Si",
+      "name":"difluorosilylene",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Sn",
+      "name":"tin difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Sn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Sr",
+      "name":"strontium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Sr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Th",
+      "name":"thorium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Th",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Ti",
+      "name":"titanium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Tl2",
+      "name":"dithallium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Tl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2W",
+      "name":"tungsten difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Xe",
+      "name":"xenon difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Xe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Y",
+      "name":"yttrium difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Y",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Zn",
+      "name":"zinc difluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Zn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F2Zr",
+      "name":"zirconium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":2
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Fe",
+      "name":"iron trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Fe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Ga",
+      "name":"gallium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Ga",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Gd",
+      "name":"gadolinium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Gd",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Ho",
+      "name":"holmium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Ho",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3La",
+      "name":"lanthanum trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"La",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Li3",
+      "name":"trilithium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Li",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Lu",
+      "name":"lutetium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Lu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Mn",
+      "name":"manganese trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Mn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Mo",
+      "name":"molybdenum trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3MoO",
+      "name":"molybdenum trifluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3MoS",
+      "name":"molybdenum trifluoride sulfide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3N",
+      "name":"nitrogen trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3NO",
+      "name":"nitrogen trifluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3NO2S",
+      "name":"difluoroaminosulfonyl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3NO3S",
+      "name":"difluoraminooxysulfonyl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3NS",
+      "name":"thiazyl trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3NaSn",
+      "name":"sodium trifluorostannate",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Sn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Nd",
+      "name":"neodymium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Nd",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3OP",
+      "name":"phosphoryl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3OTa",
+      "name":"tantalum monoxide trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Ta",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3OV",
+      "name":"vanadium trifluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3P",
+      "name":"phosphorus trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3PS",
+      "name":"thiophosphoryl fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Pr",
+      "name":"praseodymium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Pr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Pu",
+      "name":"plutonium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Pu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Rh",
+      "name":"rhodium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Rh",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3S",
+      "name":"sulfur trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3SW",
+      "name":"tungsten trifluoride monosulfide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Sb",
+      "name":"antimony trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Sc",
+      "name":"scandium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Sc",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Si",
+      "name":"trifluorosilyl radical",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Sm",
+      "name":"samarium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Sm",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Tb",
+      "name":"terbium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Tb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Th",
+      "name":"thorium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Th",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Ti",
+      "name":"titanium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Tl",
+      "name":"thallium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Tl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Tm",
+      "name":"thulium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Tm",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3W",
+      "name":"tungsten trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Y",
+      "name":"yttrium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Y",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Yb",
+      "name":"ytterbium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Yb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F3Zr",
+      "name":"zirconium trifluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":3
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Ge",
+      "name":"germanium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Ge",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Ge2",
+      "name":"digermanium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Ge",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Hf",
+      "name":"hafnium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Hf",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Mg2",
+      "name":"dimagnesium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Mg",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Mg2",
+      "name":"magnesium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Mg",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Mo",
+      "name":"molybdenum tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4MoO",
+      "name":"molybdenum tetrafluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4MoS",
+      "name":"molybdenum tetrafluoride monosulfide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4N2",
+      "name":"tetrafluorohydrazine",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Na2Sn",
+      "name":"disodium tetrafluorostannate",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Sn",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4OOs",
+      "name":"osmium oxide tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Os",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4OP2",
+      "name":"diphosphorus tetrafluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4ORe",
+      "name":"rhenium tetrafluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Re",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4OS",
+      "name":"sulfur tetrafluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4OW",
+      "name":"tungsten tetrafluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4OXe",
+      "name":"xenon tetrafluoride oxide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Xe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4P2",
+      "name":"diphosphorus tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Pb",
+      "name":"lead tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Pb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Pt",
+      "name":"platinum tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Pt",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Pu",
+      "name":"plutonium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Pu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4S",
+      "name":"sulfur tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4SW",
+      "name":"tungsten tetrafluoride monosulfide",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Se",
+      "name":"selenium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Si",
+      "name":"silicon tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Sn2",
+      "name":"ditin tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Sn",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Ti",
+      "name":"titanium fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4U",
+      "name":"uranium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"U",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4W",
+      "name":"tungsten tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Xe",
+      "name":"xenon tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Xe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F4Zr",
+      "name":"zirconium tetrafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":4
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5I",
+      "name":"iodine pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5Mo",
+      "name":"molybdenum pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5ORe",
+      "name":"rhenium monoxide pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Re",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5P",
+      "name":"phosphorus pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5Pu",
+      "name":"plutonium pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"Pu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5S",
+      "name":"disulfur decafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5Sb",
+      "name":"antimony pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5Ta",
+      "name":"tantalum pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"Ta",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5U",
+      "name":"uranium pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"U",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F5W",
+      "name":"tungsten pentafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Fe2",
+      "name":"diiron hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Fe",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6La2",
+      "name":"lanthanum trifluoride dimer",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"La",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Mo",
+      "name":"molybdenum hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6NP3",
+      "name":"nitridotriphosphorous hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Os",
+      "name":"osmium hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Os",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Pu",
+      "name":"plutonium hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Pu",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Re",
+      "name":"rhenium hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Re",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6S",
+      "name":"sulfur hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Se",
+      "name":"selenium hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Si2",
+      "name":"hexafluorodisilane",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Sn3",
+      "name":"tritin hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Sn",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Te",
+      "name":"tellurium hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6U",
+      "name":"uranium hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"U",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6W",
+      "name":"tungsten hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F6Xe",
+      "name":"xenon hexafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":6
+         },
+         {
+            "symbol":"Xe",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F7I",
+      "name":"iodine fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":7
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F7NS",
+      "name":"pentafluorosulfanyldifluoroamine",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":7
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F7Re",
+      "name":"rhenium heptafluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":7
+         },
+         {
+            "symbol":"Re",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F8Si3",
+      "name":"octafluorotrisilane",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":8
+         },
+         {
+            "symbol":"Si",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F10Mo2",
+      "name":"molybdenum fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F10S2",
+      "name":"sulfur fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"F15Mo3",
+      "name":"molybdenum fluoride",
+      "composition":[
+         {
+            "symbol":"F",
+            "quantity":15
+         },
+         {
+            "symbol":"Mo",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeAsS",
+      "name":"iron arsenic sulfide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeBr2",
+      "name":"iron(II) bromide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeBr3",
+      "name":"iron(III) bromide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeCO3",
+      "name":"siderite",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeC2O4",
+      "name":"iron oxalate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeC5O5",
+      "name":"iron pentacarbonyl",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeC10H10",
+      "name":"ferrocene",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"0",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeCl2",
+      "name":"iron(II) chloride",
+      "composition":[
+         {
+            "symbol":"Fe",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead(II) iodide",
-      "symbol":"PbI2",
+      "category":"molecule",
+      "symbol":"FeCl3",
+      "name":"iron(III) chloride",
       "composition":[
          {
-            "symbol":"Pb",
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeCr2O4",
+      "name":"chromite (ore)",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeI",
+      "name":"iron monoiodide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeI2",
+      "name":"iron diiodide",
+      "composition":[
+         {
+            "symbol":"Fe",
             "quantity":1
          },
          {
             "symbol":"I",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead hydrogen arsenate",
-      "symbol":"PbHAsO4",
+      "category":"molecule",
+      "symbol":"FeI3",
+      "name":"iron(III) iodide",
       "composition":[
          {
-            "symbol":"Pb",
+            "symbol":"Fe",
             "quantity":1
          },
          {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeMoO4",
+      "name":"iron(II) orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeO",
+      "name":"iron monoxide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeO2",
+      "name":"iron dioxide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeO2H",
+      "name":"goethite",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
             "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeO4S",
+      "name":"ferrous sulfate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeO4Se",
+      "name":"iron(II) selenate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeO8H4P2",
+      "name":"iron(II) dihydrogen phosphate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeP",
+      "name":"iron(III) phosphide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FePO4",
+      "name":"iron(III) phosphate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeS",
+      "name":"iron sulfide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeS2",
+      "name":"pyrite/fool's gold",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeSe",
+      "name":"iron(II) selenide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeTe",
+      "name":"iron(II) telluride",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeTiO3",
+      "name":"iron(II) metatitanate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeVO4",
+      "name":"iron(III) orthovanadate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeWO4",
+      "name":"iron(II) orthotungstate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"FeZrO3",
+      "name":"iron(II) metazirconate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":1
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2I2",
+      "name":"diiron diiodide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2I4",
+      "name":"diiron tetraiodide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2O3",
+      "name":"iron oxide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2O3",
+      "name":"venetian red",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2O12S3",
+      "name":"ferric sulfate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":12
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2O12W3",
+      "name":"iron(III) orthotungstate",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":12
+         },
+         {
+            "symbol":"W",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2P",
+      "name":"diiron phosphide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe2SiO4",
+      "name":"fayalite",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe3H2Na2O45Si",
+      "name":"chrysotile",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":45
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe3O4",
+      "name":"iron(II,III) oxide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe3P",
+      "name":"iron(tri) phosphide",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Fe7Si8O24H2",
+      "name":"amosite",
+      "composition":[
+         {
+            "symbol":"Fe",
+            "quantity":7
+         },
+         {
+            "symbol":"Si",
+            "quantity":8
+         },
+         {
+            "symbol":"O",
+            "quantity":24
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaAs",
+      "name":"gallium(III) arsenide",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaAsO4",
+      "name":"gallium(III) orthoarsenate",
+      "composition":[
+         {
+            "symbol":"Ga",
             "quantity":1
          },
          {
@@ -7132,62 +25882,963 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead(II) oxide",
-      "symbol":"PbO",
+      "category":"molecule",
+      "symbol":"GaBr3",
+      "name":"gallium(III) bromide",
       "composition":[
          {
-            "symbol":"Pb",
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaCl2",
+      "name":"gallium(II) chloride",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaCl3",
+      "name":"gallium trichloride",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaI2",
+      "name":"gallium(II) iodide",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaI3",
+      "name":"gallium(III) iodide",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaN",
+      "name":"gallium(III) nitride",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaPO4",
+      "name":"gallium(III) orthophosphate",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaSb",
+      "name":"gallium(III) antimonide",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GaTe",
+      "name":"gallium(II) telluride",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ga2O3",
+      "name":"gallium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ga2S3",
+      "name":"gallium(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ga2Te3",
+      "name":"gallium(III) telluride",
+      "composition":[
+         {
+            "symbol":"Ga",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GeBr4",
+      "name":"germanium(IV) bromide",
+      "composition":[
+         {
+            "symbol":"Ge",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GeH3COOH",
+      "name":"2-germaacetic acid",
+      "composition":[
+         {
+            "symbol":"Ge",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GeI2",
+      "name":"germanium(II) iodide",
+      "composition":[
+         {
+            "symbol":"Ge",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GeI4",
+      "name":"germanium(IV) iodide",
+      "composition":[
+         {
+            "symbol":"Ge",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"GeO",
+      "name":"germanium(II) oxide",
+      "composition":[
+         {
+            "symbol":"Ge",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead(IV) oxide",
-      "symbol":"PbO2",
+      "category":"molecule",
+      "symbol":"HArF",
+      "name":"argon fluorohydride",
       "composition":[
          {
-            "symbol":"Pb",
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Ar",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HAt",
+      "name":"hydrogen astatide",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"At",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HBr",
+      "name":"hydrogen bromide",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HBrO",
+      "name":"hypobromous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HBrO2",
+      "name":"bromous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead(II) selenide",
-      "symbol":"PbSe",
+      "category":"molecule",
+      "symbol":"HBrO3",
+      "name":"bromic acid",
       "composition":[
          {
-            "symbol":"Pb",
+            "symbol":"H",
             "quantity":1
          },
          {
-            "symbol":"Se",
+            "symbol":"Br",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead styphnate",
-      "symbol":"C6HN3O8Pb",
+      "category":"molecule",
+      "symbol":"HBrO4",
+      "name":"perbromic acid",
       "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCCH",
+      "name":"acetylene",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCN",
+      "name":"hydrocyanic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCNO",
+      "name":"fulminic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCONH2",
+      "name":"formamide",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCOOH",
+      "name":"formic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCOONH4",
+      "name":"ammonium formate",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HC3H5O3",
+      "name":"lactic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HC6H7O6",
+      "name":"ascorbic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
          {
             "symbol":"C",
             "quantity":6
          },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HC9H7O4",
+      "name":"acetylsalicylic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":9
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HC12H17ON4SCl2",
+      "name":"thiamine hydrochloride",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":12
+         },
+         {
+            "symbol":"H",
+            "quantity":17
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HCl",
+      "name":"hydrochloric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HClO",
+      "name":"hypochlorous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HClO2",
+      "name":"chlorous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HClO3",
+      "name":"chloric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HClO4",
+      "name":"perchloric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HDO",
+      "name":"semiheavy water",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"D",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HF",
+      "name":"hydrofluoric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HI",
+      "name":"hydroiodic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HIO",
+      "name":"hypoiodous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HIO2",
+      "name":"iodous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HIO3",
+      "name":"iodic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HIO4",
+      "name":"periodic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HNCO",
+      "name":"isocyanic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HNO",
+      "name":"nitroxyl",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HNO2",
+      "name":"nitrous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HNO3",
+      "name":"nitric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HN3",
+      "name":"hydrazoic acid",
+      "composition":[
          {
             "symbol":"H",
             "quantity":1
@@ -7195,663 +26846,749 @@ var particles = [
          {
             "symbol":"N",
             "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HOBr",
+      "name":"hypobromous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HOCl",
+      "name":"hypochlorous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HOF",
+      "name":"hypofluorous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HOOCCOOH",
+      "name":"oxalic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HTO",
+      "name":"partially tritiated water",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"T",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2",
+      "name":"hydrogen",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2CO",
+      "name":"formaldehyde",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2CO3",
+      "name":"carbonic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2CSO",
+      "name":"sulfine",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2C2O4",
+      "name":"oxalic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2C4H4O6",
+      "name":"tartaric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2C8H4O4",
+      "name":"phthalic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":8
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2CrO4",
+      "name":"chromic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2NCH2COOH",
+      "name":"glycine",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2N2O2",
+      "name":"hyponitrous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2NNH2",
+      "name":"hydrazine",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2O",
+      "name":"water",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2O2",
+      "name":"hydrogen peroxide",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S",
+      "name":"hydrogen sulfide",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2SO3",
+      "name":"sulfurous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2SO4",
+      "name":"sulfuric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O2",
+      "name":"thiosulfurous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O3",
+      "name":"thiosulfuric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O4",
+      "name":"dithionous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O5",
+      "name":"disulfurous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O6",
+      "name":"dithionic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O7",
+      "name":"disulfuric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H2S2O8",
+      "name":"peroxydisulfuric acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
          },
          {
             "symbol":"O",
             "quantity":8
-         },
-         {
-            "symbol":"Pb",
-            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Lead(II) sulfide",
-      "symbol":"PbS",
+      "category":"molecule",
+      "symbol":"H2SeO3",
+      "name":"selenous acid",
       "composition":[
-         {
-            "symbol":"Pb",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lead(II) telluride",
-      "symbol":"PbTe",
-      "composition":[
-         {
-            "symbol":"Pb",
-            "quantity":1
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium aluminium hydride",
-      "symbol":"LiAlH4",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Al",
-            "quantity":1
-         },
          {
             "symbol":"H",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium bromide",
-      "symbol":"LiBr",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium borohydride",
-      "symbol":"LiBH4",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"B",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium salt",
-      "symbol":"Li2CO3",
-      "composition":[
-         {
-            "symbol":"Li",
             "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium chloride",
-      "symbol":"LiCl",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium hypochlorite",
-      "symbol":"LiClO",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium chlorate",
-      "symbol":"LiClO3",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium perchlorate",
-      "symbol":"LiClO4",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium cobalt oxide",
-      "symbol":"LiCoO2",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"Co",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium oxide",
-      "symbol":"Li2O",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium peroxide",
-      "symbol":"Li2O2",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium hydride",
-      "symbol":"LiH",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium hydroxide",
-      "symbol":"LiOH",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium iodide",
-      "symbol":"LiI",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium iron phosphate",
-      "symbol":"FeLiO4P",
-      "composition":[
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium nitrate",
-      "symbol":"LiNO3",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium sulfide",
-      "symbol":"Li2S",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium sulfite",
-      "symbol":"Li2SO3",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium sulfate",
-      "symbol":"Li2SO4",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Lithium superoxide",
-      "symbol":"LiO2",
-      "composition":[
-         {
-            "symbol":"Li",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Magnesium antimonide",
-      "symbol":"MgSb",
-      "composition":[
-         {
-            "symbol":"Mg",
-            "quantity":1
-         },
-         {
-            "symbol":"Sb",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Magnesium carbonate",
-      "symbol":"MgCO3",
-      "composition":[
-         {
-            "symbol":"Mg",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Magnesium chloride",
-      "symbol":"MgCl2",
-      "composition":[
-         {
-            "symbol":"Mg",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Magnesium oxide",
-      "symbol":"MgO",
-      "composition":[
-         {
-            "symbol":"Mg",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Magnesium sulfate",
-      "symbol":"MgSO4",
-      "composition":[
-         {
-            "symbol":"Mg",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Manganese(IV) oxide",
-      "symbol":"MnO2",
-      "composition":[
-         {
-            "symbol":"Mn",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Manganese(II) chloride",
-      "symbol":"MnCl2",
-      "composition":[
-         {
-            "symbol":"Mn",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Manganese(III) chloride",
-      "symbol":"MnCl3",
-      "composition":[
-         {
-            "symbol":"Mn",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Manganese(IV) fluoride",
-      "symbol":"MnF4",
-      "composition":[
-         {
-            "symbol":"Mn",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Mercury(I) chloride",
-      "symbol":"Hg2Cl2",
-      "composition":[
-         {
-            "symbol":"Hg",
-            "quantity":2
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Mercury(II) chloride",
-      "symbol":"HgCl2",
-      "composition":[
-         {
-            "symbol":"Hg",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Mercury(II) selenide",
-      "symbol":"HgSe",
-      "composition":[
-         {
-            "symbol":"Hg",
-            "quantity":1
          },
          {
             "symbol":"Se",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Mercury(I) sulfate",
-      "symbol":"Hg2SO4",
+      "category":"molecule",
+      "symbol":"H2SeO4",
+      "name":"selenic acid",
       "composition":[
          {
-            "symbol":"Hg",
+            "symbol":"H",
             "quantity":2
          },
          {
-            "symbol":"S",
+            "symbol":"Se",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Mercury(II) sulfate",
-      "symbol":"HgSO4",
+      "category":"molecule",
+      "symbol":"H2SiO3",
+      "name":"silicic acid",
       "composition":[
          {
-            "symbol":"Hg",
-            "quantity":1
+            "symbol":"H",
+            "quantity":2
          },
          {
-            "symbol":"S",
+            "symbol":"Si",
             "quantity":1
          },
          {
             "symbol":"O",
-            "quantity":4
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Mercury(II) sulfide",
-      "symbol":"HgS",
+      "category":"molecule",
+      "symbol":"H2TeO3",
+      "name":"tellurous acid",
       "composition":[
          {
-            "symbol":"Hg",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Mercury(II) telluride",
-      "symbol":"HgTe",
-      "composition":[
-         {
-            "symbol":"Hg",
-            "quantity":1
+            "symbol":"H",
+            "quantity":2
          },
          {
             "symbol":"Te",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Metaphosphoric acid",
-      "symbol":"HPO3",
+      "category":"molecule",
+      "symbol":"H2TiO3",
+      "name":"titanic acid",
       "composition":[
          {
             "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Ti",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H3AsO4",
+      "name":"arsenic acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H3CCH2CH3",
+      "name":"propane",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H3PO2",
+      "name":"hypophosphorous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"H3PO3",
+      "name":"phosphorous acid",
+      "composition":[
+         {
+            "symbol":"H",
+            "quantity":3
          },
          {
             "symbol":"P",
@@ -7861,657 +27598,31 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Molybdenum(II) bromide",
-      "symbol":"MoBr2",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum(III) bromide",
-      "symbol":"MoBr3",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum(IV) carbide",
-      "symbol":"MoC",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum(II) chloride",
-      "symbol":"Mo6Cl12",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":6
-         },
-         {
-            "symbol":"Cl",
-            "quantity":12
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum(III) chloride",
-      "symbol":"MoCl3",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum(IV) chloride",
-      "symbol":"MoCl4",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum(V) chloride",
-      "symbol":"Mo2Cl10",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":2
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"0",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum trioxide",
-      "symbol":"MoO3",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdenum disulfide",
-      "symbol":"MoS2",
-      "composition":[
-         {
-            "symbol":"Mo",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molybdic acid",
-      "symbol":"H2MoO4",
+      "category":"molecule",
+      "symbol":"H3PO4",
+      "name":"phosphoric acid",
       "composition":[
          {
             "symbol":"H",
-            "quantity":2
+            "quantity":3
          },
          {
-            "symbol":"Mo",
+            "symbol":"P",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Neodymium(III) chloride",
-      "symbol":"NdCl3",
-      "composition":[
-         {
-            "symbol":"Nd",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nickel(II) carbonate",
-      "symbol":"NiCO3",
-      "composition":[
-         {
-            "symbol":"Ni",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nickel(II) chloride",
-      "symbol":"NiCl2",
-      "composition":[
-         {
-            "symbol":"Ni",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nickel(II) fluoride",
-      "symbol":"NiF2",
-      "composition":[
-         {
-            "symbol":"Ni",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nickel(II) oxide",
-      "symbol":"NiO",
-      "composition":[
-         {
-            "symbol":"Ni",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nickel(II) sulfide",
-      "symbol":"NiS",
-      "composition":[
-         {
-            "symbol":"Ni",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Niobium oxychloride",
-      "symbol":"NbOCl3",
-      "composition":[
-         {
-            "symbol":"Nb",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Niobium pentachloride",
-      "symbol":"NbCl5",
-      "composition":[
-         {
-            "symbol":"Nb",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Niobium(IV) fluoride",
-      "symbol":"NbF4",
-      "composition":[
-         {
-            "symbol":"Nb",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Niobium(V) fluoride",
-      "symbol":"NbF5",
-      "composition":[
-         {
-            "symbol":"Nb",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nitric acid",
-      "symbol":"HNO3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nitrous acid",
-      "symbol":"HNO2",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nitrogen monoxide",
-      "symbol":"NO",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nitrogen dioxide",
-      "symbol":"NO2",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nitrous oxide",
-      "symbol":"N2O",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Nitrosylsulfuric acid",
-      "symbol":"NOHSO4",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Osmium tetroxide",
-      "symbol":"OsO4",
-      "composition":[
-         {
-            "symbol":"Os",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Osmium trioxide",
-      "symbol":"OsO3",
-      "composition":[
-         {
-            "symbol":"Os",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Oxybis(tributyltin)",
-      "symbol":"C24H54OSn2",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":24
-         },
-         {
-            "symbol":"H",
-            "quantity":54
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Sn",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Oxygen difluoride",
-      "symbol":"OF2",
-      "composition":[
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ozone",
-      "symbol":"O3",
-      "composition":[
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Palladium(II) chloride",
-      "symbol":"PdCl2",
-      "composition":[
-         {
-            "symbol":"Pd",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Pentaborane",
-      "symbol":"B5H9",
-      "composition":[
-         {
-            "symbol":"B",
-            "quantity":5
-         },
-         {
-            "symbol":"H",
-            "quantity":9
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Pentasulfide antimony",
-      "symbol":"Sb2S5",
-      "composition":[
-         {
-            "symbol":"Sb",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Perbromic acid",
-      "symbol":"HBrO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Perchloric acid",
-      "symbol":"HClO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Periodic acid",
-      "symbol":"HIO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Perchloryl fluoride",
-      "symbol":"ClFO3",
-      "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Persulfuric acid",
-      "symbol":"H2SO5",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Perxenic acid",
+      "category":"molecule",
       "symbol":"H4XeO6",
+      "name":"perxenic acid",
       "composition":[
          {
             "symbol":"H",
@@ -8525,394 +27636,723 @@ var particles = [
             "symbol":"O",
             "quantity":6
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phenylphosphine",
-      "symbol":"C6H7P",
+      "category":"molecule",
+      "symbol":"H6TeO6",
+      "name":"telluric acid",
       "composition":[
          {
-            "symbol":"C",
+            "symbol":"H",
             "quantity":6
          },
          {
-            "symbol":"H",
-            "quantity":7
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Phosgene",
-      "symbol":"COCl2",
-      "composition":[
-         {
-            "symbol":"C",
+            "symbol":"Te",
             "quantity":1
          },
          {
             "symbol":"O",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HfBr4",
+      "name":"hafnium(IV) bromide",
+      "composition":[
+         {
+            "symbol":"Hf",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HfF4",
+      "name":"hafnium(IV) fluoride",
+      "composition":[
+         {
+            "symbol":"Hf",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Hg2Br2",
+      "name":"mercury(I) bromide",
+      "composition":[
+         {
+            "symbol":"Hg",
+            "quantity":2
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HgBr2",
+      "name":"mercury(II) bromide",
+      "composition":[
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HgCl2",
+      "name":"mercury(II) chloride",
+      "composition":[
+         {
+            "symbol":"Hg",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphine",
-      "symbol":"PH3",
+      "category":"molecule",
+      "symbol":"HgI2",
+      "name":"mercury(II) iodide",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"Hg",
             "quantity":1
          },
          {
-            "symbol":"H",
-            "quantity":3
+            "symbol":"I",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphomolybdic acid",
-      "symbol":"H3PMo12O40",
+      "category":"molecule",
+      "symbol":"HgO",
+      "name":"mercury(II) oxide",
       "composition":[
          {
-            "symbol":"H",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"Mo",
-            "quantity":12
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"0",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Phosphoric acid",
-      "symbol":"H3PO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
+            "symbol":"Hg",
             "quantity":1
          },
          {
             "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Phosphorous acid",
-      "symbol":"H3PO3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
             "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus pentabromide",
-      "symbol":"PBr5",
+      "category":"molecule",
+      "symbol":"HgS",
+      "name":"mercury(II) sulfide",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"Hg",
             "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Phosphorus pentafluoride",
-      "symbol":"PF5",
-      "composition":[
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Phosphorus pentasulfide",
-      "symbol":"P4S10",
-      "composition":[
-         {
-            "symbol":"P",
-            "quantity":4
          },
          {
             "symbol":"S",
             "quantity":1
-         },
-         {
-            "symbol":"0",
-            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus pentoxide",
-      "symbol":"P2O5",
+      "category":"molecule",
+      "symbol":"HgSe",
+      "name":"mercury(II) selenide",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HgSeO3",
+      "name":"mercury(II) selenite",
+      "composition":[
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HgTe",
+      "name":"mercury(II) telluride",
+      "composition":[
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HgTeO3",
+      "name":"mercury(II) tellurite",
+      "composition":[
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"HgWO4",
+      "name":"mercury(II) tungstate",
+      "composition":[
+         {
+            "symbol":"Hg",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Hg2Br2",
+      "name":"mercury(I) bromide",
+      "composition":[
+         {
+            "symbol":"Hg",
             "quantity":2
          },
          {
-            "symbol":"O",
-            "quantity":5
+            "symbol":"Br",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus sesquisulfide",
-      "symbol":"P4S3",
+      "category":"molecule",
+      "symbol":"Hg2Cl2",
+      "name":"mercury(I) chloride",
       "composition":[
          {
-            "symbol":"P",
-            "quantity":4
+            "symbol":"Hg",
+            "quantity":2
          },
          {
-            "symbol":"S",
-            "quantity":3
+            "symbol":"Cl",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus tribromide",
-      "symbol":"PBr3",
+      "category":"molecule",
+      "symbol":"Hg2I2",
+      "name":"mercury(I) iodide",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"Hg",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"IBr",
+      "name":"iodine(I) bromide",
+      "composition":[
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"IBr3",
+      "name":"iodine(III) bromide",
+      "composition":[
+         {
+            "symbol":"I",
             "quantity":1
          },
          {
             "symbol":"Br",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus trichloride",
-      "symbol":"PCl3",
+      "category":"molecule",
+      "symbol":"ICl",
+      "name":"Iodine monochloride",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ICl3",
+      "name":"iodine(III) chloride",
+      "composition":[
+         {
+            "symbol":"I",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus trifluoride",
-      "symbol":"PF3",
+      "category":"molecule",
+      "symbol":"I2",
+      "name":"iodine",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"I2O5",
+      "name":"iodine pentoxide",
+      "composition":[
+         {
+            "symbol":"I",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InAs",
+      "name":"indium(III) arsenide",
+      "composition":[
+         {
+            "symbol":"In",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":3
+            "symbol":"As",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphorus triiodide",
-      "symbol":"PI3",
+      "category":"molecule",
+      "symbol":"InBr",
+      "name":"indium(I) bromide",
       "composition":[
          {
-            "symbol":"P",
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InBrI2",
+      "name":"indium(III) bromodiiodide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InBr2I",
+      "name":"indium(III) dibromoiodide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InBr3",
+      "name":"indium(III) bromide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InCl",
+      "name":"indium(I) chloride",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InCl2",
+      "name":"indium(II) chloride",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InCl3",
+      "name":"indium(III) chloride",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InCl3·4H2O",
+      "name":"indium(III) chloride tetrahydrate",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"·",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InI",
+      "name":"indium(I) iodide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InI2",
+      "name":"indium(II) iodide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InI3",
+      "name":"indium(III) iodide",
+      "composition":[
+         {
+            "symbol":"In",
             "quantity":1
          },
          {
             "symbol":"I",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Phosphotungstic acid",
-      "symbol":"H3PW12O40",
+      "category":"molecule",
+      "symbol":"InP",
+      "name":"indium(III) phosphide",
       "composition":[
          {
-            "symbol":"H",
-            "quantity":3
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InPO4",
+      "name":"indium(III) orthophosphate",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
          },
          {
             "symbol":"P",
             "quantity":1
          },
          {
-            "symbol":"W",
-            "quantity":12
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InS",
+      "name":"indium(II) sulfide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InSb",
+      "name":"indium(III) antimonide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"InTe",
+      "name":"indium(II) telluride",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"In2O3",
+      "name":"indium(III) oxide",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":2
          },
          {
             "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"0",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Platinum(II) chloride",
-      "symbol":"PtCl2",
-      "composition":[
-         {
-            "symbol":"Pt",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Platinum(IV) chloride",
-      "symbol":"PtCl4",
-      "composition":[
-         {
-            "symbol":"Pt",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Plutonium(III) chloride",
-      "symbol":"PuCl3",
-      "composition":[
-         {
-            "symbol":"Pu",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Plutonium dioxide",
-      "symbol":"PuO2",
+      "category":"molecule",
+      "symbol":"In2S3",
+      "name":"indium(III) sulfide",
       "composition":[
          {
-            "symbol":"Pu",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
+            "symbol":"In",
             "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium aluminium fluoride",
-      "symbol":"KAlF4",
+      "category":"molecule",
+      "symbol":"In2Se3",
+      "name":"indium(III) selenide",
       "composition":[
          {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"Al",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium amide",
-      "symbol":"KNH2",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
+            "symbol":"In",
             "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium arsenite",
+      "category":"molecule",
+      "symbol":"In2Te3",
+      "name":"indium(III) telluride",
+      "composition":[
+         {
+            "symbol":"In",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"IrBr3",
+      "name":"iridium(III) bromide",
+      "composition":[
+         {
+            "symbol":"Ir",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"KAsO2",
+      "name":"potassium arsenite",
       "composition":[
          {
             "symbol":"K",
@@ -8926,27 +28366,35 @@ var particles = [
             "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium azide",
-      "symbol":"KN3",
+      "category":"molecule",
+      "symbol":"KH2AsO4",
+      "name":"potassium dihydrogen arsenate",
       "composition":[
          {
             "symbol":"K",
             "quantity":1
          },
          {
-            "symbol":"N",
-            "quantity":3
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium bromide",
+      "category":"molecule",
       "symbol":"KBr",
+      "name":"potassium bromide",
       "composition":[
          {
             "symbol":"K",
@@ -8956,19 +28404,91 @@ var particles = [
             "symbol":"Br",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium bicarbonate",
-      "symbol":"KHCO3",
+      "category":"molecule",
+      "symbol":"KBrO",
+      "name":"potassium hypobromite",
       "composition":[
          {
             "symbol":"K",
             "quantity":1
          },
          {
-            "symbol":"H",
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KBrO2",
+      "name":"potassium bromite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KBrO3",
+      "name":"potassium bromate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KBrO4",
+      "name":"potassium perbromate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KCN",
+      "name":"potassium cyanide",
+      "composition":[
+         {
+            "symbol":"K",
             "quantity":1
          },
          {
@@ -8976,114 +28496,84 @@ var particles = [
             "quantity":1
          },
          {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KCNO",
+      "name":"potassium cyanate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
             "symbol":"O",
-            "quantity":3
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium bifluoride",
-      "symbol":"KHF2",
+      "category":"molecule",
+      "symbol":"KCNO",
+      "name":"potassium fulminate",
       "composition":[
          {
             "symbol":"K",
             "quantity":1
          },
          {
-            "symbol":"H",
+            "symbol":"C",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":2
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium bisulfite",
-      "symbol":"KHSO3",
+      "category":"molecule",
+      "symbol":"KCNS",
+      "name":"potassium thiocyanate",
       "composition":[
          {
             "symbol":"K",
             "quantity":1
          },
          {
-            "symbol":"H",
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
             "quantity":1
          },
          {
             "symbol":"S",
             "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium carbonate",
-      "symbol":"K2CO3",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium calcium chloride",
-      "symbol":"KCaCl3",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"Ca",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium chlorate",
-      "symbol":"KClO3",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium chloride",
+      "category":"molecule",
       "symbol":"KCl",
+      "name":"potassium chloride",
       "composition":[
          {
             "symbol":"K",
@@ -9093,12 +28583,31 @@ var particles = [
             "symbol":"Cl",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium chlorite",
+      "category":"molecule",
+      "symbol":"KClO",
+      "name":"potassium hypochlorite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"KClO2",
+      "name":"potassium chlorite",
       "composition":[
          {
             "symbol":"K",
@@ -9112,12 +28621,50 @@ var particles = [
             "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium chromate",
+      "category":"molecule",
+      "symbol":"KClO3",
+      "name":"potassium chlorate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KClO4",
+      "name":"potassium perchlorate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"K2CrO4",
+      "name":"potassium chromate",
       "composition":[
          {
             "symbol":"K",
@@ -9131,31 +28678,12 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium cyanide",
-      "symbol":"KCN",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium dichromate",
+      "category":"molecule",
       "symbol":"K2Cr2O7",
+      "name":"potassium dichromate",
       "composition":[
          {
             "symbol":"K",
@@ -9169,34 +28697,42 @@ var particles = [
             "symbol":"O",
             "quantity":7
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium dithionite",
-      "symbol":"K2S2O4",
+      "category":"molecule",
+      "symbol":"K2HAsO4",
+      "name":"dipotassium hydrogen arsenate",
       "composition":[
          {
             "symbol":"K",
             "quantity":2
          },
          {
-            "symbol":"S",
-            "quantity":2
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
          },
          {
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium hexafluorophosphate",
-      "symbol":"KPF6",
+      "category":"molecule",
+      "symbol":"K2HPO3",
+      "name":"dipotassium phosphite",
       "composition":[
          {
             "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
             "quantity":1
          },
          {
@@ -9204,15 +28740,167 @@ var particles = [
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":6
+            "symbol":"O",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium hydrogen carbonate",
+      "category":"molecule",
+      "symbol":"K2HPO4",
+      "name":"dipotassium phosphate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K3AsO4",
+      "name":"potassium arsenate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K3C6H5O7",
+      "name":"potassium citrate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K3PO3",
+      "name":"tripotassium phosphite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K3PO4",
+      "name":"tripotassium phosphate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KF",
+      "name":"potassium fluoride",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KOF",
+      "name":"potassium hypofluorite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KH",
+      "name":"potassium hydride",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"KHCO3",
+      "name":"potassium bicarbonate",
       "composition":[
          {
             "symbol":"K",
@@ -9230,12 +28918,12 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium hydrogen fluoride",
-      "symbol":"KHF2",
+      "category":"molecule",
+      "symbol":"KHS",
+      "name":"potassium hydrosulfide",
       "composition":[
          {
             "symbol":"K",
@@ -9246,34 +28934,107 @@ var particles = [
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":2
+            "symbol":"S",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium hydroxide",
-      "symbol":"KOH",
+      "category":"molecule",
+      "symbol":"KHSO3",
+      "name":"potassium bisulfite",
       "composition":[
          {
             "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
             "quantity":1
          },
          {
             "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KHSO4",
+      "name":"potassium bisulfate",
+      "composition":[
+         {
+            "symbol":"K",
             "quantity":1
          },
          {
             "symbol":"H",
             "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium iodide",
+      "category":"molecule",
+      "symbol":"KH2PO3",
+      "name":"monopotassium phosphite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KH2PO4",
+      "name":"monopotassium phosphate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"KI",
+      "name":"potassium iodide",
       "composition":[
          {
             "symbol":"K",
@@ -9283,12 +29044,50 @@ var particles = [
             "symbol":"I",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium iodate",
+      "category":"molecule",
+      "symbol":"KIO",
+      "name":"potassium hypoiodite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KIO2",
+      "name":"potassium iodite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"KIO3",
+      "name":"potassium iodate",
       "composition":[
          {
             "symbol":"K",
@@ -9302,128 +29101,12 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium monopersulfate",
-      "symbol":"K2SO4·KHSO4·2KHSO5",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"·",
-            "quantity":1
-         },
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"·",
-            "quantity":2
-         },
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium nitrate",
-      "symbol":"KNO3",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium perbromate",
-      "symbol":"KBrO4",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium perchlorate",
-      "symbol":"KClO4",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium periodate",
+      "category":"molecule",
       "symbol":"KIO4",
+      "name":"potassium periodate",
       "composition":[
          {
             "symbol":"K",
@@ -9437,12 +29120,12 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium permanganate",
+      "category":"molecule",
       "symbol":"KMnO4",
+      "name":"potassium permanganate",
       "composition":[
          {
             "symbol":"K",
@@ -9456,12 +29139,156 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium sulfate",
-      "symbol":"K2SO4",
+      "category":"molecule",
+      "symbol":"KNO3",
+      "name":"potassium nitrate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KNO2",
+      "name":"potassium nitrite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2CO3",
+      "name":"potassium carbonate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2MnO4",
+      "name":"potassium manganate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2N2O2",
+      "name":"potassium hyponitrite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KNbO3",
+      "name":"potassium niobate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2O",
+      "name":"potassium oxide",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2O2",
+      "name":"potassium peroxide",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2S",
+      "name":"potassium sulfide",
       "composition":[
          {
             "symbol":"K",
@@ -9470,17 +29297,70 @@ var particles = [
          {
             "symbol":"S",
             "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2S2O3",
+      "name":"potassium thiosulfate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
          },
          {
             "symbol":"O",
-            "quantity":4
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium sulfite",
+      "category":"molecule",
+      "symbol":"K2S2O5",
+      "name":"potassium metabisulfite",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"K2S2O8",
+      "name":"potassium persulfate",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"K2SO3",
+      "name":"potassium sulfite",
       "composition":[
          {
             "symbol":"K",
@@ -9494,12 +29374,12 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium sulfide",
-      "symbol":"K2S",
+      "category":"molecule",
+      "symbol":"K2SO4",
+      "name":"potassium sulfate",
       "composition":[
          {
             "symbol":"K",
@@ -9507,67 +29387,100 @@ var particles = [
          },
          {
             "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium tetraiodomercurate(II)",
-      "symbol":"K2HgI4",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":2
-         },
-         {
-            "symbol":"Hg",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium thiocyanate",
-      "symbol":"KSCN",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Potassium titanyl phosphate",
-      "symbol":"KTiOPO4",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":1
-         },
-         {
-            "symbol":"Ti",
             "quantity":1
          },
          {
             "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"KOH",
+      "name":"potassium hydroxide/custic potash",
+      "composition":[
+         {
+            "symbol":"K",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LaBr3",
+      "name":"lanthanum(III) bromide",
+      "composition":[
+         {
+            "symbol":"La",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LaCl3",
+      "name":"lanthanum(III) chloride",
+      "composition":[
+         {
+            "symbol":"La",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LaI3",
+      "name":"lanthanum(III) iodide",
+      "composition":[
+         {
+            "symbol":"La",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"La2O3",
+      "name":"lanthanum(III) oxide",
+      "composition":[
+         {
+            "symbol":"La",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LaPO4",
+      "name":"lanthanum(III) phosphate",
+      "composition":[
+         {
+            "symbol":"La",
             "quantity":1
          },
          {
@@ -9578,15 +29491,3820 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Potassium vanadate",
-      "symbol":"KVO3",
+      "category":"molecule",
+      "symbol":"LiAlH4",
+      "name":"lithium aluminium hydride",
       "composition":[
          {
-            "symbol":"K",
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBH4",
+      "name":"lithium borohydride",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBr",
+      "name":"lithium bromide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBr·2H2O",
+      "name":"lithium bromide dihydrate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"·",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBrO",
+      "name":"lithium hypobromite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBrO2",
+      "name":"lithium bromite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBrO3",
+      "name":"lithium bromate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiBrO4",
+      "name":"lithium perbromate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiCl",
+      "name":"lithium chloride",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiClO",
+      "name":"lithium hypochlorite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiClO2",
+      "name":"lithium chlorite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiClO3",
+      "name":"lithium chlorate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiClO4",
+      "name":"lithium perchlorate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiCN",
+      "name":"lithium cyanide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiCNO",
+      "name":"lithium cyanate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiC2H5O",
+      "name":"lithium ethoxide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiF",
+      "name":"lithium fluoride",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiH",
+      "name":"lithium hydride",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiHCO3",
+      "name":"lithium bicarbonate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiHS",
+      "name":"lithium hydrosulfide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiHSO3",
+      "name":"lithium bisulfite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiHSO4",
+      "name":"lithium hydrogen sulfate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiH2AsO4",
+      "name":"lithium dihydrogen arsenate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiH2PO3",
+      "name":"monolithium phosphite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiH2PO4",
+      "name":"monolithium phosphate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiI",
+      "name":"lithium iodide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiIO",
+      "name":"lithium hypoiodite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiIO2",
+      "name":"lithium iodite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiIO3",
+      "name":"lithium iodate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiIO4",
+      "name":"lithium periodate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiNa",
+      "name":"sodium lithium",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Na",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiNbO3",
+      "name":"lithium niobate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiNO2",
+      "name":"lithium nitrite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiNO3",
+      "name":"lithium nitrate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiNO3·H2O",
+      "name":"lithium nitrate monohydrate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"·",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiOH",
+      "name":"lithium hydroxide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiTaO3",
+      "name":"lithium tantalate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"LiVO3·2H2O",
+      "name":"lithium metavanadate dihydrate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":1
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"·",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2HAsO4",
+      "name":"dilithium hydrogen arsenate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2B4O7·5H2O",
+      "name":"lithium tetraborate pentahydrate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"B",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         },
+         {
+            "symbol":"·",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2CO3",
+      "name":"lithium carbonate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2CrO4",
+      "name":"lithium chromate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2CrO4·2H2O",
+      "name":"lithium chromate dihydrate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"·",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2Cr2O7",
+      "name":"lithium dichromate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2HPO3",
+      "name":"dilithium phosphite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2HPO4",
+      "name":"dilithium phosphate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2MoO4",
+      "name":"lithium orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2NbO3",
+      "name":"lithium metaniobate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2N2O2",
+      "name":"lithium hyponitrite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2O",
+      "name":"lithium oxide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2O2",
+      "name":"lithium peroxide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2S",
+      "name":"lithium sulfide",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2SO3",
+      "name":"lithium sulfite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2SO4",
+      "name":"lithium sulfate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2SeO3",
+      "name":"lithium selenite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2SeO4",
+      "name":"lithium selenate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2TeO3",
+      "name":"lithium tellurite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2TeO4",
+      "name":"lithium tellurate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2TiO3",
+      "name":"lithium metatitanate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2WO4",
+      "name":"lithium orthotungstate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li2ZrO3",
+      "name":"lithium metazirconate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":2
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li3AsO4",
+      "name":"trilithium arsenate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li3PO3",
+      "name":"trilithium phosphite",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Li3PO4",
+      "name":"trilithium phosphate",
+      "composition":[
+         {
+            "symbol":"Li",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgBr2",
+      "name":"magnesium bromide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"As2Mg3",
+      "name":"magnesium arsenide",
+      "composition":[
+         {
+            "symbol":"As",
+            "quantity":2
+         },
+         {
+            "symbol":"Mg",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgCO3",
+      "name":"magnesium carbonate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgC2O4",
+      "name":"magnesium oxalate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgCl2",
+      "name":"magnesium chloride",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgCrO4",
+      "name":"magnesium chromate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgCrO4·5H2O",
+      "name":"magnesium chromate pentahydrate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"·",
+            "quantity":5
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgF2",
+      "name":"magnesium fluoride",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgHPO4",
+      "name":"dimagnesium phosphate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgI2",
+      "name":"magnesium iodide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgMoO4",
+      "name":"magnesium molybdate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgNH4PO4·6H2O",
+      "name":"magnesium ammonium phosphate hexahydrate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         },
+         {
+            "symbol":"·",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgO",
+      "name":"magnesium oxide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgPo",
+      "name":"magnesium polonide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Po",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgS",
+      "name":"magnesium sulfide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgSO3",
+      "name":"magnesium sulfite",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgSO4",
+      "name":"magnesium sulfate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgSe",
+      "name":"magnesium selenide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgSeO3",
+      "name":"magnesium selenite",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgSeO4",
+      "name":"magnesium selenate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgSiO3",
+      "name":"magnesium metasilicate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgTiO3",
+      "name":"magnesium metatitanate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MgWO4",
+      "name":"magnesium tungstate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mg2P2O7",
+      "name":"magnesium pyrophosphate",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mg2SiO4",
+      "name":"forsterite",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mg3As2",
+      "name":"magnesium arsenide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mg3Bi2",
+      "name":"magnesium bismuthide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":3
+         },
+         {
+            "symbol":"Bi",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mg3P2",
+      "name":"magnesium phosphide",
+      "composition":[
+         {
+            "symbol":"Mg",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnAs",
+      "name":"manganese(III) arsenide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnBi",
+      "name":"manganese(III) bismuthide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Bi",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnBr2",
+      "name":"manganese(II) bromide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnBr2·4H2O",
+      "name":"manganese(II) bromide tetrahydrate",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         },
+         {
+            "symbol":"·",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnCO3",
+      "name":"manganese(II) carbonate",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnCl2",
+      "name":"manganese(II) chloride",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnF2",
+      "name":"manganese(II) fluoride",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnI2",
+      "name":"manganese(II) iodide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnMoO4",
+      "name":"manganese(II) orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnO",
+      "name":"manganese(II) oxide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnOOH",
+      "name":"manganite",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnO2",
+      "name":"manganese dioxide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnS",
+      "name":"manganese sulfide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnTe",
+      "name":"manganese(II) telluride",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MnZrO3",
+      "name":"manganese(II) metazirconate",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":1
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mn2O3",
+      "name":"manganese(III) oxide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mn3As2",
+      "name":"manganese(II) arsenide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mn3O4",
+      "name":"manganese(II,III) oxide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mn3P2",
+      "name":"manganese(II) phosphide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Mn3Sb2",
+      "name":"manganese(II) antimonide",
+      "composition":[
+         {
+            "symbol":"Mn",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoBr2",
+      "name":"molybdenum(II) bromide",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoBr3",
+      "name":"molybdenum(III) bromide",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoCl2",
+      "name":"molybdenum(II) chloride",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoCl3",
+      "name":"molybdenum(III) chloride",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoCl5",
+      "name":"molybdenum(V) chloride",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoO2",
+      "name":"molybdenum(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoO3",
+      "name":"Molybdenum trioxide",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoSe2",
+      "name":"molybdenum(IV) selenide",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"MoS2",
+      "name":"molybdenum sulfide",
+      "composition":[
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NCl3",
+      "name":"nitrogen trichloride",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NHCl2",
+      "name":"dichloramine",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2Cl",
+      "name":"chloramine",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2CH2CH2NH2",
+      "name":"ethylenediamine",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2CH2CN",
+      "name":"aminoacetonitrile",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2COOH",
+      "name":"carbamic acid",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2CONH2",
+      "name":"urea",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2C6H4SO3H",
+      "name":"sulfanilic Acid",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH2OH",
+      "name":"hydroxylamine",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH3",
+      "name":"ammonia",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4Br",
+      "name":"ammonium bromide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4CO2NH2",
+      "name":"ammonium carbamate",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4Cl",
+      "name":"ammonium chloride",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4ClO4",
+      "name":"Ammonium perchlorate",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4HS",
+      "name":"ammonium hydrosulfide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4NO3",
+      "name":"ammonium nitrate",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4OCONH2",
+      "name":"ammonium carbamate",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NH4OH",
+      "name":"ammonium hydroxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NI3",
+      "name":"nitrogen triiodide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NO",
+      "name":"nitric oxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NOCl",
+      "name":"nitrosyl chloride",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NOBr",
+      "name":"nitrosyl bromide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NOI",
+      "name":"nitrosyl iodide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NO2",
+      "name":"nitrogen dioxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NO2Cl",
+      "name":"nitryl chloride",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2",
+      "name":"nitrogen",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2H2",
+      "name":"diazene",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2H4",
+      "name":"hydrazine",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2O",
+      "name":"nitrous oxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2O3",
+      "name":"dinitrogen trioxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2O4",
+      "name":"dinitrogen tetroxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N2O5",
+      "name":"dinitrogen pentaoxide",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"N4H4",
+      "name":"<i>trans</i>-tetrazene",
+      "composition":[
+         {
+            "symbol":"N",
+            "quantity":4
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaAlSi3O3",
+      "name":"albite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaAsO2",
+      "name":"sodium metaarsenite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaH2AsO4",
+      "name":"sodium dihydrogen arsenate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaBr",
+      "name":"sodium bromide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaBrO",
+      "name":"sodium hypobromite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaBrO2",
+      "name":"sodium bromite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaBrO3",
+      "name":"sodium bromate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaBrO4",
+      "name":"sodium perbromate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaCN",
+      "name":"sodium cyanide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaCNO",
+      "name":"sodium cyanate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaCNO",
+      "name":"sodium fulminate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaC6F5COO",
+      "name":"pentafluorobenzoate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"F",
+            "quantity":5
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaC6H5COO",
+      "name":"sodium benzoate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaC6H7O7",
+      "name":"monosodium citrate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":7
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaCl",
+      "name":"sodium chloride",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaClO2",
+      "name":"sodium chlorite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaClO3",
+      "name":"sodium chlorate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaClO4",
+      "name":"sodium perchlorate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaF",
+      "name":"sodium fluoride",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaOF",
+      "name":"sodium hypofluorite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaH",
+      "name":"sodium hydride",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaHCOO",
+      "name":"sodium formate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaHCO3",
+      "name":"sodium bicarbonate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaHS",
+      "name":"sodium hydrosulfide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaHSO3",
+      "name":"sodium bisulfite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaHSO4",
+      "name":"sodium bisulfate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaH2PO3",
+      "name":"monosodium phosphite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaH2PO4",
+      "name":"monosodium phosphate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaI",
+      "name":"sodium iodide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaIO",
+      "name":"sodium hypoiodite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaIO2",
+      "name":"sodium iodite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaIO3",
+      "name":"sodium iodate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaIO4",
+      "name":"sodium periodate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaNH2C6H4SO3",
+      "name":"sodium sulfanilate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":4
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaNO2",
+      "name":"sodium nitrite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaNO3",
+      "name":"sodium nitrate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaNbO3",
+      "name":"sodium metaniobate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaOCl",
+      "name":"sodium hypochlorite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaOH",
+      "name":"sodium hydroxide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaSeO3",
+      "name":"sodium selenite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaTaO3",
+      "name":"sodium metatantalate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":1
+         },
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NaVO3",
+      "name":"sodium metavanadate",
+      "composition":[
+         {
+            "symbol":"Na",
             "quantity":1
          },
          {
@@ -9597,30 +33315,266 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Praseodymium(III) chloride",
-      "symbol":"PrCl3",
+      "category":"molecule",
+      "symbol":"Na2CO3",
+      "name":"sodium carbonate",
       "composition":[
          {
-            "symbol":"Pr",
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
             "quantity":1
          },
          {
-            "symbol":"Cl",
+            "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Pyrosulfuric acid",
-      "symbol":"H2S2O7",
+      "category":"molecule",
+      "symbol":"Na2C2O4",
+      "name":"sodium oxalate",
       "composition":[
          {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2C6H6O7",
+      "name":"disodium citrate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
             "symbol":"H",
+            "quantity":6
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2HAsO4",
+      "name":"disodium hydrogen arsenate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2HPO3",
+      "name":"disodium phosphite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2HPO4",
+      "name":"disodium phosphate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2MoS4",
+      "name":"sodium thiomolybdate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2N2O2",
+      "name":"sodium hyponitrite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2O2",
+      "name":"sodium peroxide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2O",
+      "name":"sodium oxide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2S",
+      "name":"sodium monosulfide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2SO3",
+      "name":"sodium sulfite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2SO4",
+      "name":"sodium sulfate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2S2O3",
+      "name":"sodium thiosulfate",
+      "composition":[
+         {
+            "symbol":"Na",
             "quantity":2
          },
          {
@@ -9629,14 +33583,1297 @@ var particles = [
          },
          {
             "symbol":"O",
-            "quantity":7
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Radium chloride",
+      "category":"molecule",
+      "symbol":"Na2S2O5",
+      "name":"sodium disulfite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2S2O8",
+      "name":"sodium persulfate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":8
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2S4",
+      "name":"sodium tetrasulfide",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2SeO3",
+      "name":"sodium selenite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2SeO4",
+      "name":"sodium selenate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2TeO3",
+      "name":"sodium tellurite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2TeO4",
+      "name":"sodium tellurate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2TiO3",
+      "name":"sodium metatitanate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2ZnO2",
+      "name":"sodium zincate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na2ZrO3",
+      "name":"sodium metazirconate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":2
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na3AlF6",
+      "name":"cryolite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":3
+         },
+         {
+            "symbol":"Al",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na3AsO4",
+      "name":"sodium arsenate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na3VO4",
+      "name":"sodium orthovanadate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":3
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na3C6H5O7",
+      "name":"trisodium citrate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":3
+         },
+         {
+            "symbol":"C",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":5
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na3PO3",
+      "name":"trisodium phosphite",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na3PO4",
+      "name":"trisodium phosphate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Na4V2O7",
+      "name":"sodium pyrovanadate",
+      "composition":[
+         {
+            "symbol":"Na",
+            "quantity":4
+         },
+         {
+            "symbol":"V",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NbBr5",
+      "name":"niobium(V) bromide",
+      "composition":[
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NbCl3",
+      "name":"niobium(III) chloride",
+      "composition":[
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NbCl5",
+      "name":"niobium(V) chloride",
+      "composition":[
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NbI5",
+      "name":"niobium(V) iodide",
+      "composition":[
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Nb2O3",
+      "name":"niobium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Nb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NdCl2",
+      "name":"neodymium(II) chloride",
+      "composition":[
+         {
+            "symbol":"Nd",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NdI2",
+      "name":"neodymium(III) iodide",
+      "composition":[
+         {
+            "symbol":"Nd",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Nd2O3",
+      "name":"neodymium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Nd",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiAs",
+      "name":"nickel(III) arsenide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiAsS",
+      "name":"nickel arsenic sulfide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiBr2",
+      "name":"nickel(II) bromide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiCl2",
+      "name":"nickel(II) chloride",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiFe2O4",
+      "name":"nickel(II) iron(III) oxide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Fe",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiI2",
+      "name":"nickel(II) iodide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiMoO4",
+      "name":"nickel(II) orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiOOH",
+      "name":"nickel oxo-hydroxide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiO",
+      "name":"nickel(II) oxide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiS",
+      "name":"nickel(II) sulfide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiSO4",
+      "name":"nickel sulfate",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiS2",
+      "name":"nickel sulfide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiSb",
+      "name":"nickel antimonide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiSe",
+      "name":"nickel(II) selenide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiTiO3",
+      "name":"nickel(II) metatitanate",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"NiWO4",
+      "name":"nickel(II) orthotungstate",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ni2SiO4",
+      "name":"nickel(II) orthosilicate",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Ni3Sb2",
+      "name":"nickel(II) antimonide",
+      "composition":[
+         {
+            "symbol":"Ni",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"O2",
+      "name":"dioxygen",
+      "composition":[
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"OF2",
+      "name":"oxygen difluoride",
+      "composition":[
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"O2F2",
+      "name":"dioxygen difluoride",
+      "composition":[
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"O3",
+      "name":"ozone",
+      "composition":[
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PCl3",
+      "name":"phosphorus trichloride",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PCl5",
+      "name":"phosphorus pentachloride",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"POCl3",
+      "name":"phosphoryl chloride",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"P2I4",
+      "name":"diphosphorus tetraiodide",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"P2O5",
+      "name":"phosphorus pentoxide",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"P2S3",
+      "name":"diphosphorus trisulfide",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"P2Se3",
+      "name":"diphosphorus triselenide",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"P3N5",
+      "name":"triphosphorus pentanitride",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PH3",
+      "name":"phosphine",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"POCl3",
+      "name":"phosphoryl chloride",
+      "composition":[
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbCl2",
+      "name":"lead(II) chloride",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbCl4",
+      "name":"lead(IV) chloride",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbHAsO4",
+      "name":"lead hydrogen arsenate",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"As",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbI2",
+      "name":"lead(II) iodide",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbC2O4",
+      "name":"lead oxalate",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbCO3",
+      "name":"lead carbonate",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbCrO4",
+      "name":"lead chromate",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbF2",
+      "name":"lead(II) fluoride",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbO",
+      "name":"lead(II) oxide",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbO2",
+      "name":"lead dioxide",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbS",
+      "name":"lead(II) sulfide",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PbSO4",
+      "name":"lead(II) sulfate",
+      "composition":[
+         {
+            "symbol":"Pb",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoBr2",
+      "name":"polonium dibromide",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoCl2",
+      "name":"polonium dichloride",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoCl4",
+      "name":"polonium tetrachloride",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoF6",
+      "name":"polonium hexafluoride",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoH2",
+      "name":"polonium hydride",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoO",
+      "name":"polonium monoxide",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoO2",
+      "name":"polonium dioxide",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"PoO3",
+      "name":"polonium trioxide",
+      "composition":[
+         {
+            "symbol":"Po",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"RaCl2",
+      "name":"radium chloride",
       "composition":[
          {
             "symbol":"Ra",
@@ -9646,12 +34883,776 @@ var particles = [
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Radon difluoride",
+      "category":"molecule",
+      "symbol":"RbBr",
+      "name":"rubidium bromide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbBrO",
+      "name":"rubidium hypobromite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbBrO2",
+      "name":"rubidium bromite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbBrO3",
+      "name":"rubidium bromate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbBrO4",
+      "name":"rubidium perbromate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbCl",
+      "name":"rubidium chloride",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbClO",
+      "name":"rubidium hypochlorite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbClO2",
+      "name":"rubidium chlorite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbClO3",
+      "name":"rubidium chlorate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbClO4",
+      "name":"rubidium perchlorate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbCN",
+      "name":"rubidium cyanide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbCNO",
+      "name":"rubidium cyanate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbCNO",
+      "name":"rubidium fulminate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbF",
+      "name":"rubidium fluoride",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbH",
+      "name":"rubidium hydride",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbH2PO3",
+      "name":"monorubidium phosphite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbH2PO4",
+      "name":"monorubidium phosphate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbHS",
+      "name":"rubidium hydrosulfide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbI",
+      "name":"rubidium iodide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbIO",
+      "name":"rubidium hypoiodite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbIO2",
+      "name":"rubidium iodite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbIO3",
+      "name":"rubidium iodate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbIO4",
+      "name":"rubidium periodate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbOH",
+      "name":"rubidium hydroxide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2O",
+      "name":"rubidium oxide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2O2",
+      "name":"rubidium peroxide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2CO3",
+      "name":"rubidium carbonate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2S",
+      "name":"rubidium sulfide",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2SO3",
+      "name":"rubidium sulfite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2SO4",
+      "name":"rubidium sulfate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2HPO3",
+      "name":"dirubidium phosphite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb2HPO4",
+      "name":"dirubidium phosphate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb3PO3",
+      "name":"trirubidium phosphite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Rb3PO4",
+      "name":"trirubidium phosphate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbHCO3",
+      "name":"rubidium bicarbonate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbHSO3",
+      "name":"rubidium bisulfite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbHSO4",
+      "name":"rubidium bisulfate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbNbO3",
+      "name":"rubidium niobate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"Nb",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbNO2",
+      "name":"rubidium nitrite",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"RbNO3",
+      "name":"rubidium nitrate",
+      "composition":[
+         {
+            "symbol":"Rb",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"RnF2",
+      "name":"radon difluoride",
       "composition":[
          {
             "symbol":"Rn",
@@ -9661,170 +35662,42 @@ var particles = [
             "symbol":"F",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Rhodium(III) chloride",
-      "symbol":"RhCl3",
+      "category":"molecule",
+      "symbol":"RuCl3",
+      "name":"ruthenium(III) chloride",
       "composition":[
          {
-            "symbol":"Rh",
+            "symbol":"Ru",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Rubidium azide",
-      "symbol":"RbN3",
+      "category":"molecule",
+      "symbol":"RuF6",
+      "name":"ruthenium hexafluoride",
       "composition":[
          {
-            "symbol":"Rb",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium bromide",
-      "symbol":"RbBr",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium chloride",
-      "symbol":"RbCl",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium fluoride",
-      "symbol":"RbF",
-      "composition":[
-         {
-            "symbol":"Rb",
+            "symbol":"Ru",
             "quantity":1
          },
          {
             "symbol":"F",
-            "quantity":1
+            "quantity":6
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Rubidium hydroxide",
-      "symbol":"RbOH",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium iodide",
-      "symbol":"RbI",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium nitrate",
-      "symbol":"RbNO3",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium oxide",
-      "symbol":"Rb2O",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Rubidium telluride",
-      "symbol":"Rb2Te",
-      "composition":[
-         {
-            "symbol":"Rb",
-            "quantity":2
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Ruthenium(VIII) oxide",
+      "category":"molecule",
       "symbol":"RuO4",
+      "name":"ruthenium tetroxide",
       "composition":[
          {
             "symbol":"Ru",
@@ -9834,72 +35707,332 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Samarium(II) iodide",
-      "symbol":"SmI2",
+      "category":"molecule",
+      "symbol":"SF4",
+      "name":"sulfur tetrafluoride",
       "composition":[
          {
-            "symbol":"Sm",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Samarium(III) chloride",
-      "symbol":"SmCl3",
-      "composition":[
-         {
-            "symbol":"Sm",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Scandium(III) chloride",
-      "symbol":"ScCl3",
-      "composition":[
-         {
-            "symbol":"Sc",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Scandium(III) fluoride",
-      "symbol":"ScF3",
-      "composition":[
-         {
-            "symbol":"Sc",
+            "symbol":"S",
             "quantity":1
          },
          {
             "symbol":"F",
-            "quantity":3
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Scandium(III) oxide",
+      "category":"molecule",
+      "symbol":"SF6",
+      "name":"sulfur hexafluoride",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SOF2",
+      "name":"thionyl difluoride",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SO2",
+      "name":"sulfur dioxide",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SO2Cl2",
+      "name":"sulfuryl chloride",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SO2F2",
+      "name":"sulfuryl difluoride",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SO3",
+      "name":"sulfur trioxide",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"S2Br2",
+      "name":"sulfur(II) bromide",
+      "composition":[
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SbBr3",
+      "name":"antimony(III) bromide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SbCl3",
+      "name":"antimony(III) chloride",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SbCl5",
+      "name":"antimony(V) chloride",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SbI3",
+      "name":"antimony(III) iodide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SbPO4",
+      "name":"antimony(III) phosphate",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2OS2",
+      "name":"antimony oxysulfide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2O3",
+      "name":"antimony(III) oxide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2O5",
+      "name":"antimony(V) oxide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2S3",
+      "name":"antimony(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2Se3",
+      "name":"antimony(III) selenide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2Se5",
+      "name":"antimony(V) selenide",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sb2Te3",
+      "name":"antimony(III) telluride",
+      "composition":[
+         {
+            "symbol":"Sb",
+            "quantity":2
+         },
+         {
+            "symbol":"Te",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"Sc2O3",
+      "name":"scandium oxide",
       "composition":[
          {
             "symbol":"Sc",
@@ -9909,148 +36042,42 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Selenic acid",
-      "symbol":"H2SeO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Selenious acid",
-      "symbol":"H2SeO3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Selenium dioxide",
-      "symbol":"SeO2",
+      "category":"molecule",
+      "symbol":"SeBr4",
+      "name":"selenium(IV) bromide",
       "composition":[
          {
             "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Selenium disulfide",
-      "symbol":"SeS2",
-      "composition":[
-         {
-            "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Selenium hexafluoride",
-      "symbol":"SeF6",
-      "composition":[
-         {
-            "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Selenium hexasulfide",
-      "symbol":"Se2S6",
-      "composition":[
-         {
-            "symbol":"Se",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Selenium oxybromide",
-      "symbol":"SeOBr2",
-      "composition":[
-         {
-            "symbol":"Se",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
             "quantity":1
          },
          {
             "symbol":"Br",
-            "quantity":2
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Selenium oxydichloride",
-      "symbol":"SeOCl2",
+      "category":"molecule",
+      "symbol":"SeCl",
+      "name":"selenium(I) chloride",
       "composition":[
          {
             "symbol":"Se",
             "quantity":1
          },
          {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
             "symbol":"Cl",
-            "quantity":2
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Selenium tetrachloride",
+      "category":"molecule",
       "symbol":"SeCl4",
+      "name":"selenium(IV) chloride",
       "composition":[
          {
             "symbol":"Se",
@@ -10060,61 +36087,125 @@ var particles = [
             "symbol":"Cl",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Selenium tetrafluoride",
-      "symbol":"SeF4",
+      "category":"molecule",
+      "symbol":"SeOCl2",
+      "name":"selenium(IV) oxychloride",
       "composition":[
          {
             "symbol":"Se",
             "quantity":1
          },
          {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SeOF2",
+      "name":"selenyl difluoride",
+      "composition":[
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
             "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SeO2",
+      "name":"selenium(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SeTe",
+      "name":"selenium(IV) telluride",
+      "composition":[
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SiBr4",
+      "name":"silicon(IV) bromide",
+      "composition":[
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Selenium trioxide",
-      "symbol":"SeO3",
+      "category":"molecule",
+      "symbol":"SiC",
+      "name":"silicon carbide",
       "composition":[
          {
-            "symbol":"Se",
+            "symbol":"Si",
             "quantity":1
          },
          {
-            "symbol":"O",
-            "quantity":3
+            "symbol":"C",
+            "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Selenoyl fluoride",
-      "symbol":"SeO2F2",
+      "category":"molecule",
+      "symbol":"SiCl4",
+      "name":"silicon(IV) chloride",
       "composition":[
          {
-            "symbol":"Se",
+            "symbol":"Si",
             "quantity":1
          },
          {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":2
+            "symbol":"Cl",
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Silane",
+      "category":"molecule",
       "symbol":"SiH4",
+      "name":"silane",
       "composition":[
          {
             "symbol":"Si",
@@ -10124,624 +36215,1207 @@ var particles = [
             "symbol":"H",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"trichlorosilane",
-      "symbol":"Cl3HSi",
+      "category":"molecule",
+      "symbol":"SiI4",
+      "name":"silicon(IV) iodide",
       "composition":[
-         {
-            "symbol":"Cl",
-            "quantity":3
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
          {
             "symbol":"Si",
             "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Silicofluoric acid",
-      "symbol":"H2SiF6",
+      "category":"molecule",
+      "symbol":"SiO2",
+      "name":"silicon(IV) dioxide",
       "composition":[
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Si3N4",
+      "name":"silicon nitride",
+      "composition":[
+         {
+            "symbol":"Si",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnBrCl3",
+      "name":"tin(IV) bromotrichloride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnBr2",
+      "name":"tin(II) bromide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnBr2Cl2",
+      "name":"tin(IV) dibromodichloride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnBr3Cl",
+      "name":"tin(IV) tribromochloride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnBr4",
+      "name":"tin(IV) bromide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnCl2",
+      "name":"tin(II) chloride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnCl2I2",
+      "name":"tin(IV) dichlorodiiodide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnCl4",
+      "name":"tin(IV) chloride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnI4",
+      "name":"tin(IV) iodide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnO",
+      "name":"tin(II) oxide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnO2",
+      "name":"tin(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnS",
+      "name":"tin(II) sulfide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnS2",
+      "name":"tin(IV) sulfide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnSe",
+      "name":"tin(II) selenide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnSe2",
+      "name":"tin(IV) selenide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnTe",
+      "name":"tin(II) telluride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SnTe4",
+      "name":"tin(IV) telluride",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sn3Sb4",
+      "name":"tin(IV) antimonide",
+      "composition":[
+         {
+            "symbol":"Sn",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrBr2",
+      "name":"strontium bromide",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrBr2·6H2O",
+      "name":"strontium bromide hexahydrate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         },
+         {
+            "symbol":"·",
+            "quantity":6
+         },
          {
             "symbol":"H",
             "quantity":2
          },
          {
-            "symbol":"Si",
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrCO3",
+      "name":"strontium carbonate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrCl2",
+      "name":"strontium chloride",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrC2O4",
+      "name":"strontium oxalate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrF2",
+      "name":"strontium fluoride",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrHfO3",
+      "name":"strontium hafnate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Hf",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrI2",
+      "name":"strontium iodide",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrI2·6H2O",
+      "name":"strontium iodide hexahydrate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         },
+         {
+            "symbol":"·",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrMoO4",
+      "name":"strontium orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrO",
+      "name":"strontium oxide",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Sr2RuO4",
+      "name":"strontium ruthenate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":2
+         },
+         {
+            "symbol":"Ru",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrS",
+      "name":"strontium sulfide",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrSeO3",
+      "name":"strontium selenite",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrSeO4",
+      "name":"strontium selenate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrTeO3",
+      "name":"strontium tellurite",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrTeO4",
+      "name":"strontium tellurate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"SrTiO3",
+      "name":"strontium metatitanate",
+      "composition":[
+         {
+            "symbol":"Sr",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"T2O",
+      "name":"tritium oxide",
+      "composition":[
+         {
+            "symbol":"T",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TaBr3",
+      "name":"tantalum(III) bromide",
+      "composition":[
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TaBr5",
+      "name":"tantalum(V) bromide",
+      "composition":[
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TaCl5",
+      "name":"tantalum(V) chloride",
+      "composition":[
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TaI5",
+      "name":"tantalum(V) iodide",
+      "composition":[
+         {
+            "symbol":"Ta",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeBr2",
+      "name":"tellurium(II) bromide",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeBr4",
+      "name":"tellurium(IV) bromide",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeCl2",
+      "name":"tellurium(II) chloride",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeCl4",
+      "name":"tellurium(IV) chloride",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeI2",
+      "name":"tellurium(II) iodide",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeI4",
+      "name":"tellurium(IV) iodide",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeO2",
+      "name":"tellurium(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TeY",
+      "name":"yttrium telluride",
+      "composition":[
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"Y",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ThO2",
+      "name":"thorium(IV) oxide",
+      "composition":[
+         {
+            "symbol":"Th",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiBr4",
+      "name":"titanium(IV) bromide",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiCl2I2",
+      "name":"titanium(IV) dichlorodiiodide",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiCl3I",
+      "name":"titanium(IV) trichloroiodide",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiCl4",
+      "name":"titanium tetrachloride",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiH2",
+      "name":"titanium hydride",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiO2",
+      "name":"titanium dioxide",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlBr",
+      "name":"thallium(I) bromide",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlBr3",
+      "name":"thallium(III) bromide",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlC2H3O2",
+      "name":"thallium(I) acetate",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"H",
+            "quantity":3
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlCl",
+      "name":"thallium(I) chloride",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlCl3",
+      "name":"thallium(III) chloride",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlF",
+      "name":"thallium(I) fluoride",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlI",
+      "name":"thallium(I) iodide",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlIO3",
+      "name":"thallium(I) iodate",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlI3",
+      "name":"thallium(III) iodide",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TiI4",
+      "name":"titanium(IV) iodide",
+      "composition":[
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlNO3",
+      "name":"thallium(I) nitrate",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"N",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlOH",
+      "name":"thallium(I) hydroxide",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"H",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"TlPF6",
+      "name":"thallium(I) hexafluorophosphate",
+      "composition":[
+         {
+            "symbol":"Tl",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
             "quantity":1
          },
          {
             "symbol":"F",
             "quantity":6
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Silicon boride",
-      "symbol":"SiB3",
+      "category":"molecule",
+      "symbol":"TlSCN",
+      "name":"thallium thiocyanate",
       "composition":[
          {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"B",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silicon carbide",
-      "symbol":"SiC",
-      "composition":[
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silicon dioxide",
-      "symbol":"SiO2",
-      "composition":[
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silicon monoxide",
-      "symbol":"SiO",
-      "composition":[
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silicon nitride",
-      "symbol":"Si3N4",
-      "composition":[
-         {
-            "symbol":"Si",
-            "quantity":3
-         },
-         {
-            "symbol":"N",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silicon tetrabromide",
-      "symbol":"SiBr4",
-      "composition":[
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silicon tetrachloride",
-      "symbol":"SiCl4",
-      "composition":[
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver azide",
-      "symbol":"AgN3",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver bromate",
-      "symbol":"AgBrO3",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver bromide",
-      "symbol":"AgBr",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver chlorate",
-      "symbol":"AgClO3",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver chloride",
-      "symbol":"AgCl",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver chromate",
-      "symbol":"Ag2CrO4",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":2
-         },
-         {
-            "symbol":"Cr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver fluoroborate",
-      "symbol":"AgBF4",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"B",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver fulminate",
-      "symbol":"AgCNO",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver hydroxide",
-      "symbol":"AgOH",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver iodide",
-      "symbol":"AgI",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver nitrate",
-      "symbol":"AgNO3",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver nitride",
-      "symbol":"Ag3N",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":3
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver oxide",
-      "symbol":"Ag2O",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver perchlorate",
-      "symbol":"AgClO4",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver phosphate",
-      "symbol":"Ag3PO4",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver subfluoride",
-      "symbol":"Ag2F",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver sulfate",
-      "symbol":"Ag2SO4",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver sulfide",
-      "symbol":"Ag2S",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver(I) fluoride",
-      "symbol":"AgF",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Silver(II) fluoride",
-      "symbol":"AgF2",
-      "composition":[
-         {
-            "symbol":"Ag",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodamide",
-      "symbol":"NaNH2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium aluminate",
-      "symbol":"NaAlO2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Al",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium arsenate",
-      "symbol":"H24Na3AsO16",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":24
-         },
-         {
-            "symbol":"Na",
-            "quantity":3
-         },
-         {
-            "symbol":"As",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":16
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium azide",
-      "symbol":"NaN3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium bicarbonate",
-      "symbol":"NaHCO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium biselenide",
-      "symbol":"NaHSe",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium bisulfite",
-      "symbol":"NaHSO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
+            "symbol":"Tl",
             "quantity":1
          },
          {
@@ -10749,203 +37423,6 @@ var particles = [
             "quantity":1
          },
          {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium borohydride",
-      "symbol":"NaBH4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"B",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium bromate",
-      "symbol":"NaBrO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium bromide",
-      "symbol":"NaBr",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium bromite",
-      "symbol":"NaBrO2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium carbide",
-      "symbol":"Na2C2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium carbonate",
-      "symbol":"Na2CO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium chlorate",
-      "symbol":"NaClO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium chloride",
-      "symbol":"NaCl",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium chlorite",
-      "symbol":"NaClO2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium cyanate",
-      "symbol":"NaCNO",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium cyanide",
-      "symbol":"NaCN",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
             "symbol":"C",
             "quantity":1
          },
@@ -10953,258 +37430,15 @@ var particles = [
             "symbol":"N",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Sodium dioxide",
-      "symbol":"NaO2",
+      "category":"molecule",
+      "symbol":"Tl2MoO4",
+      "name":"thallium(I) orthomolybdate",
       "composition":[
          {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium dithionite",
-      "symbol":"Na2S2O4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hydride",
-      "symbol":"NaH",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hydrogen carbonate",
-      "symbol":"NaHCO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hydrosulfide",
-      "symbol":"NaSH",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hydroxide",
-      "symbol":"NaOH",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hypobromite",
-      "symbol":"NaBrO",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hypochlorite",
-      "symbol":"NaOCl",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hypoiodite",
-      "symbol":"NaIO",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium hypophosphite",
-      "symbol":"NaPO2H2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"H",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium iodate",
-      "symbol":"NaIO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium iodide",
-      "symbol":"NaI",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium manganate",
-      "symbol":"Na2MnO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"Mn",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium molybdate",
-      "symbol":"Na2MoO4",
-      "composition":[
-         {
-            "symbol":"Na",
+            "symbol":"Tl",
             "quantity":2
          },
          {
@@ -11215,304 +37449,15 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Sodium monofluorophosphate",
-      "symbol":"Na2PFO3",
+      "category":"molecule",
+      "symbol":"Tl2SeO3",
+      "name":"thallium(I) selenite",
       "composition":[
          {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium nitrate",
-      "symbol":"NaNO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium nitrite",
-      "symbol":"NaNO2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium nitroprusside",
-      "symbol":"C5FeN6Na2<O",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":5
-         },
-         {
-            "symbol":"Fe",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":6
-         },
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"<",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium oxide",
-      "symbol":"Na2O",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium perbromate",
-      "symbol":"NaBrO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Br",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium perchlorate",
-      "symbol":"NaClO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium periodate",
-      "symbol":"NaIO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"I",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium permanganate",
-      "symbol":"NaMnO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Mn",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium peroxide",
-      "symbol":"Na2O2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium perrhenate",
-      "symbol":"NaReO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"Re",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium persulfate",
-      "symbol":"Na2S2O8",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":8
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"trisodium phosphate",
-      "symbol":"Na3PO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium selenate",
-      "symbol":"Na2O4Se",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium selenide",
-      "symbol":"Na2Se",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"Se",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium selenite",
-      "symbol":"Na2SeO3",
-      "composition":[
-         {
-            "symbol":"Na",
+            "symbol":"Tl",
             "quantity":2
          },
          {
@@ -11523,87 +37468,15 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Sodium silicate",
-      "symbol":"Na2SiO3",
+      "category":"molecule",
+      "symbol":"Tl2TeO3",
+      "name":"thallium(I) tellurite",
       "composition":[
          {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"Si",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium sulfate",
-      "symbol":"Na2SO4",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium sulfide",
-      "symbol":"Na2S",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium sulfite",
-      "symbol":"Na2SO3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium tellurite",
-      "symbol":"Na2TeO3",
-      "composition":[
-         {
-            "symbol":"Na",
+            "symbol":"Tl",
             "quantity":2
          },
          {
@@ -11614,57 +37487,15 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Sodium thiocyanate",
-      "symbol":"NaSCN",
+      "category":"molecule",
+      "symbol":"Tl2WO4",
+      "name":"thallium(I) orthotungstate",
       "composition":[
          {
-            "symbol":"Na",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium thiosulfate",
-      "symbol":"Na2S2O3",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sodium tungstate",
-      "symbol":"Na2WO4",
-      "composition":[
-         {
-            "symbol":"Na",
+            "symbol":"Tl",
             "quantity":2
          },
          {
@@ -11675,590 +37506,27 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Sodium uranate",
-      "symbol":"Na2O7U2",
-      "composition":[
-         {
-            "symbol":"Na",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":7
-         },
-         {
-            "symbol":"U",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Stibine",
-      "symbol":"SbH3",
-      "composition":[
-         {
-            "symbol":"Sb",
-            "quantity":1
-         },
-         {
-            "symbol":"H",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Strontium carbonate",
-      "symbol":"SrCO3",
-      "composition":[
-         {
-            "symbol":"Sr",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Strontium chloride",
-      "symbol":"SrCl2",
-      "composition":[
-         {
-            "symbol":"Sr",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Strontium fluoride",
-      "symbol":"SrF2",
-      "composition":[
-         {
-            "symbol":"Sr",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Strontium oxide",
-      "symbol":"SrO",
-      "composition":[
-         {
-            "symbol":"Sr",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Strontium titanate",
-      "symbol":"SrTiO3",
-      "composition":[
-         {
-            "symbol":"Sr",
-            "quantity":1
-         },
-         {
-            "symbol":"Ti",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfamic acid",
-      "symbol":"H3NO3S",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":3
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Hydrogen sulfide",
-      "symbol":"H2S",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfur dioxide",
-      "symbol":"SO2",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfur hexafluoride",
-      "symbol":"SF6",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfur tetrafluoride",
-      "symbol":"SF4",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Disulfur decafluoride",
-      "symbol":"S2F10",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         },
-         {
-            "symbol":"0",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfuric acid",
-      "symbol":"H2SO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfurous acid",
-      "symbol":"H2SO3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Sulfuryl chloride",
-      "symbol":"SO2Cl2",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tantalum carbide",
-      "symbol":"TaC",
-      "composition":[
-         {
-            "symbol":"Ta",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tantalum(V) oxide",
-      "symbol":"Ta2O5",
-      "composition":[
-         {
-            "symbol":"Ta",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Telluric acid",
-      "symbol":"H6TeO6",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":6
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tellurium dioxide",
-      "symbol":"TeO2",
-      "composition":[
-         {
-            "symbol":"Te",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tellurium tetrachloride",
-      "symbol":"TeCl4",
-      "composition":[
-         {
-            "symbol":"Te",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tellurous acid",
-      "symbol":"H2TeO3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"Te",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Terbium(III) chloride",
-      "symbol":"TbCl3",
-      "composition":[
-         {
-            "symbol":"Tb",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tetraborane",
-      "symbol":"B4H10",
-      "composition":[
-         {
-            "symbol":"B",
-            "quantity":4
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"0",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tetrachloroauric acid",
-      "symbol":"HAuCl4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":1
-         },
-         {
-            "symbol":"Au",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tetrafluorohydrazine",
-      "symbol":"N2F4",
-      "composition":[
-         {
-            "symbol":"N",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tetrasulfur tetranitride",
-      "symbol":"S4N4",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":4
-         },
-         {
-            "symbol":"N",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thallium(I) carbonate",
-      "symbol":"Tl2CO3",
+      "category":"molecule",
+      "symbol":"Tl3As",
+      "name":"thallium(I) arsenide",
       "composition":[
          {
             "symbol":"Tl",
-            "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thallium(I) fluoride",
-      "symbol":"TlF",
-      "composition":[
-         {
-            "symbol":"Tl",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thallium(III) oxide",
-      "symbol":"Tl2O3",
-      "composition":[
-         {
-            "symbol":"Tl",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thionyl chloride",
-      "symbol":"SOCl2",
-      "composition":[
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thiophosgene",
-      "symbol":"CSCl2",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thiophosphoryl chloride",
-      "symbol":"Cl3PS",
-      "composition":[
-         {
-            "symbol":"Cl",
             "quantity":3
          },
          {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"S",
+            "symbol":"As",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Thorium dioxide",
-      "symbol":"ThO2",
-      "composition":[
-         {
-            "symbol":"Th",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Thulium(III) chloride",
+      "category":"molecule",
       "symbol":"TmCl3",
+      "name":"thulium(III) chloride",
       "composition":[
          {
             "symbol":"Tm",
@@ -12268,234 +37536,204 @@ var particles = [
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Tin(II) chloride",
-      "symbol":"SnCl2",
+      "category":"molecule",
+      "symbol":"UBr2",
+      "name":"uranium dibromide",
       "composition":[
          {
-            "symbol":"Sn",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tin(II) fluoride",
-      "symbol":"SnF2",
-      "composition":[
-         {
-            "symbol":"Sn",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tin(IV) chloride",
-      "symbol":"SnCl4",
-      "composition":[
-         {
-            "symbol":"Sn",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Titanium boride",
-      "symbol":"TiB2",
-      "composition":[
-         {
-            "symbol":"Ti",
-            "quantity":1
-         },
-         {
-            "symbol":"B",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Titanium carbide",
-      "symbol":"TiC",
-      "composition":[
-         {
-            "symbol":"Ti",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Titanium nitride",
-      "symbol":"TiN",
-      "composition":[
-         {
-            "symbol":"Ti",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"titanium tetrabromide",
-      "symbol":"TiBr4",
-      "composition":[
-         {
-            "symbol":"Ti",
+            "symbol":"U",
             "quantity":1
          },
          {
             "symbol":"Br",
-            "quantity":4
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Titanium(IV) carbide",
-      "symbol":"TiC",
+      "category":"molecule",
+      "symbol":"UBr3",
+      "name":"uranium tribromide",
       "composition":[
          {
-            "symbol":"Ti",
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"UBr5",
+      "name":"uranium pentabromide",
+      "composition":[
+         {
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"UC2",
+      "name":"uranium carbide",
+      "composition":[
+         {
+            "symbol":"U",
             "quantity":1
          },
          {
             "symbol":"C",
-            "quantity":1
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"titanium tetrachloride",
-      "symbol":"TiCl4",
+      "category":"molecule",
+      "symbol":"UCl3",
+      "name":"uranium trichloride",
       "composition":[
          {
-            "symbol":"Ti",
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"UCl4",
+      "name":"uranium tetrachloride",
+      "composition":[
+         {
+            "symbol":"U",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Titanium(III) chloride",
-      "symbol":"TiCl3",
+      "category":"molecule",
+      "symbol":"UF4",
+      "name":"uranium(IV) fluoride",
       "composition":[
          {
-            "symbol":"Ti",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Titanium(II) chloride",
-      "symbol":"TiCl2",
-      "composition":[
-         {
-            "symbol":"Ti",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Titanium(III) fluoride",
-      "symbol":"TiF3",
-      "composition":[
-         {
-            "symbol":"Ti",
+            "symbol":"U",
             "quantity":1
          },
          {
             "symbol":"F",
-            "quantity":3
+            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"titanium tetraiodide",
-      "symbol":"TiI4",
+      "category":"molecule",
+      "symbol":"UF6",
+      "name":"uranium(VI) fluoride",
       "composition":[
          {
-            "symbol":"Ti",
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"UI3",
+      "name":"uranium(III) iodide",
+      "composition":[
+         {
+            "symbol":"U",
             "quantity":1
          },
          {
             "symbol":"I",
-            "quantity":4
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Trifluoromethylisocyanide",
-      "symbol":"C2NF3",
+      "category":"molecule",
+      "symbol":"UN",
+      "name":"uranium nitride",
       "composition":[
          {
-            "symbol":"C",
-            "quantity":2
+            "symbol":"U",
+            "quantity":1
          },
          {
             "symbol":"N",
             "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Trifluoromethanesulfonic acid",
-      "symbol":"CF3SO3H",
+      "category":"molecule",
+      "symbol":"UO2",
+      "name":"uranium dioxide",
       "composition":[
          {
-            "symbol":"C",
+            "symbol":"U",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":3
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"UO2Cl2",
+      "name":"uranyl chloride",
+      "composition":[
+         {
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"UO2SO4",
+      "name":"uranyl sulfate",
+      "composition":[
+         {
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
          },
          {
             "symbol":"S",
@@ -12503,90 +37741,29 @@ var particles = [
          },
          {
             "symbol":"O",
-            "quantity":3
-         },
-         {
-            "symbol":"H",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Trimethylphosphine",
-      "symbol":"C3H9P",
-      "composition":[
-         {
-            "symbol":"C",
-            "quantity":3
-         },
-         {
-            "symbol":"H",
-            "quantity":9
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Trioxidane",
-      "symbol":"H2O3",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tripotassium phosphate",
-      "symbol":"K3PO4",
-      "composition":[
-         {
-            "symbol":"K",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Trisodium phosphate",
-      "symbol":"Na3PO4",
+      "category":"molecule",
+      "symbol":"UO3",
+      "name":"uranium trioxide",
       "composition":[
          {
-            "symbol":"Na",
-            "quantity":3
-         },
-         {
-            "symbol":"P",
+            "symbol":"U",
             "quantity":1
          },
          {
             "symbol":"O",
-            "quantity":4
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yellowcake",
+      "category":"molecule",
       "symbol":"U3O8",
+      "name":"triuranium octoxide",
       "composition":[
          {
             "symbol":"U",
@@ -12596,329 +37773,72 @@ var particles = [
             "symbol":"O",
             "quantity":8
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Tungsten boride",
-      "symbol":"WB2",
-      "composition":[
-         {
-            "symbol":"W",
-            "quantity":1
-         },
-         {
-            "symbol":"B",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tungsten carbide",
-      "symbol":"WC",
-      "composition":[
-         {
-            "symbol":"W",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tungsten(VI) chloride",
-      "symbol":"WCl6",
-      "composition":[
-         {
-            "symbol":"W",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tungsten(VI) fluoride",
-      "symbol":"WF6",
-      "composition":[
-         {
-            "symbol":"W",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Tungstic acid",
-      "symbol":"H2WO4",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"W",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranium hexafluoride",
-      "symbol":"UF6",
+      "category":"molecule",
+      "symbol":"USe2",
+      "name":"uranium diselenide",
       "composition":[
          {
             "symbol":"U",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":6
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranium pentafluoride",
-      "symbol":"UF5",
-      "composition":[
-         {
-            "symbol":"U",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":5
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranium tetrachloride",
-      "symbol":"UCl4",
-      "composition":[
-         {
-            "symbol":"U",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranium tetrafluoride",
-      "symbol":"UF4",
-      "composition":[
-         {
-            "symbol":"U",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranyl carbonate",
-      "symbol":"UO2CO3",
-      "composition":[
-         {
-            "symbol":"U",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranyl chloride",
-      "symbol":"UO2Cl2",
-      "composition":[
-         {
-            "symbol":"U",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"Cl",
+            "symbol":"Se",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Uranyl fluoride",
-      "symbol":"UO2F2",
+      "category":"molecule",
+      "symbol":"US2",
+      "name":"uranium sulfide",
       "composition":[
          {
             "symbol":"U",
             "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         },
-         {
-            "symbol":"F",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Uranyl sulfate",
-      "symbol":"UO2SO4",
-      "composition":[
-         {
-            "symbol":"U",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
          },
          {
             "symbol":"S",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium carbide",
-      "symbol":"VC",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":1
-         },
-         {
-            "symbol":"C",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium oxytrichloride",
-      "symbol":"VOCl3",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium(IV) chloride",
-      "symbol":"VCl4",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium(II) chloride",
-      "symbol":"VCl2",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":1
-         },
-         {
-            "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(II) oxide",
-      "symbol":"VO",
+      "category":"molecule",
+      "symbol":"UTe2",
+      "name":"uranium ditelluride",
+      "composition":[
+         {
+            "symbol":"U",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"VBr2",
+      "name":"vanadium(II) bromide",
       "composition":[
          {
             "symbol":"V",
             "quantity":1
          },
          {
-            "symbol":"O",
-            "quantity":1
+            "symbol":"Br",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(III) nitride",
-      "symbol":"VN",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":1
-         },
-         {
-            "symbol":"N",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium(III) bromide",
+      "category":"molecule",
       "symbol":"VBr3",
+      "name":"vanadium(III) bromide",
       "composition":[
          {
             "symbol":"V",
@@ -12928,12 +37848,27 @@ var particles = [
             "symbol":"Br",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(III) chloride",
+      "category":"molecule",
+      "symbol":"VCl2",
+      "name":"vanadium(II) chloride",
+      "composition":[
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"VCl3",
+      "name":"vanadium(III) chloride",
       "composition":[
          {
             "symbol":"V",
@@ -12943,72 +37878,65 @@ var particles = [
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(III) fluoride",
-      "symbol":"VF3",
+      "category":"molecule",
+      "symbol":"VI3",
+      "name":"vanadium(III) iodide",
       "composition":[
          {
             "symbol":"V",
             "quantity":1
          },
          {
-            "symbol":"F",
+            "symbol":"I",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(IV) fluoride",
-      "symbol":"VF4",
+      "category":"molecule",
+      "symbol":"VN",
+      "name":"vanadium nitride",
       "composition":[
          {
             "symbol":"V",
             "quantity":1
          },
          {
-            "symbol":"F",
+            "symbol":"N",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"VOC2O4",
+      "name":"vanadyl oxalate",
+      "composition":[
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"C",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(III) oxide",
-      "symbol":"V2O3",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium(IV) oxide",
-      "symbol":"VO2",
-      "composition":[
-         {
-            "symbol":"V",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Vanadium(IV) sulfate",
+      "category":"molecule",
       "symbol":"VOSO4",
+      "name":"vanadium oxysulfate",
       "composition":[
          {
             "symbol":"V",
@@ -13026,12 +37954,27 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Vanadium(V) oxide",
+      "category":"molecule",
+      "symbol":"V2O3",
+      "name":"vanadium(III) oxide",
+      "composition":[
+         {
+            "symbol":"V",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"V2O5",
+      "name":"vanadium pentoxide",
       "composition":[
          {
             "symbol":"V",
@@ -13041,136 +37984,494 @@ var particles = [
             "symbol":"O",
             "quantity":5
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Water",
-      "symbol":"H2O",
+      "category":"molecule",
+      "symbol":"WBr2",
+      "name":"tungsten(II) bromide",
       "composition":[
          {
-            "symbol":"H",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Xenon difluoride",
-      "symbol":"XeF2",
-      "composition":[
-         {
-            "symbol":"Xe",
+            "symbol":"W",
             "quantity":1
          },
          {
-            "symbol":"F",
+            "symbol":"Br",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Xenon tetrafluoride",
-      "symbol":"XeF4",
+      "category":"molecule",
+      "symbol":"WBr3",
+      "name":"tungsten(III) bromide",
       "composition":[
          {
-            "symbol":"Xe",
+            "symbol":"W",
             "quantity":1
          },
          {
-            "symbol":"F",
-            "quantity":4
+            "symbol":"Br",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Xenon tetroxide",
-      "symbol":"XeO4",
+      "category":"molecule",
+      "symbol":"WBr4",
+      "name":"tungsten(IV) bromide",
       "composition":[
          {
-            "symbol":"Xe",
+            "symbol":"W",
             "quantity":1
          },
          {
-            "symbol":"O",
+            "symbol":"Br",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Xenic acid",
-      "symbol":"H2XeO4",
+      "category":"molecule",
+      "symbol":"WBr5",
+      "name":"tungsten(V) bromide",
       "composition":[
          {
-            "symbol":"H",
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WBr6",
+      "name":"tungsten(VI) bromide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WCl2",
+      "name":"tungsten(II) chloride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
             "quantity":2
-         },
-         {
-            "symbol":"Xe",
-            "quantity":1
-         },
-         {
-            "symbol":"O",
-            "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Ytterbium(III) chloride",
-      "symbol":"YbCl3",
+      "category":"molecule",
+      "symbol":"WCl3",
+      "name":"tungsten(III) chloride",
       "composition":[
          {
-            "symbol":"Yb",
+            "symbol":"W",
             "quantity":1
          },
          {
             "symbol":"Cl",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Ytterbium(III) oxide",
-      "symbol":"Yb2O3",
+      "category":"molecule",
+      "symbol":"WCl4",
+      "name":"tungsten(IV) chloride",
       "composition":[
          {
-            "symbol":"Yb",
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WCl5",
+      "name":"tungsten(V) chloride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WCl6",
+      "name":"tungsten(VI) chloride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WF4",
+      "name":"tungsten(IV) fluoride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WF5",
+      "name":"tungsten(V) fluoride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":5
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WF6",
+      "name":"tungsten(VI) fluoride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WI2",
+      "name":"tungsten(II) iodide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
             "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WI4",
+      "name":"tungsten(IV) iodide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WOBr3",
+      "name":"tungsten(V) oxytribromide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WOBr4",
+      "name":"tungsten(VI) oxytetrabromide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WOCl3",
+      "name":"tungsten(V) oxytrichloride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WOCl4",
+      "name":"tungsten(VI) oxytetrachloride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WOF4",
+      "name":"tungsten(VI) oxytetrafluoride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WO2",
+      "name":"tungsten(IV) oxide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WO2Br2",
+      "name":"tungsten(VI) dioxydibromide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WO2Cl2",
+      "name":"tungsten(VI) dioxydichloride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WO2I2",
+      "name":"tungsten(VI) dioxydiiodide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WO3",
+      "name":"tungsten(VI) oxide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
          },
          {
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yttrium(III) antimonide",
-      "symbol":"YSb",
+      "category":"molecule",
+      "symbol":"WS2",
+      "name":"tungsten(IV) sulfide",
       "composition":[
          {
-            "symbol":"Y",
+            "symbol":"W",
             "quantity":1
          },
          {
-            "symbol":"Sb",
-            "quantity":1
+            "symbol":"S",
+            "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yttrium(III) arsenide",
+      "category":"molecule",
+      "symbol":"WS3",
+      "name":"tungsten(VI) sulfide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WSe2",
+      "name":"tungsten(IV) selenide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"WTe2",
+      "name":"tungsten(IV) telluride",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"W2C",
+      "name":"tungsten carbide",
+      "composition":[
+         {
+            "symbol":"W",
+            "quantity":2
+         },
+         {
+            "symbol":"C",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"YAs",
+      "name":"yttrium arsenide",
       "composition":[
          {
             "symbol":"Y",
@@ -13180,12 +38481,27 @@ var particles = [
             "symbol":"As",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yttrium(III) bromide",
+      "category":"molecule",
+      "symbol":"YB6",
+      "name":"yttrium boride",
+      "composition":[
+         {
+            "symbol":"Y",
+            "quantity":1
+         },
+         {
+            "symbol":"B",
+            "quantity":6
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"YBr3",
+      "name":"yttrium bromide",
       "composition":[
          {
             "symbol":"Y",
@@ -13195,54 +38511,42 @@ var particles = [
             "symbol":"Br",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yttrium aluminium garnet",
-      "symbol":"Y3Al5O12",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":3
-         },
-         {
-            "symbol":"Al",
-            "quantity":5
-         },
-         {
-            "symbol":"O",
-            "quantity":12
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium barium copper oxide",
-      "symbol":"YBa2Cu3O7",
+      "category":"molecule",
+      "symbol":"YC2",
+      "name":"yttrium carbide",
       "composition":[
          {
             "symbol":"Y",
             "quantity":1
          },
          {
-            "symbol":"Ba",
+            "symbol":"C",
             "quantity":2
-         },
-         {
-            "symbol":"Cu",
-            "quantity":3
-         },
-         {
-            "symbol":"O",
-            "quantity":7
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yttrium(III) fluoride",
+      "category":"molecule",
+      "symbol":"YCl3",
+      "name":"yttrium chloride",
+      "composition":[
+         {
+            "symbol":"Y",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"YF3",
+      "name":"yttrium fluoride",
       "composition":[
          {
             "symbol":"Y",
@@ -13252,181 +38556,12 @@ var particles = [
             "symbol":"F",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Yttrium iron garnet",
-      "symbol":"Y3Fe5O12",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":3
-         },
-         {
-            "symbol":"Fe",
-            "quantity":5
-         },
-         {
-            "symbol":"O",
-            "quantity":12
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium(III) oxide",
-      "symbol":"Y2O3",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium(III) sulfide",
-      "symbol":"Y2S3",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":2
-         },
-         {
-            "symbol":"S",
-            "quantity":3
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium copper",
-      "symbol":"YCu",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Cu",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium silver",
-      "symbol":"YAg",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Ag",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium gold",
-      "symbol":"YAu",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Au",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium rhodium",
-      "symbol":"YRh",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Rh",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium iridium",
-      "symbol":"YIr",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Ir",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium zinc",
-      "symbol":"YZn",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Zn",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium cadmium",
-      "symbol":"YCd",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Cd",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium magnesium",
-      "symbol":"YMg",
-      "composition":[
-         {
-            "symbol":"Y",
-            "quantity":1
-         },
-         {
-            "symbol":"Mg",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Yttrium phosphide",
+      "category":"molecule",
       "symbol":"YP",
+      "name":"yttrium phosphide",
       "composition":[
          {
             "symbol":"Y",
@@ -13436,12 +38571,332 @@ var particles = [
             "symbol":"P",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc bromide",
+      "category":"molecule",
+      "symbol":"YSb",
+      "name":"yttrium antimonide",
+      "composition":[
+         {
+            "symbol":"Y",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YVO4",
+      "name":"yttrium vanadate",
+      "composition":[
+         {
+            "symbol":"Y",
+            "quantity":1
+         },
+         {
+            "symbol":"V",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Y2O3",
+      "name":"yttria",
+      "composition":[
+         {
+            "symbol":"Y",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Y2S3",
+      "name":"yttrium sulfide",
+      "composition":[
+         {
+            "symbol":"Y",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbBr2",
+      "name":"ytterbium(II) bromide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbBr3",
+      "name":"ytterbium(III) bromide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbCl2",
+      "name":"ytterbium(II)chloride",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbCl3",
+      "name":"ytterbium(III) chloride",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbCl3·6H2O",
+      "name":"ytterbium(III) chloride hexahydrate",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Cl",
+            "quantity":3
+         },
+         {
+            "symbol":"·",
+            "quantity":6
+         },
+         {
+            "symbol":"H",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbF2",
+      "name":"ytterbium(II) fluoride",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbF3",
+      "name":"ytterbium(III) fluoride",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbI2",
+      "name":"ytterbium(II) iodide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbI3",
+      "name":"ytterbium(III) iodide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbPO4",
+      "name":"ytterbium(III) phosphate",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbSe",
+      "name":"ytterbium(II) selenide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbSi2",
+      "name":"ytterbium(II) silicide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Yb2O3",
+      "name":"ytterbium(III) oxide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Yb2S3",
+      "name":"ytterbium(III) sulfide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":2
+         },
+         {
+            "symbol":"S",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Yb2Se3",
+      "name":"ytterbium(III) selenide",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":2
+         },
+         {
+            "symbol":"Se",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"YbTe",
+      "name":"ytterbium(II) telluride",
+      "composition":[
+         {
+            "symbol":"Yb",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZnBr2",
+      "name":"zinc bromide",
       "composition":[
          {
             "symbol":"Zn",
@@ -13451,12 +38906,12 @@ var particles = [
             "symbol":"Br",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc carbonate",
+      "category":"molecule",
       "symbol":"ZnCO3",
+      "name":"zinc carbonate",
       "composition":[
          {
             "symbol":"Zn",
@@ -13470,12 +38925,12 @@ var particles = [
             "symbol":"O",
             "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc chloride",
+      "category":"molecule",
       "symbol":"ZnCl2",
+      "name":"zinc chloride",
       "composition":[
          {
             "symbol":"Zn",
@@ -13485,12 +38940,31 @@ var particles = [
             "symbol":"Cl",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc fluoride",
+      "category":"molecule",
+      "symbol":"ZnCr2O4",
+      "name":"zinc chromite",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Cr",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZnF2",
+      "name":"zinc fluoride",
       "composition":[
          {
             "symbol":"Zn",
@@ -13500,12 +38974,12 @@ var particles = [
             "symbol":"F",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc iodide",
+      "category":"molecule",
       "symbol":"ZnI2",
+      "name":"zinc iodide",
       "composition":[
          {
             "symbol":"Zn",
@@ -13515,12 +38989,31 @@ var particles = [
             "symbol":"I",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc oxide",
+      "category":"molecule",
+      "symbol":"ZnMoO4",
+      "name":"zinc orthomolybdate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Mo",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZnO",
+      "name":"zinc(II) oxide",
       "composition":[
          {
             "symbol":"Zn",
@@ -13530,12 +39023,114 @@ var particles = [
             "symbol":"O",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc selenide",
+      "category":"molecule",
+      "symbol":"ZnO2",
+      "name":"zinc peroxide",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnS",
+      "name":"zinc sulfide",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnSO3",
+      "name":"zinc sulfite",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnS2O3",
+      "name":"zinc thiosulfate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnSO4",
+      "name":"zinc sulfate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnSb",
+      "name":"zinc antimonide",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Sb",
+            "quantity":1
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZnSe",
+      "name":"zinc selenide",
       "composition":[
          {
             "symbol":"Zn",
@@ -13545,46 +39140,69 @@ var particles = [
             "symbol":"Se",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc sulfate",
-      "symbol":"ZnSO4",
+      "category":"molecule",
+      "symbol":"ZnSeO3",
+      "name":"zinc selenite",
       "composition":[
          {
             "symbol":"Zn",
             "quantity":1
          },
          {
-            "symbol":"S",
+            "symbol":"Se",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnSeO4",
+      "name":"zinc selenate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Se",
             "quantity":1
          },
          {
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc sulfide",
-      "symbol":"ZnS",
+      "category":"molecule",
+      "symbol":"ZnSnO3",
+      "name":"zinc stannate",
       "composition":[
          {
             "symbol":"Zn",
             "quantity":1
          },
          {
-            "symbol":"S",
+            "symbol":"Sn",
             "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zinc telluride",
+      "category":"molecule",
       "symbol":"ZnTe",
+      "name":"zinc telluride",
       "composition":[
          {
             "symbol":"Zn",
@@ -13594,12 +39212,205 @@ var particles = [
             "symbol":"Te",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zirconium boride",
+      "category":"molecule",
+      "symbol":"ZnTeO3",
+      "name":"zinc tellurite",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnTeO4",
+      "name":"zinc tellurate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Te",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnTiO3",
+      "name":"zinc metatitanate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Ti",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnWO4",
+      "name":"zinc orthotungstate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"W",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZnZrO3",
+      "name":"zinc metazirconate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":1
+         },
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":3
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Zn2P2O7",
+      "name":"zinc pyrophosphate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":2
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         },
+         {
+            "symbol":"O",
+            "quantity":7
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Zn2SiO4",
+      "name":"zinc orthosilicate",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":2
+         },
+         {
+            "symbol":"Si",
+            "quantity":1
+         },
+         {
+            "symbol":"O",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Zn3As2",
+      "name":"zinc arsenide",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":3
+         },
+         {
+            "symbol":"As",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Zn3N2",
+      "name":"zinc nitride",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":3
+         },
+         {
+            "symbol":"N",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Zn3P2",
+      "name":"zinc phosphide",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":3
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"Zn3Sb2",
+      "name":"zinc antimonide",
+      "composition":[
+         {
+            "symbol":"Zn",
+            "quantity":3
+         },
+         {
+            "symbol":"Sb",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZrB2",
+      "name":"zirconium boride",
       "composition":[
          {
             "symbol":"Zr",
@@ -13609,12 +39420,27 @@ var particles = [
             "symbol":"B",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zirconium carbide",
+      "category":"molecule",
+      "symbol":"ZrBr4",
+      "name":"zirconium bromide",
+      "composition":[
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"Br",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZrC",
+      "name":"zirconium carbide",
       "composition":[
          {
             "symbol":"Zr",
@@ -13624,12 +39450,12 @@ var particles = [
             "symbol":"C",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zirconium(IV) chloride",
+      "category":"molecule",
       "symbol":"ZrCl4",
+      "name":"zirconium tetrachloride",
       "composition":[
          {
             "symbol":"Zr",
@@ -13639,12 +39465,42 @@ var particles = [
             "symbol":"Cl",
             "quantity":4
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zirconium nitride",
+      "category":"molecule",
+      "symbol":"ZrF4",
+      "name":"zirconium fluoride",
+      "composition":[
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"F",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZrI4",
+      "name":"zirconium iodide",
+      "composition":[
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"I",
+            "quantity":4
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZrN",
+      "name":"zirconium nitride",
       "composition":[
          {
             "symbol":"Zr",
@@ -13654,12 +39510,12 @@ var particles = [
             "symbol":"N",
             "quantity":1
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zirconium(IV) oxide",
+      "category":"molecule",
       "symbol":"ZrO2",
+      "name":"zirconium dioxide",
       "composition":[
          {
             "symbol":"Zr",
@@ -13669,12 +39525,57 @@ var particles = [
             "symbol":"O",
             "quantity":2
          }
-      ],
-      "category":"molecule"
+      ]
    },
    {
-      "name":"Zirconium orthosilicate",
+      "category":"molecule",
+      "symbol":"ZrP2",
+      "name":"zirconium phosphide",
+      "composition":[
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"P",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZrS2",
+      "name":"zirconium sulfide",
+      "composition":[
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"S",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
+      "symbol":"ZrSi2",
+      "name":"zirconium silicide",
+      "composition":[
+         {
+            "symbol":"Zr",
+            "quantity":1
+         },
+         {
+            "symbol":"Si",
+            "quantity":2
+         }
+      ]
+   },
+   {
+      "category":"molecule",
       "symbol":"ZrSiO4",
+      "name":"zirconium(IV) silicate",
       "composition":[
          {
             "symbol":"Zr",
@@ -13688,82 +39589,6 @@ var particles = [
             "symbol":"O",
             "quantity":4
          }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Zirconium tetrafluoride",
-      "symbol":"ZrF4",
-      "composition":[
-         {
-            "symbol":"Zr",
-            "quantity":1
-         },
-         {
-            "symbol":"F",
-            "quantity":4
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Zirconium tetrahydroxide",
-      "symbol":"H4O4Zr",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":4
-         },
-         {
-            "symbol":"O",
-            "quantity":4
-         },
-         {
-            "symbol":"Zr",
-            "quantity":1
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Zirconium tungstate",
-      "symbol":"ZrW2O8",
-      "composition":[
-         {
-            "symbol":"Zr",
-            "quantity":1
-         },
-         {
-            "symbol":"W",
-            "quantity":2
-         },
-         {
-            "symbol":"O",
-            "quantity":8
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molecular hydrogen",
-      "symbol":"H2",
-      "composition":[
-         {
-            "symbol":"H",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
-   },
-   {
-      "name":"Molecular oxygen",
-      "symbol":"O2",
-      "composition":[
-         {
-            "symbol":"O",
-            "quantity":2
-         }
-      ],
-      "category":"molecule"
+      ]
    }
-]
+];
