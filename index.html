@@ -123,6 +123,10 @@ sub
 	font-weight: bold;
 	font-size: 600%;
 }
+.invalid
+{
+	opacity: 0.5;
+}
 </style>
 <script src="data2.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -223,13 +227,45 @@ function sortInventory()
 
 function take()
 {
-	put(bake());
+	var result = bake();
+	if (result && possible())
+	{
+		put(result);
 
+		input.forEach(function (item) {
+			inventory
+				.filter(function (a) { return a.symbol == item.symbol; })
+				.map(function (a) { a.quantity--; } )
+		});
+	}
+}
+
+function available(symbol)
+{
+	var availableItems = inventory.filter(function (a) { return a.symbol == symbol; });
+	if (availableItems.length > 0)
+	{
+		return availableItems[0].quantity;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
+function possible()
+{
+	var failed = false;
+	// Add up what we need
 	input.forEach(function (item) {
-		inventory
-			.filter(function (a) { return a.symbol == item.symbol; })
-			.map(function (a) { a.quantity--; } )
+		var requiredNumber = input.filter(function (a) { return a.symbol == item.symbol; }).length;
+		var inventoryItem = inventory.filter(function (a) { return a.symbol == item.symbol; });
+		if (!inventoryItem || inventoryItem[0].quantity < requiredNumber)
+		{
+			failed = true;
+		}
 	});
+	return !failed;
 }
 
 function bake()
@@ -321,6 +357,7 @@ function draw()
 	$('#inventory').html("");
 	inventory.forEach(function (item) {
 		var li = drawParticle(item, item.quantity);
+		if (item.quantity == 0) { li.addClass("invalid"); } else { li.removeClass("invalid")};
 		li.on("click", function () {
 			input.push({"symbol": item.symbol});
 			draw();
@@ -331,6 +368,7 @@ function draw()
 	$('#input').html("");
 	input.forEach(function (item) {
 		var li = drawParticle(item);
+		if (available(item.symbol) == 0) { li.addClass("invalid"); } else { li.removeClass("invalid")};
 		li.on("click", function () {
 			input = input.filter(function (a) { return a != item; }); 
 			draw();
@@ -354,6 +392,7 @@ function draw()
 	if (output)
 	{
 		var li = drawParticle(output);
+		if (!possible()) { li.addClass("invalid"); } else { li.removeClass("invalid")};
 		li.on("click", function () {
 			take();
 			draw();
@@ -365,7 +404,7 @@ function draw()
 			take();
 			draw();
 		});
-		li.on("mouseup", function () {
+		$(document).on("mouseup", function () {
 			console.log(intervalId);
 			clearInterval(intervalId);
 		});
@@ -395,6 +434,39 @@ function draw()
 $(function () {
 	sortInventory();
 	draw();
+
+	$('html').keyup(function(e){
+	    if(e.keyCode == 46 || e.keyCode == 8) {
+	        e.preventDefault();
+	        input.pop();
+			draw();
+	    }
+	    if (e.keyCode == 27)
+	    {
+	    	e.preventDefault();
+	    	input = [];
+	    	draw();
+	    }
+	});
+
+	$("body").on("keypress", function () {
+		if ( event.which == 13 ) {
+		     event.preventDefault();
+		     take();
+		     draw();
+		}
+
+		if ((event.which > 64 && event.which < 91) || (event.which > 96 && event.which < 123))
+		{
+			// a letter was pressed, add the corresponing particle
+			var symbol = String.fromCharCode(event.which);
+			if (getParticle(symbol))
+			{
+				input.push({"symbol": symbol});
+				draw();
+			}
+		}
+	});
 })
 </script>
 </head>
