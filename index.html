@@ -38,17 +38,29 @@ sub
 	margin: 2rem;
 	background-color: #fafafb;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	min-height: 100px;
+}
+#inventory
+{
+	flex-direction: column;
+}
+#inventory ul
+{
+	display: flex;
+	flex-direction: row;
+	padding: 0;
 }
 #input
 {
+	flex-direction: row;
+	flex-wrap: wrap;
 	flex-grow: 999;
 	justify-content: flex-end;
 }
 #output
 {
+	flex-direction: row;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 #charge
@@ -131,7 +143,7 @@ sub
 <script src="data2.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script>
-var inventory = [{"symbol": "u", "quantity": 10000000}, {"symbol": "d", "quantity": 10000000}, {"symbol": "e", "quantity": 10000000}];
+var inventory = [{"symbol": "u", "quantity": 10000000, "category": "quark"}, {"symbol": "d", "quantity": 10000000, "category": "quark"}, {"symbol": "e", "quantity": 10000000, "category": "quark"}];
 
 var intervalId = "";
 var input = [];
@@ -202,7 +214,7 @@ function put(item)
 	}
 	else
 	{
-		inventory.push({"symbol": item.symbol, "quantity": 1, "new": true});
+		inventory.push({"symbol": item.symbol, "quantity": 1, "category": item.category, "new": true});
 	}
 
 	sortInventory();
@@ -354,7 +366,7 @@ function drawParticle(item, quantity)
 
 function draw()
 {
-	$('#inventory').html("");
+	$('#inventory ul').html("");
 	inventory.forEach(function (item) {
 		var li = drawParticle(item, item.quantity);
 		if (item.quantity == 0) { li.addClass("invalid"); } else { li.removeClass("invalid")};
@@ -362,7 +374,7 @@ function draw()
 			input.push({"symbol": item.symbol});
 			draw();
 		});
-		$("#inventory").append(li);
+		$("#" + item.category).append(li);
 	});
 
 	$('#input').html("");
@@ -473,6 +485,10 @@ $(function () {
 
 <body>
 <ul id="inventory">
+<ul class="inventorysection" id="quark"></ul>
+<ul class="inventorysection" id="baryon"></ul>
+<ul class="inventorysection" id="atom"></ul>
+<ul class="inventorysection" id="molecule"></ul>
 </ul>
 <div id="table">
 <div id="input">
