@@ -139,6 +139,21 @@ sub
 {
 	opacity: 0.5;
 }
+.quark, .lepton
+{
+	border-radius: 50%;
+}
+.baryon
+{
+	padding: 0 !important;
+	border-radius: 50%;
+    border: 0.5rem solid #ccd;
+}
+.molecule
+{
+	border-radius: 2rem;
+}
+
 </style>
 <script src="data2.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -321,6 +336,7 @@ function drawParticle(item, quantity)
 {
 	var particle = getParticle(item.symbol);
 	var li = $("<li></li>");
+	li.addClass(particle.category);
 	if (item.new)
 	{
 		li.addClass("new");
